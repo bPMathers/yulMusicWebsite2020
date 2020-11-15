@@ -12,7 +12,14 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <div style={{ height: '100vh', width: '100vw', position: 'relative' }}>
+        <div
+          style={{
+            height: '100vh',
+            width: '100vw',
+            position: 'relative',
+            backgroundColor: theme.palette.primary.main,
+          }}
+        >
           <MenuComponent />
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

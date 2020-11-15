@@ -13,10 +13,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles((theme) => ({
-  root: {},
-  paper: {
-    marginRight: theme.spacing(2),
-  },
   menuList: {
     width: '100vw',
     height: '100vh',
@@ -25,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    position: 'absolute',
+    right: '-40px',
+    top: '-10px',
   },
   menuItem: {
     display: 'flex',
@@ -36,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     right: '10px',
     top: '10px',
+    // zIndex: '999',
   },
   closeButton: {
     color: theme.palette.secondary.main,
@@ -107,88 +107,86 @@ export default function MenuComponent(props) {
   }, [open]);
 
   return (
-    <div className={classes.root}>
-      <div>
-        <Button
-          ref={anchorRef}
-          aria-controls={open ? 'menu-list-grow' : undefined}
-          aria-haspopup='true'
-          onClick={handleToggle}
-          className={classes.menuButton}
-        >
-          <MenuIcon style={{ fontSize: '3em' }} />
-        </Button>
-        <Popper
-          open={open}
-          anchorEl={anchorRef.current}
-          role={undefined}
-          transition
-          disablePortal
-          placement={'top'}
-        >
-          {({ TransitionProps, placement }) => (
-            <Grow
-              {...TransitionProps}
-              style={{
-                transformOrigin: placement === 'center',
-              }}
-            >
-              <Paper>
-                <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList
-                    autoFocusItem={open}
-                    id='menu-list-grow'
-                    onKeyDown={handleListKeyDown}
-                    className={classes.menuList}
-                    style={{
-                      backgroundColor: bgColor,
-                    }}
+    <div>
+      <Button
+        ref={anchorRef}
+        aria-controls={open ? 'menu-list-grow' : undefined}
+        aria-haspopup='true'
+        onClick={handleToggle}
+        className={classes.menuButton}
+      >
+        <MenuIcon style={{ fontSize: '3em' }} />
+      </Button>
+      <Popper
+        open={open}
+        anchorEl={anchorRef.current}
+        role={undefined}
+        transition
+        disablePortal
+        placement={'top'}
+      >
+        {({ TransitionProps, placement }) => (
+          <Grow
+            {...TransitionProps}
+            style={{
+              transformOrigin: placement === 'center',
+            }}
+          >
+            <Paper>
+              <ClickAwayListener onClickAway={handleClose}>
+                <MenuList
+                  autoFocusItem={open}
+                  id='menu-list-grow'
+                  onKeyDown={handleListKeyDown}
+                  className={classes.menuList}
+                  style={{
+                    backgroundColor: bgColor,
+                  }}
+                >
+                  <MenuItem
+                    onClick={handleClose}
+                    className={classes.closeButton}
                   >
+                    <CloseIcon style={{ fontSize: '3em' }} />
+                  </MenuItem>
+                  <Link to='/' style={{ textDecoration: 'none' }}>
                     <MenuItem
                       onClick={handleClose}
-                      className={classes.closeButton}
+                      className={classes.menuItem}
                     >
-                      <CloseIcon style={{ fontSize: '3em' }} />
+                      <Typography variant={'h2'}>Home</Typography>
                     </MenuItem>
-                    <Link to='/' style={{ textDecoration: 'none' }}>
-                      <MenuItem
-                        onClick={handleClose}
-                        className={classes.menuItem}
-                      >
-                        <Typography variant={'h2'}>Home</Typography>
-                      </MenuItem>
-                    </Link>
-                    <Link to='/projects' style={{ textDecoration: 'none' }}>
-                      <MenuItem
-                        onClick={handleClose}
-                        className={classes.menuItem}
-                      >
-                        <Typography variant={'h2'}>Projects</Typography>
-                      </MenuItem>
-                    </Link>
-                    <Link to='/services' style={{ textDecoration: 'none' }}>
-                      <MenuItem
-                        onClick={handleClose}
-                        className={classes.menuItem}
-                      >
-                        <Typography variant={'h2'}>Services</Typography>
-                      </MenuItem>
-                    </Link>
-                    <Link to='/contact' style={{ textDecoration: 'none' }}>
-                      <MenuItem
-                        onClick={handleClose}
-                        className={classes.menuItem}
-                      >
-                        <Typography variant={'h2'}>Contact</Typography>
-                      </MenuItem>
-                    </Link>
-                  </MenuList>
-                </ClickAwayListener>
-              </Paper>
-            </Grow>
-          )}
-        </Popper>
-      </div>
+                  </Link>
+                  <Link to='/projects' style={{ textDecoration: 'none' }}>
+                    <MenuItem
+                      onClick={handleClose}
+                      className={classes.menuItem}
+                    >
+                      <Typography variant={'h2'}>Projects</Typography>
+                    </MenuItem>
+                  </Link>
+                  <Link to='/services' style={{ textDecoration: 'none' }}>
+                    <MenuItem
+                      onClick={handleClose}
+                      className={classes.menuItem}
+                    >
+                      <Typography variant={'h2'}>Services</Typography>
+                    </MenuItem>
+                  </Link>
+                  <Link to='/contact' style={{ textDecoration: 'none' }}>
+                    <MenuItem
+                      onClick={handleClose}
+                      className={classes.menuItem}
+                    >
+                      <Typography variant={'h2'}>Contact</Typography>
+                    </MenuItem>
+                  </Link>
+                </MenuList>
+              </ClickAwayListener>
+            </Paper>
+          </Grow>
+        )}
+      </Popper>
     </div>
   );
 }

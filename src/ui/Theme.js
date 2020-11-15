@@ -1,17 +1,13 @@
 import { createMuiTheme } from '@material-ui/core/styles';
 
-const yulRed = '#960000';
-const arcOrange = '#FFBA60';
-const arcGrey = '#868686';
+const yulRed = '#FF0000';
 const yulBlack = '#1c1c1c';
 const yulWhite = '#ededed';
 
 export default createMuiTheme({
   palette: {
     common: {
-      black: yulBlack,
-      blue: yulRed,
-      orange: arcOrange,
+      red: yulRed,
     },
     primary: {
       main: yulBlack,
@@ -39,7 +35,7 @@ export default createMuiTheme({
       fontWeight: 400,
       fontSize: '2.5rem',
       color: yulWhite,
-      lineHeight: 1.5,
+      // lineHeight: 1.5,
       textDecorationLine: 'none',
     },
     h3: {
@@ -53,15 +49,22 @@ export default createMuiTheme({
       color: yulWhite,
       fontWeight: 700,
     },
+    h5: {
+      fontFamily: 'Roboto',
+      fontSize: '1.25rem',
+      color: yulWhite,
+      fontWeight: 300,
+    },
     h6: {
       fontWeight: 500,
       fontFamily: 'Roboto',
       color: yulWhite,
     },
     subtitle1: {
-      fontSize: '1.25rem',
+      fontSize: '1rem',
       fontWeight: 300,
-      color: arcGrey,
+      letterSpacing: '4px',
+      color: yulWhite,
     },
     subtitle2: {
       color: 'white',
@@ -70,13 +73,19 @@ export default createMuiTheme({
     },
     body1: {
       fontSize: '1.25rem',
-      color: arcGrey,
+      color: yulWhite,
       fontWeight: 300,
+    },
+    body2: {
+      fontFamily: 'Roboto',
+      fontSize: '1rem',
+      color: yulWhite,
+      fontWeight: 400,
     },
     caption: {
       fontSize: '1rem',
       fontWeight: 300,
-      color: arcGrey,
+      color: yulWhite,
     },
     learnButton: {
       borderColor: yulWhite,
@@ -97,7 +106,7 @@ export default createMuiTheme({
     },
     MuiInput: {
       root: {
-        color: arcGrey,
+        color: yulWhite,
         fontWeight: 300,
       },
       underline: {

@@ -1,14 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import TeamComponent from '../../Components/Team/TeamComponent';
 
 const useStyles = makeStyles((theme) => ({
-  container: {
-    height: '100vh',
-    width: '100vw',
-    backgroundColor: theme.palette.primary.main,
-  },
+  container: {},
   title: {
     color: theme.palette.secondary.main,
+    backgroundColor: theme.palette.primary.main,
+    height: '800px',
   },
 }));
 
@@ -16,8 +15,10 @@ const HomePageComponent = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.container}>
-      <div className={classes.title}>Home Page is here baby!</div>
+    <div>
+      <div className={classes.title}></div>
+      <TeamComponent className={classes.teamComponent} />
+      <div className={classes.title}></div>
     </div>
   );
 };
