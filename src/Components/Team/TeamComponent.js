@@ -15,32 +15,42 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.secondary.main,
     display: 'flex',
-    border: '1px #fff solid',
+    border: `1px solid ${theme.palette.secondary.main}`,
   },
   leftColumn: {
-    borderRight: '1px #fff solid',
+    borderRight: `1px solid ${theme.palette.secondary.main}`,
     flex: 3,
   },
   rightColumn: {
-    borderRight: '1px #fff solid',
+    borderRight: `1px solid ${theme.palette.secondary.main}`,
     flex: 5,
     display: 'flex',
     flexDirection: 'column',
   },
   memberDetails: {
-    borderRight: '1px #fff solid',
+    borderRight: `1px solid ${theme.palette.secondary.main}`,
     flex: 5,
   },
   memberChoice: {
-    borderTop: '1px #fff solid',
+    borderTop: `1px solid ${theme.palette.secondary.main}`,
     flex: 1.5,
     display: 'flex',
   },
   memberChoiceItem: {
-    // marginRight: '15px',
     maxWidth: '120px',
     minWidth: '120px',
-    borderRight: '1px #fff solid',
+    borderRight: `1px solid ${theme.palette.secondary.main}`,
+    flex: '1',
+    cursor: 'pointer',
+    '&:hover': {
+      opacity: 0.7,
+    },
+  },
+  memberChoiceItemFirst: {
+    maxWidth: '120px',
+    minWidth: '120px',
+    borderRight: `1px solid ${theme.palette.secondary.main}`,
+    borderLeft: `1px solid ${theme.palette.secondary.main}`,
     flex: '1',
     cursor: 'pointer',
     '&:hover': {
@@ -79,7 +89,7 @@ const TeamComponent = () => {
             <Typography variant={'h3'}>THE YUL MUSIC TEAM</Typography>
           </div>
           <div
-            className={classes.memberChoiceItem}
+            className={classes.memberChoiceItemFirst}
             style={{
               backgroundImage: `url(${chris})`,
               backgroundSize: 'cover',
