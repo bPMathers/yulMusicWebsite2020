@@ -11,10 +11,10 @@ const MemberPhotosComponent = (props) => {
   useEffect(() => {
     switch (memberId) {
       case 1:
-        setMemberPhoto(benj);
+        setMemberPhoto(chris);
         break;
       case 2:
-        setMemberPhoto(chris);
+        setMemberPhoto(benj);
         break;
       case 3:
         setMemberPhoto(danny);

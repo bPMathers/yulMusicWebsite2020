@@ -33,7 +33,7 @@ export default createMuiTheme({
     h2: {
       fontFamily: 'Roboto',
       fontWeight: 400,
-      fontSize: '2.5rem',
+      fontSize: '3.5rem',
       color: yulWhite,
       // lineHeight: 1.5,
       textDecorationLine: 'none',
@@ -62,9 +62,9 @@ export default createMuiTheme({
     },
     subtitle1: {
       fontSize: '1rem',
-      fontWeight: 300,
+      fontWeight: 700,
       letterSpacing: '4px',
-      color: yulWhite,
+      color: yulBlack,
     },
     subtitle2: {
       color: 'white',

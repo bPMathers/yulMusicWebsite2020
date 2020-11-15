@@ -76,12 +76,12 @@ const TeamComponent = () => {
         </div>
         <div className={classes.memberChoice}>
           <div className={classes.memberChoiceItemText}>
-            <Typography variant={'h2'}>THE YUL MUSIC TEAM</Typography>
+            <Typography variant={'h3'}>THE YUL MUSIC TEAM</Typography>
           </div>
           <div
             className={classes.memberChoiceItem}
             style={{
-              backgroundImage: `url(${benj})`,
+              backgroundImage: `url(${chris})`,
               backgroundSize: 'cover',
             }}
             onClick={() => {
@@ -91,7 +91,7 @@ const TeamComponent = () => {
           <div
             className={classes.memberChoiceItem}
             style={{
-              backgroundImage: `url(${chris})`,
+              backgroundImage: `url(${benj})`,
               backgroundSize: 'cover',
             }}
             onClick={() => {

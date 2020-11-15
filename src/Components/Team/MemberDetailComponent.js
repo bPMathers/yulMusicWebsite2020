@@ -9,9 +9,9 @@ const MemberDetailComponent = (props) => {
 
   switch (memberId) {
     case 1:
-      return <MemberDetailBenjaminComponent />;
-    case 2:
       return <MemberDetailChrisComponent />;
+    case 2:
+      return <MemberDetailBenjaminComponent />;
     case 3:
       return <MemberDetailDannyComponent />;
     case 4:
