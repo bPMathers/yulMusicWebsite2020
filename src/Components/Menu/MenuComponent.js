@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     color: theme.palette.secondary.main,
-    position: 'absolute',
+    position: 'fixed',
     right: '10px',
     top: '10px',
     // zIndex: '999',

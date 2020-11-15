@@ -11,6 +11,7 @@ import MemberDetailComponent from './MemberDetailComponent';
 const useStyles = makeStyles((theme) => ({
   container: {
     width: '100vw',
+    minWidth: '1200px',
     minHeight: '90vh',
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.secondary.main,
@@ -63,6 +64,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     flexGrow: 'inherit',
+    marginLeft: '15px',
+    marginRight: '15px',
   },
 }));
 

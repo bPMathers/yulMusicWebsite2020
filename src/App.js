@@ -14,9 +14,9 @@ export default function App() {
       <Router>
         <div
           style={{
-            height: '100vh',
-            width: '100vw',
-            position: 'relative',
+            // height: '100vh',
+            // width: '100vw',
+            // position: 'relative',
             backgroundColor: theme.palette.primary.main,
           }}
         >
