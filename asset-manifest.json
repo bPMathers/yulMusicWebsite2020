@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/yulMusicWebsite2020/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.48140251.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.48140251.chunk.js.map",
-    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.39432f0f.js",
-    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.39432f0f.js.map",
-    "static/js/2.61d16674.chunk.js": "/yulMusicWebsite2020/static/js/2.61d16674.chunk.js",
-    "static/js/2.61d16674.chunk.js.map": "/yulMusicWebsite2020/static/js/2.61d16674.chunk.js.map",
-    "static/js/3.4408d9ea.chunk.js": "/yulMusicWebsite2020/static/js/3.4408d9ea.chunk.js",
-    "static/js/3.4408d9ea.chunk.js.map": "/yulMusicWebsite2020/static/js/3.4408d9ea.chunk.js.map",
+    "main.css": "/yulMusicWebsite2020/static/css/main.2aacf279.chunk.css",
+    "main.js": "/yulMusicWebsite2020/static/js/main.d3fad15b.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.d3fad15b.chunk.js.map",
+    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.e0514ea5.js",
+    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.e0514ea5.js.map",
+    "static/js/2.1975c8a0.chunk.js": "/yulMusicWebsite2020/static/js/2.1975c8a0.chunk.js",
+    "static/js/2.1975c8a0.chunk.js.map": "/yulMusicWebsite2020/static/js/2.1975c8a0.chunk.js.map",
+    "static/js/3.330c68fe.chunk.js": "/yulMusicWebsite2020/static/js/3.330c68fe.chunk.js",
+    "static/js/3.330c68fe.chunk.js.map": "/yulMusicWebsite2020/static/js/3.330c68fe.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/yulMusicWebsite2020/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.61d16674.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.61d16674.chunk.js.LICENSE.txt",
+    "static/css/main.2aacf279.chunk.css.map": "/yulMusicWebsite2020/static/css/main.2aacf279.chunk.css.map",
+    "static/js/2.1975c8a0.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.1975c8a0.chunk.js.LICENSE.txt",
     "static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg": "/yulMusicWebsite2020/static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg",
     "static/media/Christian-Lagueux-7b.02c42ba5.jpg": "/yulMusicWebsite2020/static/media/Christian-Lagueux-7b.02c42ba5.jpg",
     "static/media/Danny-Black-Background4.6919465f.jpg": "/yulMusicWebsite2020/static/media/Danny-Black-Background4.6919465f.jpg",
     "static/media/Josh9-578x867.76369204.jpg": "/yulMusicWebsite2020/static/media/Josh9-578x867.76369204.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.39432f0f.js",
-    "static/js/2.61d16674.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.48140251.chunk.js"
+    "static/js/runtime-main.e0514ea5.js",
+    "static/js/2.1975c8a0.chunk.js",
+    "static/css/main.2aacf279.chunk.css",
+    "static/js/main.d3fad15b.chunk.js"
   ]
 }
