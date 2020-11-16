@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'stretch',
-    paddingTop: '20px',
+    paddingTop: '0px',
     marginBottom: '20px',
     // width: 'max-content',
   },
