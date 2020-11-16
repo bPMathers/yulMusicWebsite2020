@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     marginLeft: '15px',
-    color: theme.palette.secondary.main,
+    color: theme.palette.common.red,
   },
   subtitleContainer: {
     backgroundColor: theme.palette.secondary.main,
@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   subtitle: {
     lineHeight: 1.25,
     marginLeft: '15px',
+    letterSpacing: '9px',
   },
 }));
 
@@ -37,7 +38,9 @@ const HomePageComponent = () => {
     <div>
       <div className={classes.titleContainer}>
         <div className={classes.title}>
-          <Typography variant={'h1'}>YUL MUSIC</Typography>
+          <Typography variant={'h1'} style={{ letterSpacing: '10px' }}>
+            YUL MUSIC
+          </Typography>
         </div>
         <div className={classes.subtitleContainer}>
           <Typography variant={'subtitle1'} className={classes.subtitle}>

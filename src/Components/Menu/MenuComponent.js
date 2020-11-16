@@ -14,15 +14,15 @@ import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles((theme) => ({
   menuList: {
-    width: '100vw',
-    height: '100vh',
+    width: '105vw',
+    height: '105vh',
     // backgroundColor: theme.palette.primary.main,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    right: '-40px',
+    right: '-45px',
     top: '-10px',
   },
   menuItem: {
@@ -107,7 +107,7 @@ export default function MenuComponent(props) {
   }, [open]);
 
   return (
-    <div>
+    <div style={{ position: 'relative', zIndex: 100 }}>
       <Button
         ref={anchorRef}
         aria-controls={open ? 'menu-list-grow' : undefined}
