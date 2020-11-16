@@ -128,6 +128,7 @@ export default function MenuComponent(props) {
         {({ TransitionProps, placement }) => (
           <Grow
             {...TransitionProps}
+            timeout={700}
             style={{
               transformOrigin: placement === 'center',
             }}
