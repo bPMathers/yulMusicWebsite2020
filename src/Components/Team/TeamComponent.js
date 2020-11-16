@@ -38,8 +38,8 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   memberChoiceItem: {
-    maxWidth: '120px',
-    minWidth: '120px',
+    maxWidth: '150px',
+    minWidth: '150px',
     borderRight: `1px solid ${theme.palette.secondary.main}`,
     flex: '1',
     cursor: 'pointer',
@@ -48,8 +48,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   memberChoiceItemFirst: {
-    maxWidth: '120px',
-    minWidth: '120px',
+    maxWidth: '150px',
+    minWidth: '150px',
     borderRight: `1px solid ${theme.palette.secondary.main}`,
     borderLeft: `1px solid ${theme.palette.secondary.main}`,
     flex: '1',
