@@ -35,7 +35,7 @@ const HomePageComponent = () => {
   const classes = useStyles();
 
   return (
-    <div>
+    <div id='top'>
       <div className={classes.titleContainer}>
         <div className={classes.title}>
           <Typography variant={'h1'} style={{ letterSpacing: '10px' }}>
@@ -49,7 +49,9 @@ const HomePageComponent = () => {
         </div>
       </div>
       <FeaturedProjectsComponent />
-      <TeamComponent className={classes.teamComponent} />
+      <div id='teamSection'>
+        <TeamComponent className={classes.teamComponent} />
+      </div>
       <div className={classes.title}></div>
     </div>
   );

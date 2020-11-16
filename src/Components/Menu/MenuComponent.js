@@ -11,6 +11,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
+import { HashLink } from 'react-router-hash-link';
 
 const useStyles = makeStyles((theme) => ({
   menuList: {
@@ -150,14 +151,25 @@ export default function MenuComponent(props) {
                   >
                     <CloseIcon style={{ fontSize: '3em' }} />
                   </MenuItem>
-                  <Link to='/' style={{ textDecoration: 'none' }}>
+                  <HashLink to='/#top' style={{ textDecoration: 'none' }}>
                     <MenuItem
                       onClick={handleClose}
                       className={classes.menuItem}
                     >
                       <Typography variant={'h2'}>Home</Typography>
                     </MenuItem>
-                  </Link>
+                  </HashLink>
+                  <HashLink
+                    to='/#teamSection'
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <MenuItem
+                      onClick={handleClose}
+                      className={classes.menuItem}
+                    >
+                      <Typography variant={'h2'}>Team</Typography>
+                    </MenuItem>
+                  </HashLink>
                   <Link to='/projects' style={{ textDecoration: 'none' }}>
                     <MenuItem
                       onClick={handleClose}
