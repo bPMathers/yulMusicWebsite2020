@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/yulMusicWebsite2020/static/css/main.2aacf279.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.d3fad15b.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.d3fad15b.chunk.js.map",
-    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.e0514ea5.js",
-    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.e0514ea5.js.map",
-    "static/js/2.1975c8a0.chunk.js": "/yulMusicWebsite2020/static/js/2.1975c8a0.chunk.js",
-    "static/js/2.1975c8a0.chunk.js.map": "/yulMusicWebsite2020/static/js/2.1975c8a0.chunk.js.map",
-    "static/js/3.330c68fe.chunk.js": "/yulMusicWebsite2020/static/js/3.330c68fe.chunk.js",
-    "static/js/3.330c68fe.chunk.js.map": "/yulMusicWebsite2020/static/js/3.330c68fe.chunk.js.map",
+    "main.css": "/yulMusicWebsite2020/static/css/main.ffb8cfc5.chunk.css",
+    "main.js": "/yulMusicWebsite2020/static/js/main.cecdb866.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.cecdb866.chunk.js.map",
+    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.f76b5711.js",
+    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.f76b5711.js.map",
+    "static/js/2.e493b7a6.chunk.js": "/yulMusicWebsite2020/static/js/2.e493b7a6.chunk.js",
+    "static/js/2.e493b7a6.chunk.js.map": "/yulMusicWebsite2020/static/js/2.e493b7a6.chunk.js.map",
+    "static/js/3.89fd2069.chunk.js": "/yulMusicWebsite2020/static/js/3.89fd2069.chunk.js",
+    "static/js/3.89fd2069.chunk.js.map": "/yulMusicWebsite2020/static/js/3.89fd2069.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
-    "static/css/main.2aacf279.chunk.css.map": "/yulMusicWebsite2020/static/css/main.2aacf279.chunk.css.map",
-    "static/js/2.1975c8a0.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.1975c8a0.chunk.js.LICENSE.txt",
+    "static/css/main.ffb8cfc5.chunk.css.map": "/yulMusicWebsite2020/static/css/main.ffb8cfc5.chunk.css.map",
+    "static/js/2.e493b7a6.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.e493b7a6.chunk.js.LICENSE.txt",
+    "static/media/1-Zebra-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8be805fc.jpg": "/yulMusicWebsite2020/static/media/1-Zebra-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8be805fc.jpg",
+    "static/media/3-FIFA-2-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9715952b.jpg": "/yulMusicWebsite2020/static/media/3-FIFA-2-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9715952b.jpg",
     "static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg": "/yulMusicWebsite2020/static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg",
     "static/media/Christian-Lagueux-7b.02c42ba5.jpg": "/yulMusicWebsite2020/static/media/Christian-Lagueux-7b.02c42ba5.jpg",
     "static/media/Danny-Black-Background4.6919465f.jpg": "/yulMusicWebsite2020/static/media/Danny-Black-Background4.6919465f.jpg",
-    "static/media/Josh9-578x867.76369204.jpg": "/yulMusicWebsite2020/static/media/Josh9-578x867.76369204.jpg"
+    "static/media/Josh9-578x867.76369204.jpg": "/yulMusicWebsite2020/static/media/Josh9-578x867.76369204.jpg",
+    "static/media/LAX-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.75407735.jpg": "/yulMusicWebsite2020/static/media/LAX-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.75407735.jpg",
+    "static/media/Scalada-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.6a4ff533.jpg": "/yulMusicWebsite2020/static/media/Scalada-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.6a4ff533.jpg",
+    "static/media/courchevel-night-1-1024x640.c60ab6be.jpg": "/yulMusicWebsite2020/static/media/courchevel-night-1-1024x640.c60ab6be.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0514ea5.js",
-    "static/js/2.1975c8a0.chunk.js",
-    "static/css/main.2aacf279.chunk.css",
-    "static/js/main.d3fad15b.chunk.js"
+    "static/js/runtime-main.f76b5711.js",
+    "static/js/2.e493b7a6.chunk.js",
+    "static/css/main.ffb8cfc5.chunk.css",
+    "static/js/main.cecdb866.chunk.js"
   ]
 }
