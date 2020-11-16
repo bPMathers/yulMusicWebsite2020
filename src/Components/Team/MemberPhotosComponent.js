@@ -1,3 +1,4 @@
+import { Fade } from '@material-ui/core';
 import React, { useState, useEffect } from 'react';
 import benj from '../../assets/Team/MemberChoiceItemPhotos/Benjamin-Proulx-Mathers-7b.jpg';
 import chris from '../../assets/Team/MemberChoiceItemPhotos/Christian-Lagueux-7b.jpg';
@@ -29,14 +30,16 @@ const MemberPhotosComponent = (props) => {
   }, [memberId]);
 
   return (
-    <div
-      style={{
-        backgroundImage: `url(${memberPhoto})`,
-        backgroundSize: 'cover',
-        height: '100%',
-        width: '100%',
-      }}
-    ></div>
+    <Fade in={true} timeout={2000}>
+      <div
+        style={{
+          backgroundImage: `url(${memberPhoto})`,
+          backgroundSize: 'cover',
+          height: '100%',
+          width: '100%',
+        }}
+      ></div>
+    </Fade>
   );
 };
 
