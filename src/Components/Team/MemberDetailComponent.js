@@ -18,7 +18,7 @@ const MemberDetailComponent = (props) => {
       return <MemberDetailJoshComponent />;
 
     default:
-      return <div>Benjamin</div>;
+      return <div>Error</div>;
   }
 };
 

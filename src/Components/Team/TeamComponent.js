@@ -81,7 +81,7 @@ const TeamComponent = () => {
   return (
     <div className={classes.container}>
       <div className={classes.leftColumn}>
-        <MemberPhotosComponent memberId={memberChoice} />
+        <MemberPhotosComponent key={memberChoice} memberId={memberChoice} />
       </div>
       <div className={classes.rightColumn}>
         <div className={classes.memberDetails}>
