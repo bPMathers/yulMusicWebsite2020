@@ -54,9 +54,10 @@ const HomePageComponent = () => {
         <TeamComponent className={classes.teamComponent} />
       </div>
       <div id="servicesSection">
-        <ServicesComponent className={classes.teamComponent} />
+        <ServicesComponent />
       </div>
-      <div className={classes.title}></div>
+      {/* <div className={classes.title}></div> */}
+      <div style={{ height: '1000px' }}></div>
     </div>
   );
 };

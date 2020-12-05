@@ -112,7 +112,7 @@ export default function MenuComponent(props) {
       <Button
         ref={anchorRef}
         aria-controls={open ? 'menu-list-grow' : undefined}
-        aria-haspopup='true'
+        aria-haspopup="true"
         onClick={handleToggle}
         className={classes.menuButton}
       >
@@ -138,7 +138,7 @@ export default function MenuComponent(props) {
               <ClickAwayListener onClickAway={handleClose}>
                 <MenuList
                   autoFocusItem={open}
-                  id='menu-list-grow'
+                  id="menu-list-grow"
                   onKeyDown={handleListKeyDown}
                   className={classes.menuList}
                   style={{
@@ -151,7 +151,7 @@ export default function MenuComponent(props) {
                   >
                     <CloseIcon style={{ fontSize: '3em' }} />
                   </MenuItem>
-                  <HashLink to='/#top' style={{ textDecoration: 'none' }}>
+                  <HashLink to="/#top" style={{ textDecoration: 'none' }}>
                     <MenuItem
                       onClick={handleClose}
                       className={classes.menuItem}
@@ -160,7 +160,7 @@ export default function MenuComponent(props) {
                     </MenuItem>
                   </HashLink>
                   <HashLink
-                    to='/#teamSection'
+                    to="/#teamSection"
                     style={{ textDecoration: 'none' }}
                   >
                     <MenuItem
@@ -170,7 +170,7 @@ export default function MenuComponent(props) {
                       <Typography variant={'h2'}>Team</Typography>
                     </MenuItem>
                   </HashLink>
-                  <Link to='/projects' style={{ textDecoration: 'none' }}>
+                  <Link to="/projects" style={{ textDecoration: 'none' }}>
                     <MenuItem
                       onClick={handleClose}
                       className={classes.menuItem}
@@ -178,15 +178,18 @@ export default function MenuComponent(props) {
                       <Typography variant={'h2'}>Projects</Typography>
                     </MenuItem>
                   </Link>
-                  <Link to='/services' style={{ textDecoration: 'none' }}>
+                  <HashLink
+                    to="/#servicesSection"
+                    style={{ textDecoration: 'none' }}
+                  >
                     <MenuItem
                       onClick={handleClose}
                       className={classes.menuItem}
                     >
                       <Typography variant={'h2'}>Services</Typography>
                     </MenuItem>
-                  </Link>
-                  <Link to='/contact' style={{ textDecoration: 'none' }}>
+                  </HashLink>
+                  <Link to="/contact" style={{ textDecoration: 'none' }}>
                     <MenuItem
                       onClick={handleClose}
                       className={classes.menuItem}

@@ -17,10 +17,12 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.secondary.main,
     display: 'flex',
     border: `1px solid ${theme.palette.secondary.main}`,
+    marginBottom: '40px',
   },
   leftColumn: {
     borderRight: `1px solid ${theme.palette.secondary.main}`,
     flex: 3,
+    maxWidth: '30vw',
   },
   rightColumn: {
     borderRight: `1px solid ${theme.palette.secondary.main}`,
@@ -36,6 +38,8 @@ const useStyles = makeStyles((theme) => ({
     borderTop: `1px solid ${theme.palette.secondary.main}`,
     flex: 1.5,
     display: 'flex',
+    minHeight: '200px',
+    minWidth: '133px',
   },
   memberChoiceItem: {
     maxWidth: '150px',

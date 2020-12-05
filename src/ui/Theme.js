@@ -3,6 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 const yulRed = '#FF0000';
 const yulBlack = '#1c1c1c';
 const yulWhite = '#ededed';
+const yulYellow = '#F5EE9E';
 
 export default createMuiTheme({
   palette: {
@@ -14,6 +15,9 @@ export default createMuiTheme({
     },
     secondary: {
       main: yulWhite,
+    },
+    accent: {
+      main: yulYellow,
     },
   },
   typography: {
