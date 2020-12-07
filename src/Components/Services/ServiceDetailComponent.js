@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 
     '&::after': {
       content: '""',
-      opacity: 0.1,
+      opacity: 0.2,
       top: 0,
       left: 0,
       bottom: 0,

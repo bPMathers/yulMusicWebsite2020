@@ -46,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// TODO: RANDOMIZE COLOR INSTEAD OF MAKING IT DEPENEDENT ON location.pathname since is onepager ?
 export default function MenuComponent(props) {
   let location = useLocation();
 
@@ -55,10 +56,12 @@ export default function MenuComponent(props) {
   const anchorRef = useRef(null);
 
   useEffect(() => {
-    setTimeout(() => {
-      renderBgColor(location.pathname);
-    }, 500);
-  }, [location.pathname]);
+    if (!open) {
+      setTimeout(() => {
+        renderBgColor(Math.random());
+      }, 500);
+    }
+  }, [location.pathname, open]);
 
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
@@ -79,21 +82,15 @@ export default function MenuComponent(props) {
     }
   }
 
-  const renderBgColor = (pathname) => {
-    switch (pathname) {
-      case '/projects':
-        setBgColor('#e0ac9d');
-        break;
-      case '/services':
-        setBgColor('#5C6D70');
-        break;
-      case '/contact':
-        setBgColor('#A37774');
-        break;
-
-      default:
-        setBgColor('#484A47');
-        break;
+  const renderBgColor = (randomNumber) => {
+    if (randomNumber > 0 && randomNumber < 0.25) {
+      setBgColor('#e0ac9d');
+    } else if (randomNumber >= 0.25 && randomNumber < 0.5) {
+      setBgColor('#5C6D70');
+    } else if (randomNumber >= 0.5 && randomNumber < 0.75) {
+      setBgColor('#A37774');
+    } else {
+      setBgColor('#484A47');
     }
   };
 
@@ -170,14 +167,6 @@ export default function MenuComponent(props) {
                       <Typography variant={'h2'}>Team</Typography>
                     </MenuItem>
                   </HashLink>
-                  <Link to="/projects" style={{ textDecoration: 'none' }}>
-                    <MenuItem
-                      onClick={handleClose}
-                      className={classes.menuItem}
-                    >
-                      <Typography variant={'h2'}>Projects</Typography>
-                    </MenuItem>
-                  </Link>
                   <HashLink
                     to="/#servicesSection"
                     style={{ textDecoration: 'none' }}
@@ -187,6 +176,17 @@ export default function MenuComponent(props) {
                       className={classes.menuItem}
                     >
                       <Typography variant={'h2'}>Services</Typography>
+                    </MenuItem>
+                  </HashLink>
+                  <HashLink
+                    to="/#projectsSection"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <MenuItem
+                      onClick={handleClose}
+                      className={classes.menuItem}
+                    >
+                      <Typography variant={'h2'}>Creations</Typography>
                     </MenuItem>
                   </HashLink>
                   <Link to="/contact" style={{ textDecoration: 'none' }}>

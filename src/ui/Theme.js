@@ -51,7 +51,8 @@ export default createMuiTheme({
       fontFamily: 'Roboto',
       fontSize: '1.75rem',
       color: yulWhite,
-      fontWeight: 700,
+      fontWeight: 400,
+      textTransform: 'uppercase',
     },
     h5: {
       fontFamily: 'Roboto',
