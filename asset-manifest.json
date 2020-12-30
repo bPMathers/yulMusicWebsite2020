@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/yulMusicWebsite2020/static/css/main.2e9218a3.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.43ea8b2c.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.43ea8b2c.chunk.js.map",
+    "main.css": "/yulMusicWebsite2020/static/css/main.854d15b4.chunk.css",
+    "main.js": "/yulMusicWebsite2020/static/js/main.a4ec0cb6.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.a4ec0cb6.chunk.js.map",
     "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.5a382edf.js",
     "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.5a382edf.js.map",
     "static/js/2.5fad38e6.chunk.js": "/yulMusicWebsite2020/static/js/2.5fad38e6.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.71f3fd9f.chunk.js": "/yulMusicWebsite2020/static/js/3.71f3fd9f.chunk.js",
     "static/js/3.71f3fd9f.chunk.js.map": "/yulMusicWebsite2020/static/js/3.71f3fd9f.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
-    "static/css/main.2e9218a3.chunk.css.map": "/yulMusicWebsite2020/static/css/main.2e9218a3.chunk.css.map",
+    "static/css/main.854d15b4.chunk.css.map": "/yulMusicWebsite2020/static/css/main.854d15b4.chunk.css.map",
     "static/js/2.5fad38e6.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.5fad38e6.chunk.js.LICENSE.txt",
     "static/media/1-Zebra-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8be805fc.jpg": "/yulMusicWebsite2020/static/media/1-Zebra-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8be805fc.jpg",
     "static/media/3-FIFA-2-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9715952b.jpg": "/yulMusicWebsite2020/static/media/3-FIFA-2-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9715952b.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.5a382edf.js",
     "static/js/2.5fad38e6.chunk.js",
-    "static/css/main.2e9218a3.chunk.css",
-    "static/js/main.43ea8b2c.chunk.js"
+    "static/css/main.854d15b4.chunk.css",
+    "static/js/main.a4ec0cb6.chunk.js"
   ]
 }
