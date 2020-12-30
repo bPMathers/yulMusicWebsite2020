@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import FeaturedProjectsComponent from '../../Components/FeaturedProjects/FeaturedProjectsComponent';
+import FeaturedProjectsComponent3 from '../../Components/FeaturedProjects3/FeaturedProjectsComponent3';
 import ServicesComponent from '../../Components/Services/ServicesComponent';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 
@@ -31,6 +32,9 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: '15px',
     letterSpacing: '9px',
   },
+  teamSection: {
+    marginTop: '370px',
+  },
   servicesSection: {
     marginBottom: '50px',
   },
@@ -56,8 +60,9 @@ const HomePageComponent = () => {
           </Typography>
         </div>
       </div>
-      <FeaturedProjectsComponent />
-      <div id="teamSection">
+      {/* <FeaturedProjectsComponent /> */}
+      <FeaturedProjectsComponent3 />
+      <div id="teamSection" className={classes.teamSection}>
         <TeamComponent className={classes.teamComponent} />
       </div>
       <div id="servicesSection" className={classes.servicesSection}>

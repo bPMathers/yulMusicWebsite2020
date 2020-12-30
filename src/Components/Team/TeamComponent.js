@@ -76,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
 const TeamComponent = () => {
   const classes = useStyles();
 
-  const [memberChoice, setMemberChoice] = useState(1);
+  const [memberChoice, setMemberChoice] = useState(2);
 
   const handleMemberChoice = (memberId) => {
     setMemberChoice(memberId);

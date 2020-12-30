@@ -1,7 +1,8 @@
 import { createMuiTheme } from '@material-ui/core/styles';
 
 const yulRed = '#FF0000';
-const yulBlack = '#1c1c1c';
+// const yulBlack = '#1c1c1c';
+const yulBlack = '#0a0a0a';
 const yulWhite = '#ededed';
 const yulYellow = '#F5EE9E';
 
