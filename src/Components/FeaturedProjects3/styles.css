@@ -10,8 +10,8 @@
 
 .content-all {
   width: 300px;
-  /* margin: auto; */
-  margin-left: 800px;
+  margin: auto;
+  /* margin-left: 800px; */
   margin-top: 50px;
   perspective: 700px;
   position: relative;
