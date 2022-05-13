@@ -15,12 +15,14 @@
   margin-top: 50px;
   perspective: 700px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .content-carrousel {
   width: 70%;
   position: absolute;
-  animation: rotar 20s infinite linear;
+  animation: rotar 25s infinite linear;
   transform-style: preserve-3d;
 }
 

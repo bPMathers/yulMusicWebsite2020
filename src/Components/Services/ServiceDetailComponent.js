@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
   serviceDetailContainer: {
     // width: '100%',
     height: '600px',
-    animation: `$fadeSlide 2000ms ease-out`,
+    animation: `$fade 2000ms ease-out`,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
       backgroundSize: (props) => 'cover',
     },
   },
-  '@keyframes fadeSlide': {
+  '@keyframes fade': {
     '0%': {
       opacity: 0,
       // transform: 'translateX(-50%) translateY(-50%)',

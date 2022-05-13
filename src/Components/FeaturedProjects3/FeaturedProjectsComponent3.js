@@ -44,9 +44,9 @@ const FeaturedProjectsComponent3 = () => {
           <figure>
             <img src={imageTest4} alt="project9"></img>
           </figure>
-          <figure>
+          {/* <figure>
             <img src={imageTest5} alt="project10"></img>
-          </figure>
+          </figure> */}
         </div>
       </div>
     </div>

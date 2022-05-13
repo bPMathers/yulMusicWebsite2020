@@ -4,6 +4,7 @@ import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import FeaturedProjectsComponent from '../../Components/FeaturedProjects/FeaturedProjectsComponent';
 import FeaturedProjectsComponent3 from '../../Components/FeaturedProjects3/FeaturedProjectsComponent3';
+import FeaturedProjectsComponent4 from '../../Components/FeaturedProjects4/FeaturedProjectsComponent4';
 import ServicesComponent from '../../Components/Services/ServicesComponent';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 
@@ -12,16 +13,26 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'stretch',
-    paddingTop: '0px',
+    paddingTop: '3px',
     marginBottom: '20px',
     // width: 'max-content',
   },
   title: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     marginLeft: '15px',
+    // marginBottom: '15px',
     color: theme.palette.common.red,
   },
   subtitleContainer: {
-    backgroundColor: theme.palette.secondary.main,
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // backgroundColor: theme.palette.secondary.main,
+    color: '#fff',
     // width: 'max-content',
     padding: '2px 5px',
     marginBottom: '8px',
@@ -33,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: '9px',
   },
   teamSection: {
-    marginTop: '370px',
+    marginTop: '120px',
   },
   servicesSection: {
     marginBottom: '50px',
@@ -50,7 +61,12 @@ const HomePageComponent = () => {
     <div id="top">
       <div className={classes.titleContainer}>
         <div className={classes.title}>
-          <Typography variant={'h1'} style={{ letterSpacing: '10px' }}>
+          <Typography
+            variant={'h1'}
+            style={{
+              letterSpacing: '10px',
+            }}
+          >
             YUL MUSIC
           </Typography>
         </div>
@@ -61,12 +77,12 @@ const HomePageComponent = () => {
         </div>
       </div>
       {/* <FeaturedProjectsComponent /> */}
-      <FeaturedProjectsComponent3 />
+      <FeaturedProjectsComponent4 />
+      {/* <div id="servicesSection" className={classes.servicesSection}>
+        <ServicesComponent />
+      </div> */}
       <div id="teamSection" className={classes.teamSection}>
         <TeamComponent className={classes.teamComponent} />
-      </div>
-      <div id="servicesSection" className={classes.servicesSection}>
-        <ServicesComponent />
       </div>
       <div id="projectsSection" className={classes.projectsSection}>
         <ProjectsComponent />

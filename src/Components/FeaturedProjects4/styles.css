@@ -1,0 +1,37 @@
+/* may need to move * styles eslewhere so they don't apply to everything!  */
+
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+
+  /* background-color: blue; */
+}
+
+/* .carousel {
+  width: 100%;
+} */
+
+.carousel {
+  /* width: 70%; */
+  position: absolute;
+  animation: rotar 25s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.carousel figure {
+  width: 300px;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}

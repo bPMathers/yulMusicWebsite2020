@@ -4,7 +4,8 @@ const yulRed = '#FF0000';
 // const yulBlack = '#1c1c1c';
 const yulBlack = '#0d0d0d';
 const yulWhite = '#ededed';
-const yulYellow = '#F5EE9E';
+const yulYellow = '#ededed';
+// const yulYellow = '#F5EE9E';
 
 export default createMuiTheme({
   palette: {
@@ -67,10 +68,10 @@ export default createMuiTheme({
       color: yulWhite,
     },
     subtitle1: {
-      fontSize: '1rem',
-      fontWeight: 700,
+      fontSize: '1.0rem',
+      fontWeight: 500,
       letterSpacing: '4px',
-      color: yulBlack,
+      color: yulWhite,
     },
     subtitle2: {
       color: 'white',
