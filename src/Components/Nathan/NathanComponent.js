@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import nathan5 from '../../assets/Nathan/viz_05.mp4';
-import ReactPlayer from 'react-player';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -16,27 +15,20 @@ const useStyles = makeStyles((theme) => ({
 const NathanComponent = () => {
   const classes = useStyles();
 
-  const [playing, setPlaying] = useState(true);
+  const vidRef = useRef();
 
-  const handleBufferEnd = () => {
-    setPlaying(true);
-  };
+  useEffect(() => {
+    vidRef.current.volume = 0;
+    vidRef.current.play();
+  }, []);
 
   return (
     <div className={classes.container}>
-      {/* <img src={nathan3} width="400px" /> */}
-      {/* <img src={nathan5} width="400px" /> */}
-      <ReactPlayer
-        url={nathan5}
-        cconfig={{
-          file: {
-            attributes: { preload: 'auto' },
-            forceAudio: true,
-          },
-        }}
-        controls={true}
-        onBufferEnd={handleBufferEnd}
-        playing={playing}
+      <video
+        ref={vidRef}
+        src={nathan5}
+        width={'400px'}
+        autoPlay={true}
         loop={true}
       />
     </div>
