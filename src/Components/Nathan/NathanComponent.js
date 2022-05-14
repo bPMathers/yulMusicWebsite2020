@@ -17,10 +17,10 @@ const NathanComponent = () => {
 
   const vidRef = useRef();
 
-  useEffect(() => {
-    vidRef.current.volume = 0;
-    vidRef.current.play();
-  }, []);
+  // useEffect(() => {
+  //   vidRef.current.volume = 0;
+  //   vidRef.current.play();
+  // }, []);
 
   return (
     <div className={classes.container}>
@@ -30,6 +30,9 @@ const NathanComponent = () => {
         width={'400px'}
         autoPlay={true}
         loop={true}
+        muted
+        defaultMuted
+        playsinline
       />
     </div>
   );
