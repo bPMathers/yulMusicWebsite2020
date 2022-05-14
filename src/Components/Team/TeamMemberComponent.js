@@ -44,7 +44,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.common.red,
     height: '3px',
     width: '30px',
-    margin: '10px 0',
+    marginTop: '3px',
+    marginBottom: '10px',
     opacity: 0.8,
   },
 }));

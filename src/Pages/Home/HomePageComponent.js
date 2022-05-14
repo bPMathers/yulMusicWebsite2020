@@ -50,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
   projectsSection: {
     marginBottom: '50px',
   },
+  creativeCollaboratorsSection: {
+    marginBottom: '50px',
+  },
 }));
 
 const HomePageComponent = () => {
@@ -75,17 +78,18 @@ const HomePageComponent = () => {
         </div>
         <NathanComponent />
       </div>
-      {/* <FeaturedProjectsComponent /> */}
       <div id="teamSection" className={classes.teamSection}>
         <TeamComponent />
       </div>
-      {/* <div id="servicesSection" className={classes.servicesSection}>
-        <ServicesComponent />
-      </div> */}
       <div id="projectsSection" className={classes.projectsSection}>
         <ProjectsComponent />
       </div>
-      {/* <div className={classes.title}></div> */}
+      <div
+        id="creativeCollaboratorsSection"
+        className={classes.creativeCollaboratorsSection}
+      >
+        {/* <ProjectsComponent /> */}
+      </div>
       <div style={{ height: '1000px' }}></div>
     </div>
   );

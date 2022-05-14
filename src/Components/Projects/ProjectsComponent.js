@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import ProjectComponent from './ProjectComponent';
 import { projectsData } from './ProjectsData';
 import ProjectDetailComponent from './ProjectDetailComponent';
+import ProjectComponent2 from './ProjectComponent2';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -64,7 +65,7 @@ const ProjectsComponent = () => {
             {projectsData.map((project, index) => {
               return (
                 <div onClick={handleProjectClick(project)} key={index}>
-                  <ProjectComponent project={project} />
+                  <ProjectComponent2 project={project} />
                 </div>
               );
             })}

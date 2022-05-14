@@ -186,8 +186,19 @@ export default function MenuComponent(props) {
                       onClick={handleClose}
                       className={classes.menuItem}
                     >
+                      <Typography variant={'h2'}>Projects</Typography>
+                    </MenuItem>
+                  </HashLink>
+                  <HashLink
+                    to="/#creativeCollaboratorsSection"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <MenuItem
+                      onClick={handleClose}
+                      className={classes.menuItem}
+                    >
                       <Typography variant={'h2'}>
-                        Creative Collaborations
+                        Creative Collaborators
                       </Typography>
                     </MenuItem>
                   </HashLink>

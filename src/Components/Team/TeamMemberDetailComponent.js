@@ -8,10 +8,48 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
+import Fade from '@material-ui/core/Fade';
+import ChrisPointFormComponent from './ChrisPointFormComponent';
+import BenjPointFormComponent from './BenjPointFormComponent';
+import DannyPointFormComponent from './DannyPointFormComponent';
+import JoshPointFormComponent from './JoshPointFormComponent';
 
 const useStyles = makeStyles((theme) => ({
+  container: {
+    backgroundColor: theme.palette.primary.main,
+    width: '100vw',
+    // display: 'flex',
+    // flexDirection: 'column',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+  },
+  dialog: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: theme.palette.primary.main,
+  },
   appBar: {
+    backgroundColor: theme.palette.primary.main,
     position: 'relative',
+  },
+  imageContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100vw',
+    backgroundColor: theme.palette.primary.main,
+    paddingTop: '30px',
+    paddingBottom: '10px',
+  },
+  pointFormContainer: {
+    backgroundColor: theme.palette.primary.main,
+    padding: '20px',
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    minHeight: '100vh',
   },
   title: {
     marginLeft: theme.spacing(2),
@@ -40,21 +78,14 @@ export default function TeamMemberDetailComponent(props) {
   };
 
   return (
-    <div>
-      <Button
-        variant="outlined"
-        color="primary"
-        // onClick={handleClickOpen}
-      >
-        Open full-screen dialog
-      </Button>
+    <div className={classes.container}>
       <Dialog
         fullScreen
+        fullWidth={true}
         open={open}
-        // onClose={handleClose}
         TransitionComponent={Transition}
+        className={classes.dialog}
       >
-        {teamMemberDetail && <div>{JSON.stringify(teamMemberDetail)}</div>}
         <AppBar className={classes.appBar}>
           <Toolbar>
             <IconButton
@@ -67,6 +98,21 @@ export default function TeamMemberDetailComponent(props) {
             </IconButton>
           </Toolbar>
         </AppBar>
+        {teamMemberDetail && (
+          <div className={classes.imageContainer}>
+            <img
+              src={teamMemberDetail.image}
+              width={'300px'}
+              alt="Christian Lagueux"
+            />
+          </div>
+        )}
+        <div className={classes.pointFormContainer}>
+          {teamMemberDetail?.id === 1 && <ChrisPointFormComponent />}
+          {teamMemberDetail?.id === 2 && <BenjPointFormComponent />}
+          {teamMemberDetail?.id === 3 && <DannyPointFormComponent />}
+          {teamMemberDetail?.id === 4 && <JoshPointFormComponent />}
+        </div>
       </Dialog>
     </div>
   );
