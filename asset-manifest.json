@@ -1,21 +1,17 @@
 {
   "files": {
-    "main.css": "/yulMusicWebsite2020/static/css/main.7144bf03.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.538783e1.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.538783e1.chunk.js.map",
-    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.4412ec59.js",
-    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.4412ec59.js.map",
-    "static/css/2.3e8be115.chunk.css": "/yulMusicWebsite2020/static/css/2.3e8be115.chunk.css",
-    "static/js/2.02e0c713.chunk.js": "/yulMusicWebsite2020/static/js/2.02e0c713.chunk.js",
-    "static/js/2.02e0c713.chunk.js.map": "/yulMusicWebsite2020/static/js/2.02e0c713.chunk.js.map",
-    "static/js/3.8a14982a.chunk.js": "/yulMusicWebsite2020/static/js/3.8a14982a.chunk.js",
-    "static/js/3.8a14982a.chunk.js.map": "/yulMusicWebsite2020/static/js/3.8a14982a.chunk.js.map",
+    "main.css": "/yulMusicWebsite2020/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/yulMusicWebsite2020/static/js/main.5272a66a.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.5272a66a.chunk.js.map",
+    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.cb963cd8.js",
+    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.cb963cd8.js.map",
+    "static/js/2.c4ba0933.chunk.js": "/yulMusicWebsite2020/static/js/2.c4ba0933.chunk.js",
+    "static/js/2.c4ba0933.chunk.js.map": "/yulMusicWebsite2020/static/js/2.c4ba0933.chunk.js.map",
+    "static/js/3.f54b1800.chunk.js": "/yulMusicWebsite2020/static/js/3.f54b1800.chunk.js",
+    "static/js/3.f54b1800.chunk.js.map": "/yulMusicWebsite2020/static/js/3.f54b1800.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
-    "static/css/2.3e8be115.chunk.css.map": "/yulMusicWebsite2020/static/css/2.3e8be115.chunk.css.map",
-    "static/css/main.7144bf03.chunk.css.map": "/yulMusicWebsite2020/static/css/main.7144bf03.chunk.css.map",
-    "static/js/2.02e0c713.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.02e0c713.chunk.js.LICENSE.txt",
-    "static/media/1-Zebra-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8be805fc.jpg": "/yulMusicWebsite2020/static/media/1-Zebra-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8be805fc.jpg",
-    "static/media/3-FIFA-2-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9715952b.jpg": "/yulMusicWebsite2020/static/media/3-FIFA-2-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9715952b.jpg",
+    "static/css/main.ab7136cd.chunk.css.map": "/yulMusicWebsite2020/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.c4ba0933.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.c4ba0933.chunk.js.LICENSE.txt",
     "static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg": "/yulMusicWebsite2020/static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg",
     "static/media/Biion-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.180b86b6.jpg": "/yulMusicWebsite2020/static/media/Biion-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.180b86b6.jpg",
     "static/media/Christian-Lagueux-7b.02c42ba5.jpg": "/yulMusicWebsite2020/static/media/Christian-Lagueux-7b.02c42ba5.jpg",
@@ -26,20 +22,12 @@
     "static/media/Magnum-Logo-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.a6d578f7.jpg": "/yulMusicWebsite2020/static/media/Magnum-Logo-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.a6d578f7.jpg",
     "static/media/NBA-Logo_Thumb.7a74f3af.jpg": "/yulMusicWebsite2020/static/media/NBA-Logo_Thumb.7a74f3af.jpg",
     "static/media/Parkview-Thumb-2.9724f341.jpg": "/yulMusicWebsite2020/static/media/Parkview-Thumb-2.9724f341.jpg",
-    "static/media/Scalada-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.6a4ff533.jpg": "/yulMusicWebsite2020/static/media/Scalada-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.6a4ff533.jpg",
-    "static/media/courchevel-night-1-1024x640.c60ab6be.jpg": "/yulMusicWebsite2020/static/media/courchevel-night-1-1024x640.c60ab6be.jpg",
-    "static/media/eventsBg-1200px-40p.6d3c1b78.jpg": "/yulMusicWebsite2020/static/media/eventsBg-1200px-40p.6d3c1b78.jpg",
-    "static/media/managementBg-1200px-40p.8aef5004.jpg": "/yulMusicWebsite2020/static/media/managementBg-1200px-40p.8aef5004.jpg",
-    "static/media/musicBg-1200px-40p.2238353e.jpg": "/yulMusicWebsite2020/static/media/musicBg-1200px-40p.2238353e.jpg",
-    "static/media/soundDesignBg-1200px-40p.8cadfb69.jpg": "/yulMusicWebsite2020/static/media/soundDesignBg-1200px-40p.8cadfb69.jpg",
-    "static/media/studioBg-1200px-40p.a4858798.jpg": "/yulMusicWebsite2020/static/media/studioBg-1200px-40p.a4858798.jpg",
-    "static/media/talentBg-1200px-40p.0f4dcc05.jpg": "/yulMusicWebsite2020/static/media/talentBg-1200px-40p.0f4dcc05.jpg"
+    "static/media/eventsBg-1200px-40p.6d3c1b78.jpg": "/yulMusicWebsite2020/static/media/eventsBg-1200px-40p.6d3c1b78.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4412ec59.js",
-    "static/css/2.3e8be115.chunk.css",
-    "static/js/2.02e0c713.chunk.js",
-    "static/css/main.7144bf03.chunk.css",
-    "static/js/main.538783e1.chunk.js"
+    "static/js/runtime-main.cb963cd8.js",
+    "static/js/2.c4ba0933.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.5272a66a.chunk.js"
   ]
 }
