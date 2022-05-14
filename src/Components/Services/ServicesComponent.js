@@ -172,7 +172,7 @@ const ServicesComponent = () => {
   const classes = useStyles();
   const [selectedService, setselectedService] = useState(services[0]);
 
-  const handleServiceSelection = (index) => {
+  const handleServiceSelection = (index) => () => {
     setselectedService(services[index]);
   };
 
@@ -188,7 +188,7 @@ const ServicesComponent = () => {
               <div
                 style={{ display: 'flex', alignItems: 'center' }}
                 key={index}
-                onClick={() => handleServiceSelection(index)}
+                onClick={handleServiceSelection(index)}
               >
                 <div
                   className={

@@ -1,143 +1,78 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import benj from '../../assets/Team/MemberChoiceItemPhotos/Benjamin-Proulx-Mathers-7b.jpg';
-import chris from '../../assets/Team/MemberChoiceItemPhotos/Christian-Lagueux-7b.jpg';
-import danny from '../../assets/Team/MemberChoiceItemPhotos/Danny-Black-Background4.jpg';
-import josh from '../../assets/Team/MemberChoiceItemPhotos/Josh9-578x867.jpg';
-import { Typography } from '@material-ui/core';
-import MemberPhotosComponent from './MemberPhotosComponent';
-import MemberDetailComponent from './MemberDetailComponent';
+import TeamMemberComponent from './TeamMemberComponent';
+import TeamMemberDetailComponent from './TeamMemberDetailComponent';
+import { teamMemberData } from './TeamMemberData';
 
 const useStyles = makeStyles((theme) => ({
   container: {
     width: '100vw',
-    minWidth: '1200px',
-    minHeight: '90vh',
+    minHeight: '80vh',
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.secondary.main,
     display: 'flex',
-    border: `1px solid ${theme.palette.secondary.main}`,
-    marginBottom: '40px',
-  },
-  leftColumn: {
-    borderRight: `1px solid ${theme.palette.secondary.main}`,
-    flex: 3,
-    maxWidth: '30vw',
-  },
-  rightColumn: {
-    borderRight: `1px solid ${theme.palette.secondary.main}`,
-    flex: 5,
-    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     flexDirection: 'column',
   },
-  memberDetails: {
-    borderRight: `1px solid ${theme.palette.secondary.main}`,
-    flex: 5,
-  },
-  memberChoice: {
-    borderTop: `1px solid ${theme.palette.secondary.main}`,
-    flex: 1.5,
+  photosContainer: {
     display: 'flex',
-    minHeight: '200px',
-    minWidth: '133px',
-  },
-  memberChoiceItem: {
-    maxWidth: '150px',
-    minWidth: '150px',
-    borderRight: `1px solid ${theme.palette.secondary.main}`,
-    flex: '1',
-    cursor: 'pointer',
-    '&:hover': {
-      opacity: 0.7,
-    },
-  },
-  memberChoiceItemFirst: {
-    maxWidth: '150px',
-    minWidth: '150px',
-    borderRight: `1px solid ${theme.palette.secondary.main}`,
-    borderLeft: `1px solid ${theme.palette.secondary.main}`,
-    flex: '1',
-    cursor: 'pointer',
-    '&:hover': {
-      opacity: 0.7,
-    },
-  },
-  memberChoiceItemText: {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
     justifyContent: 'center',
-    flexGrow: 'inherit',
-    marginLeft: '15px',
-    marginRight: '15px',
+    alignItems: 'center',
+    flexDirection: 'column',
+    width: '100vw',
+  },
+  photosRow: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100vw',
   },
 }));
 
 const TeamComponent = () => {
   const classes = useStyles();
 
-  const [memberChoice, setMemberChoice] = useState(2);
+  const [teamMemberDetail, setTeamMemberDetail] = useState(undefined);
+  const [detailOpen, setDetailOpen] = useState(false);
 
-  const handleMemberChoice = (memberId) => {
-    setMemberChoice(memberId);
+  const handleTeamMemberClick = (index) => () => {
+    setTeamMemberDetail(teamMemberData[index]);
+    setDetailOpen(true);
+  };
+
+  const handleOnClose = () => {
+    setDetailOpen(false);
   };
 
   return (
-    <div className={classes.container}>
-      <div className={classes.leftColumn}>
-        <MemberPhotosComponent key={memberChoice} memberId={memberChoice} />
-      </div>
-      <div className={classes.rightColumn}>
-        <div className={classes.memberDetails}>
-          <MemberDetailComponent memberId={memberChoice} />
-        </div>
-        <div className={classes.memberChoice}>
-          <div className={classes.memberChoiceItemText}>
-            <Typography variant={'h3'}>THE YUL MUSIC TEAM</Typography>
+    <>
+      <div className={classes.container}>
+        <div className={classes.photosContainer}>
+          <div className={classes.photosRow}>
+            <div onClick={handleTeamMemberClick(0)}>
+              <TeamMemberComponent teamMember={teamMemberData[0]} />
+            </div>
+            <div onClick={handleTeamMemberClick(1)}>
+              <TeamMemberComponent teamMember={teamMemberData[1]} />
+            </div>
           </div>
-          <div
-            className={classes.memberChoiceItemFirst}
-            style={{
-              backgroundImage: `url(${chris})`,
-              backgroundSize: 'cover',
-            }}
-            onClick={() => {
-              handleMemberChoice(1);
-            }}
-          ></div>
-          <div
-            className={classes.memberChoiceItem}
-            style={{
-              backgroundImage: `url(${benj})`,
-              backgroundSize: 'cover',
-            }}
-            onClick={() => {
-              handleMemberChoice(2);
-            }}
-          ></div>
-          <div
-            className={classes.memberChoiceItem}
-            style={{
-              backgroundImage: `url(${danny})`,
-              backgroundSize: 'cover',
-            }}
-            onClick={() => {
-              handleMemberChoice(3);
-            }}
-          ></div>
-          <div
-            className={classes.memberChoiceItem}
-            style={{
-              backgroundImage: `url(${josh})`,
-              backgroundSize: 'cover',
-            }}
-            onClick={() => {
-              handleMemberChoice(4);
-            }}
-          ></div>
+          <div className={classes.photosRow}>
+            <div onClick={handleTeamMemberClick(2)}>
+              <TeamMemberComponent teamMember={teamMemberData[2]} />
+            </div>
+            <div onClick={handleTeamMemberClick(3)}>
+              <TeamMemberComponent teamMember={teamMemberData[3]} />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      <TeamMemberDetailComponent
+        open={detailOpen}
+        teamMemberDetail={teamMemberDetail}
+        onClose={handleOnClose}
+      />
+    </>
   );
 };
 

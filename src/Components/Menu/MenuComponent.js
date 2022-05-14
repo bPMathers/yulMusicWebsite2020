@@ -167,7 +167,7 @@ export default function MenuComponent(props) {
                       <Typography variant={'h2'}>Team</Typography>
                     </MenuItem>
                   </HashLink>
-                  <HashLink
+                  {/* <HashLink
                     to="/#servicesSection"
                     style={{ textDecoration: 'none' }}
                   >
@@ -177,7 +177,7 @@ export default function MenuComponent(props) {
                     >
                       <Typography variant={'h2'}>Services</Typography>
                     </MenuItem>
-                  </HashLink>
+                  </HashLink> */}
                   <HashLink
                     to="/#projectsSection"
                     style={{ textDecoration: 'none' }}
@@ -186,7 +186,9 @@ export default function MenuComponent(props) {
                       onClick={handleClose}
                       className={classes.menuItem}
                     >
-                      <Typography variant={'h2'}>Creations</Typography>
+                      <Typography variant={'h2'}>
+                        Creative Collaborations
+                      </Typography>
                     </MenuItem>
                   </HashLink>
                   <Link to="/contact" style={{ textDecoration: 'none' }}>

@@ -2,10 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
-import FeaturedProjectsComponent from '../../Components/FeaturedProjects/FeaturedProjectsComponent';
-import FeaturedProjectsComponent3 from '../../Components/FeaturedProjects3/FeaturedProjectsComponent3';
-import FeaturedProjectsComponent4 from '../../Components/FeaturedProjects4/FeaturedProjectsComponent4';
-import ServicesComponent from '../../Components/Services/ServicesComponent';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,7 +40,8 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: '9px',
   },
   teamSection: {
-    marginTop: '120px',
+    marginTop: '80px',
+    marginBottom: '120px',
   },
   servicesSection: {
     marginBottom: '50px',
@@ -77,13 +74,12 @@ const HomePageComponent = () => {
         </div>
       </div>
       {/* <FeaturedProjectsComponent /> */}
-      <FeaturedProjectsComponent4 />
+      <div id="teamSection" className={classes.teamSection}>
+        <TeamComponent />
+      </div>
       {/* <div id="servicesSection" className={classes.servicesSection}>
         <ServicesComponent />
       </div> */}
-      <div id="teamSection" className={classes.teamSection}>
-        <TeamComponent className={classes.teamComponent} />
-      </div>
       <div id="projectsSection" className={classes.projectsSection}>
         <ProjectsComponent />
       </div>

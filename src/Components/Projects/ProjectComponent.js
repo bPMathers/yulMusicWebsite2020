@@ -53,12 +53,7 @@ const ProjectComponent = (props) => {
   return (
     <div style={{ position: 'relative' }}>
       <div key={project.id} className={classes.project}>
-        <Typography
-          variant={'h4'}
-          //  align={'center'}
-        >
-          {project.title}
-        </Typography>
+        <Typography variant={'h4'}>{project.title}</Typography>
         <Typography>{project.subtitle}</Typography>
         <div className={classes.separator}></div>
         <Typography variant={'h4'}>{project.year}</Typography>

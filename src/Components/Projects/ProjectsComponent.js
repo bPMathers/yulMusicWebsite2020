@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 import ProjectComponent from './ProjectComponent';
 import { projectsData } from './ProjectsData';
+import ProjectDetailComponent from './ProjectDetailComponent';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -37,19 +38,40 @@ const useStyles = makeStyles((theme) => ({
 const ProjectsComponent = () => {
   const classes = useStyles();
 
+  const [detailOpen, setDetailOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(undefined);
+
+  const handleOnDetailClose = () => {
+    setDetailOpen(false);
+  };
+
+  const handleProjectClick = (project) => () => {
+    console.log(JSON.stringify(project, 4, null));
+    setDetailOpen(true);
+    setSelectedProject(project);
+  };
+
   return (
-    <div className={classes.container}>
-      <div className={classes.sectionTitle}>
-        <Typography variant={'h1'}>CREATIONS</Typography>
-      </div>
-      <div className={classes.projectsListContainer}>
-        <div className={classes.projectsList}>
-          {projectsData.map((project, index) => {
-            return <ProjectComponent key={index} project={project} />;
-          })}
+    <>
+      <ProjectDetailComponent
+        onClose={handleOnDetailClose}
+        open={detailOpen}
+        project={selectedProject}
+      />
+      <div className={classes.container} open={detailOpen}>
+        <div className={classes.projectsListContainer}>
+          <div className={classes.projectsList}>
+            {projectsData.map((project, index) => {
+              return (
+                <div onClick={handleProjectClick(project)}>
+                  <ProjectComponent key={index} project={project} />
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
