@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
-import Fade from '@material-ui/core/Fade';
 import ChrisPointFormComponent from './ChrisPointFormComponent';
 import BenjPointFormComponent from './BenjPointFormComponent';
 import DannyPointFormComponent from './DannyPointFormComponent';
@@ -18,10 +15,6 @@ const useStyles = makeStyles((theme) => ({
   container: {
     backgroundColor: theme.palette.primary.main,
     width: '100vw',
-    // display: 'flex',
-    // flexDirection: 'column',
-    // alignItems: 'center',
-    // justifyContent: 'center',
   },
   dialog: {
     display: 'flex',
@@ -66,8 +59,6 @@ export default function TeamMemberDetailComponent(props) {
   const classes = useStyles();
 
   const [teamMemberDetail, setTeamMemberDetail] = useState(undefined);
-
-  console.log('teamMemberDetail ---->', teamMemberDetail);
 
   useEffect(() => {
     setTeamMemberDetail(props.teamMemberDetail);

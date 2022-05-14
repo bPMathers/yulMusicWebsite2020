@@ -74,6 +74,7 @@ export default createMuiTheme({
       color: yulWhite,
     },
     subtitle2: {
+      fontFamily: 'Roboto',
       color: 'white',
       fontWeight: 300,
       fontSize: '1.25rem',

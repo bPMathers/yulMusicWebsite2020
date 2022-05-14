@@ -46,10 +46,30 @@ const ProjectsComponent = () => {
     setDetailOpen(false);
   };
 
-  const handleProjectClick = (project) => () => {
-    console.log(JSON.stringify(project, 4, null));
+  const handleProjectClick = (projectId) => () => {
+    const project = projectsData.find((project) => project.id === projectId);
     setDetailOpen(true);
     setSelectedProject(project);
+  };
+
+  const handleNavigate = (direction) => {
+    const currentProjectIndex = projectsData.findIndex(
+      (project) => project.id === selectedProject.id
+    );
+    if (direction === 'left') {
+      setDetailOpen(true);
+      if (currentProjectIndex === 0) {
+        setSelectedProject(projectsData[projectsData.length - 1]);
+      } else {
+        setSelectedProject(projectsData[currentProjectIndex - 1]);
+      }
+    } else if (direction === 'right') {
+      if (currentProjectIndex === projectsData.length - 1) {
+        setSelectedProject(projectsData[0]);
+      } else {
+        setSelectedProject(projectsData[currentProjectIndex + 1]);
+      }
+    }
   };
 
   return (
@@ -58,13 +78,14 @@ const ProjectsComponent = () => {
         onClose={handleOnDetailClose}
         open={detailOpen}
         project={selectedProject}
+        onNavigate={handleNavigate}
       />
       <div className={classes.container} open={detailOpen}>
         <div className={classes.projectsListContainer}>
           <div className={classes.projectsList}>
             {projectsData.map((project, index) => {
               return (
-                <div onClick={handleProjectClick(project)} key={index}>
+                <div onClick={handleProjectClick(project.id)} key={index}>
                   <ProjectComponent2 project={project} />
                 </div>
               );

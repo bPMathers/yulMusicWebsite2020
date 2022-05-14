@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     background: (props) => `url(${props?.project?.bgImg})`,
     backgroundSize: (props) => 'cover',
-    margin: '3px',
+    margin: '2px',
     display: 'flex',
     '&:hover': {
       cursor: 'pointer',
@@ -58,7 +58,8 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 500,
   },
   subtitle: {
-    fontSize: '0.8em',
+    padding: '0px 2em',
+    fontSize: '1.2em',
     textAlign: 'center',
   },
 }));
@@ -97,7 +98,7 @@ const ProjectComponent2 = (props) => {
                 {project.title}
               </Typography>
               <div className={classes.separator}></div>
-              <Typography className={classes.subtitle} variant={'subtitle1'}>
+              <Typography className={classes.subtitle} variant={'subtitle2'}>
                 {project.subtitle}
               </Typography>
             </div>
