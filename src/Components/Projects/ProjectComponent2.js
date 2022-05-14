@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Fade } from '@material-ui/core';
-import clsx from 'clsx';
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    width: 'calc(100vw / 3 - 60px)',
-    // probablu need to divide by 2 and then 1 on smaller screen sizes
+    width: 'calc(100vw / 3 - 10px)',
     height: 'calc((100vw / 3) / 1.53)',
+    minWidth: '360px',
+    minHeight: '235px',
     backgroundColor: theme.palette.primary.main,
     background: (props) => `url(${props?.project?.bgImg})`,
     backgroundSize: (props) => 'cover',
@@ -18,6 +18,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   hoverContainer: {
+    minWidth: '360px',
+    minHeight: '235px',
     backgroundColor: 'rgba(13, 13, 13, 0.85)',
     position: 'absolute',
     top: 0,
@@ -26,15 +28,14 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    // probablu need to divide by 2 and then 1 on smaller screen sizes
     height: 'calc((100vw / 3) / 1.53)',
-    minWidth: '300px',
-    width: 'calc(100vw / 3 - 60px)',
+    width: 'calc(100vw / 3 - 10px)',
     textDecoration: 'none',
   },
   background: {
-    width: 'calc(100vw / 3 - 60px)',
-    // probablu need to divide by 2 and then 1 on smaller screen sizes
+    minWidth: '360px',
+    minHeight: '235px',
+    width: 'calc(100vw / 3 - 10px)',
     height: 'calc((100vw / 3) / 1.53)',
 
     backgroundColor: theme.palette.primary.main,
