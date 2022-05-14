@@ -63,8 +63,8 @@ const ProjectsComponent = () => {
           <div className={classes.projectsList}>
             {projectsData.map((project, index) => {
               return (
-                <div onClick={handleProjectClick(project)}>
-                  <ProjectComponent key={index} project={project} />
+                <div onClick={handleProjectClick(project)} key={index}>
+                  <ProjectComponent project={project} />
                 </div>
               );
             })}

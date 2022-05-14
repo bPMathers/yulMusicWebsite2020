@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
+import NathanComponent from '../../Components/Nathan/NathanComponent';
 
 const useStyles = makeStyles((theme) => ({
   titleContainer: {
@@ -31,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     color: '#fff',
     // width: 'max-content',
     padding: '2px 5px',
-    marginBottom: '8px',
+    marginBottom: '30px',
     // borderRadius: '5px',
   },
   subtitle: {
@@ -40,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: '9px',
   },
   teamSection: {
-    marginTop: '80px',
+    // marginTop: '80px',
     marginBottom: '120px',
   },
   servicesSection: {
@@ -72,6 +73,7 @@ const HomePageComponent = () => {
             HEARTS AND SPIRIT FROM MONTRÉAL
           </Typography>
         </div>
+        <NathanComponent />
       </div>
       {/* <FeaturedProjectsComponent /> */}
       <div id="teamSection" className={classes.teamSection}>

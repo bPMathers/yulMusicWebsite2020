@@ -10,6 +10,9 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.secondary.main,
     display: 'flex',
     margin: '30px',
+    '&:hover': {
+      cursor: 'pointer',
+    },
   },
   hoverContainer: {
     position: 'absolute',
