@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/yulMusicWebsite2020/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.5272a66a.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.5272a66a.chunk.js.map",
-    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.cb963cd8.js",
-    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.cb963cd8.js.map",
-    "static/js/2.c4ba0933.chunk.js": "/yulMusicWebsite2020/static/js/2.c4ba0933.chunk.js",
-    "static/js/2.c4ba0933.chunk.js.map": "/yulMusicWebsite2020/static/js/2.c4ba0933.chunk.js.map",
-    "static/js/3.f54b1800.chunk.js": "/yulMusicWebsite2020/static/js/3.f54b1800.chunk.js",
-    "static/js/3.f54b1800.chunk.js.map": "/yulMusicWebsite2020/static/js/3.f54b1800.chunk.js.map",
+    "main.js": "/yulMusicWebsite2020/static/js/main.bc786bc0.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.bc786bc0.chunk.js.map",
+    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.bbea7f64.js",
+    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.bbea7f64.js.map",
+    "static/js/2.2c5d0aa7.chunk.js": "/yulMusicWebsite2020/static/js/2.2c5d0aa7.chunk.js",
+    "static/js/2.2c5d0aa7.chunk.js.map": "/yulMusicWebsite2020/static/js/2.2c5d0aa7.chunk.js.map",
+    "static/js/3.ec4f4203.chunk.js": "/yulMusicWebsite2020/static/js/3.ec4f4203.chunk.js",
+    "static/js/3.ec4f4203.chunk.js.map": "/yulMusicWebsite2020/static/js/3.ec4f4203.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/yulMusicWebsite2020/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.c4ba0933.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.c4ba0933.chunk.js.LICENSE.txt",
+    "static/js/2.2c5d0aa7.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.2c5d0aa7.chunk.js.LICENSE.txt",
     "static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg": "/yulMusicWebsite2020/static/media/Benjamin-Proulx-Mathers-7b.31ed7eb3.jpg",
     "static/media/Biion-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.180b86b6.jpg": "/yulMusicWebsite2020/static/media/Biion-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.180b86b6.jpg",
     "static/media/Christian-Lagueux-7b.02c42ba5.jpg": "/yulMusicWebsite2020/static/media/Christian-Lagueux-7b.02c42ba5.jpg",
@@ -22,12 +22,13 @@
     "static/media/Magnum-Logo-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.a6d578f7.jpg": "/yulMusicWebsite2020/static/media/Magnum-Logo-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.a6d578f7.jpg",
     "static/media/NBA-Logo_Thumb.7a74f3af.jpg": "/yulMusicWebsite2020/static/media/NBA-Logo_Thumb.7a74f3af.jpg",
     "static/media/Parkview-Thumb-2.9724f341.jpg": "/yulMusicWebsite2020/static/media/Parkview-Thumb-2.9724f341.jpg",
-    "static/media/eventsBg-1200px-40p.6d3c1b78.jpg": "/yulMusicWebsite2020/static/media/eventsBg-1200px-40p.6d3c1b78.jpg"
+    "static/media/eventsBg-1200px-40p.6d3c1b78.jpg": "/yulMusicWebsite2020/static/media/eventsBg-1200px-40p.6d3c1b78.jpg",
+    "static/media/viz_05.2141d424.mp4": "/yulMusicWebsite2020/static/media/viz_05.2141d424.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb963cd8.js",
-    "static/js/2.c4ba0933.chunk.js",
+    "static/js/runtime-main.bbea7f64.js",
+    "static/js/2.2c5d0aa7.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.5272a66a.chunk.js"
+    "static/js/main.bc786bc0.chunk.js"
   ]
 }
