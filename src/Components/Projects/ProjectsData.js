@@ -1,10 +1,12 @@
 import dubaiProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Dubai-Mall.jpg';
 import nbaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/NBA-Logo_Thumb.jpg';
 import ydlmProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Sardine-Run-02.jpg';
+import ydlm2ProjImg from '../../assets/Projects/Sardine-Run-01.jpg';
 import courchevelProjImg from '../../assets/Projects/_Processed to 1.53 ratio/courchevel-night-1-721x471.jpg';
 import fifaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/FIFA-trophy-thumb-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import astanaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.jpg';
 import laxProjImg from '../../assets/Projects/_Processed to 1.53 ratio/LAX-2.jpg';
+import mjProjImg from '../../assets/Projects/Michael-Jackson-The-Immortal-World-Tour-by-Cirque-du-Soleil_YUL-MUSIC-Christian-Lagueux-Benjamin-Proulx-Mathers-Sébastien-Laurendeau.jpg';
 
 export const projectsData = [
   {
@@ -12,15 +14,28 @@ export const projectsData = [
     title: 'YUL MUSIC / Productions J',
     subtitle:
       'YUL MUSIC - Mario Cyr, conference "Les yeux de la mer" - Mario Cyr is an internationally renowned expedition leader for Arctic and Antarctic missions, a cold-water diving expert and a world-class cinematographer.',
+    detailedSubtitle:
+      'YUL MUSIC - Mario Cyr, conference "Les yeux de la mer" - Mario Cyr is an internationally renowned expedition leader for Arctic and Antarctic missions, a cold-water diving expert and a world-class cinematographer. He has participated in more than 150 films for broadcasters such as National Geographic, Discovery Channel, the BBC, IMAX 3D, Disney Productions, the CBC and David Suzuki, la Société Cousteau, France 2, Arte and NHK Japan.',
+    categoriesText:
+      'Music composition - Music arrangements - MIDI orchestration - Music editing - Audio restoration - Audio montage - Sound design - Music supervision - Preproduction - Postproduction - Mix',
     bgImg: ydlmProjImg,
+    // possible types: img, video, others?
+    extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
   },
   {
     id: 102,
     title: 'YUL MUSIC / NBA',
     subtitle:
       'YUL MUSIC in Toronto - Cirque du Soleil 45 Degrees / The 2016 NBA All-Star Pregame Show, televised in over 200 countries',
-    year: '2020',
+    categoriesText:
+      'Music composition - MIDI orchestration - Music arrangements - Music editing - Music supervision - Sound design - Voice Over - Preproduction - Postproduction - Mix',
     bgImg: nbaProjImg,
+    extraMedia: [
+      {
+        type: 'video',
+        data: { url: 'https://player.vimeo.com/video/157210250' },
+      },
+    ],
   },
   {
     id: 103,
@@ -70,7 +85,7 @@ export const projectsData = [
     title: 'Project Title',
     subtitle: 'Subtitle',
     year: '2020',
-    bgImg: dubaiProjImg,
+    bgImg: mjProjImg,
   },
   // {
   //   id: 6,

@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import { Typography } from '@material-ui/core';
 import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -9,14 +10,83 @@ import CloseIcon from '@material-ui/icons/Close';
 import ArrowRight from '@material-ui/icons/ArrowRight';
 import ArrowLeft from '@material-ui/icons/ArrowLeft';
 import Slide from '@material-ui/core/Slide';
+import { DialogContent } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
+  dialog: {
+    backgroundColor: theme.palette.primary.main,
+  },
+  dialogContent: {
+    backgroundColor: theme.palette.primary.main,
+    padding: '0px 0px 100px 0px',
+    width: '100vw',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  dialogContentRoot: {
+    '&:first-child': {
+      paddingTop: '0px',
+    },
+  },
+  projectDetailContent: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    padding: '20px',
+  },
   appBar: {
     position: 'relative',
   },
+  // title: {
+  //   marginLeft: theme.spacing(2),
+  //   flex: 1,
+  // },
   title: {
-    marginLeft: theme.spacing(2),
-    flex: 1,
+    fontSize: '2em',
+    textAlign: 'center',
+    marginBottom: '3px',
+    fontWeight: 500,
+  },
+  subtitle: {
+    padding: '0px 2em',
+    fontSize: '1.2em',
+    textAlign: 'center',
+    width: '80%',
+    marginBottom: '10px',
+    fontWeight: 500,
+  },
+  categoriesText: {
+    padding: '0px 2em',
+    fontSize: '1.0em',
+    marginBottom: '20px',
+    width: '80%',
+    textAlign: 'center',
+  },
+  separator: {
+    backgroundColor: theme.palette.common.red,
+    height: '3px',
+    width: '30px',
+    margin: '10px 0',
+  },
+  separator2: {
+    backgroundColor: theme.palette.secondary.main,
+    height: '0.5px',
+    width: '80%',
+    marginBottom: '10px',
+  },
+  detailMediaContainer: {
+    width: '721px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  detailMediaItem: {
+    width: '100%',
+    marginBottom: '10px',
   },
 }));
 
@@ -51,46 +121,93 @@ export default function ProjectDetailComponent(props) {
         TransitionComponent={Transition}
         className={classes.dialog}
       >
-        <AppBar className={classes.appBar}>
-          <Toolbar>
-            <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleClose}
-              aria-label="close"
-            >
-              <CloseIcon />
-            </IconButton>
-            <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleNavigate('left')}
-              aria-label="Navigate Left"
-            >
-              <ArrowLeft />
-            </IconButton>
-            <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleNavigate('right')}
-              aria-label="Navigate Right"
-            >
-              <ArrowRight />
-            </IconButton>
-          </Toolbar>
-        </AppBar>
-        {projectDetail && (
-          <div className={classes.imageContainer}>
-            <img src={projectDetail.bgImg} width={'300px'} alt="Project" />
-          </div>
-        )}
-        <div className={classes.pointFormContainer}>
-          Project Info and media will go here
-          {/* {teamMemberDetail?.id === 1 && <ChrisPointFormComponent />}
-          {teamMemberDetail?.id === 2 && <BenjPointFormComponent />}
-          {teamMemberDetail?.id === 3 && <DannyPointFormComponent />}
-          {teamMemberDetail?.id === 4 && <JoshPointFormComponent />} */}
-        </div>
+        <DialogContent
+          className={classes.dialogContent}
+          classes={{ root: classes.dialogContentRoot }}
+        >
+          <AppBar className={classes.appBar}>
+            <Toolbar>
+              <IconButton
+                edge="start"
+                color="inherit"
+                onClick={handleClose}
+                aria-label="close"
+              >
+                <CloseIcon />
+              </IconButton>
+              <IconButton
+                edge="start"
+                color="inherit"
+                onClick={handleNavigate('left')}
+                aria-label="Navigate Left"
+              >
+                <ArrowLeft />
+              </IconButton>
+              <IconButton
+                edge="start"
+                color="inherit"
+                onClick={handleNavigate('right')}
+                aria-label="Navigate Right"
+              >
+                <ArrowRight />
+              </IconButton>
+            </Toolbar>
+          </AppBar>
+          {projectDetail && (
+            <div className={classes.projectDetailContent}>
+              <Typography className={classes.title} variant={'h2'}>
+                {projectDetail.title}
+              </Typography>
+              <div className={classes.separator}></div>
+              <Typography className={classes.subtitle} variant={'subtitle2'}>
+                {projectDetail.detailedSubtitle ?? projectDetail.subtitle}
+              </Typography>
+              <div className={classes.separator2}></div>
+              <Typography
+                className={classes.categoriesText}
+                variant={'subtitle2'}
+              >
+                {projectDetail.categoriesText}
+              </Typography>
+              <div className={classes.detailMediaContainer}>
+                <img
+                  src={projectDetail.bgImg}
+                  className={classes.detailMediaItem}
+                  alt="Project"
+                />
+                {projectDetail.extraMedia &&
+                  projectDetail.extraMedia.map((media, index) => {
+                    if (media.type === 'img') {
+                      return (
+                        <img
+                          src={media.data}
+                          className={classes.detailMediaItem}
+                          alt="media item"
+                          key={index}
+                        />
+                      );
+                    } else if (media.type === 'video') {
+                      return (
+                        <>
+                          <iframe
+                            title={index}
+                            key={index}
+                            src="https://player.vimeo.com/video/157210250"
+                            width="723"
+                            height="407"
+                            frameBorder="0"
+                            webkitallowfullscreen={'true'}
+                            mozallowfullscreen={'true'}
+                            allowFullScreen={true}
+                          ></iframe>
+                        </>
+                      );
+                    } else return <></>;
+                  })}
+              </div>
+            </div>
+          )}
+        </DialogContent>
       </Dialog>
     </div>
   );

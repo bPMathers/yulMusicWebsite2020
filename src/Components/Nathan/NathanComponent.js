@@ -15,15 +15,7 @@ const NathanComponent = () => {
 
   return (
     <div className={classes.container}>
-      <video
-        src={nathan5}
-        width={'400px'}
-        autoPlay={true}
-        loop={true}
-        muted
-        defaultMuted
-        playsinline
-      />
+      <video src={nathan5} width={'400px'} autoPlay={true} loop={true} muted />
     </div>
   );
 };

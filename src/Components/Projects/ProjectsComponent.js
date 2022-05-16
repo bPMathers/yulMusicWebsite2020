@@ -85,7 +85,7 @@ const ProjectsComponent = () => {
           <div className={classes.projectsList}>
             {projectsData.map((project, index) => {
               return (
-                <div onClick={handleProjectClick(project.id)} key={index}>
+                <div onClick={handleProjectClick(project.id)} key={project.id}>
                   <ProjectComponent2 project={project} />
                 </div>
               );
