@@ -4,6 +4,9 @@ import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 import NathanComponent from '../../Components/Nathan/NathanComponent';
+import CreativeCollaboratorsComponent from '../../Components/CC/CreativeCollaboratorsComponent';
+import NathanComponent2 from '../../Components/Contact/ContactComponent';
+import ContactComponent from '../../Components/Contact/ContactComponent';
 
 const useStyles = makeStyles((theme) => ({
   titleContainer: {
@@ -42,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
   teamSection: {
     // marginTop: '80px',
-    marginBottom: '120px',
+    marginBottom: '50px',
   },
   servicesSection: {
     marginBottom: '50px',
@@ -51,7 +54,12 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: '50px',
   },
   creativeCollaboratorsSection: {
+    // marginBottom: '50px',
+    marginTop: '70px',
+  },
+  contactSection: {
     marginBottom: '50px',
+    // filter: 'invert(1)',
   },
 }));
 
@@ -88,9 +96,12 @@ const HomePageComponent = () => {
         id="creativeCollaboratorsSection"
         className={classes.creativeCollaboratorsSection}
       >
-        {/* <ProjectsComponent /> */}
+        <CreativeCollaboratorsComponent />
       </div>
-      <div style={{ height: '1000px' }}></div>
+      {/* <div id="contactSection" className={classes.contactSection}>
+        <ContactComponent />
+      </div> */}
+      <div style={{ height: '100px' }}></div>
     </div>
   );
 };

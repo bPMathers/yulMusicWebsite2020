@@ -43,7 +43,7 @@ export const projectsData = [
     subtitle:
       "YUL MUSIC in Courchevel - A custom made Cirque du Soleil show, also starring Christina Aguilera and Monégasque superchef Alain Ducasse for Victor Pinchuk's 50th Birthday party",
     year: '2020',
-    bgImg: courchevelProjImg,
+    bgImg: fifaProjImg,
   },
   {
     id: 104,
@@ -57,14 +57,14 @@ export const projectsData = [
     title: 'Project Title',
     subtitle: 'Subtitle',
     year: '2020',
-    bgImg: fifaProjImg,
+    bgImg: astanaProjImg,
   },
   {
     id: 106,
     title: 'Project Title',
     subtitle: 'Subtitle',
     year: '2020',
-    bgImg: astanaProjImg,
+    bgImg: courchevelProjImg,
   },
   {
     id: 107,

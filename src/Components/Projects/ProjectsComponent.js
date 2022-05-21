@@ -1,25 +1,14 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Typography } from '@material-ui/core';
-import ProjectComponent from './ProjectComponent';
 import { projectsData } from './ProjectsData';
 import ProjectDetailComponent from './ProjectDetailComponent';
 import ProjectComponent2 from './ProjectComponent2';
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    // width: '100vw',
-    // minWidth: '1200px',
-    // minHeight: '90vh',
     display: 'flex',
     flexDirection: 'column',
     color: theme.palette.secondary.main,
-  },
-  sectionTitle: {
-    textAlign: 'center',
-    padding: '20px 0',
-    marginBottom: '25px',
-    color: theme.palette.accent.main,
   },
   projectsListContainer: {
     display: 'flex',
@@ -30,9 +19,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     display: 'flex',
     flexWrap: 'wrap',
-    // alignItems: 'center',
     justifyContent: 'center',
-    // position: 'relative',
   },
 }));
 
@@ -83,7 +70,7 @@ const ProjectsComponent = () => {
       <div className={classes.container} open={detailOpen}>
         <div className={classes.projectsListContainer}>
           <div className={classes.projectsList}>
-            {projectsData.map((project, index) => {
+            {projectsData.map((project) => {
               return (
                 <div onClick={handleProjectClick(project.id)} key={project.id}>
                   <ProjectComponent2 project={project} />
