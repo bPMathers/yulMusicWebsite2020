@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yulMusicWebsite2020/static/css/main.a617e044.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.d5f18291.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.d5f18291.chunk.js.map",
+    "main.js": "/yulMusicWebsite2020/static/js/main.64c7ac0e.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.64c7ac0e.chunk.js.map",
     "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.d17200f3.js",
     "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.d17200f3.js.map",
     "static/js/2.897c216f.chunk.js": "/yulMusicWebsite2020/static/js/2.897c216f.chunk.js",
@@ -78,6 +78,6 @@
     "static/js/runtime-main.d17200f3.js",
     "static/js/2.897c216f.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.d5f18291.chunk.js"
+    "static/js/main.64c7ac0e.chunk.js"
   ]
 }
