@@ -1,14 +1,13 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
 import { Typography } from '@material-ui/core';
 import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
-import ArrowRight from '@material-ui/icons/ArrowRight';
-import ArrowLeft from '@material-ui/icons/ArrowLeft';
+// import ArrowRight from '@material-ui/icons/ArrowRight';
+// import ArrowLeft from '@material-ui/icons/ArrowLeft';
 import Slide from '@material-ui/core/Slide';
 import { DialogContent } from '@material-ui/core';
 import { List } from 'react-virtualized';
@@ -64,7 +63,6 @@ const useStyles = makeStyles((theme) => ({
     },
     // TODO: maybe need to pass with style prop to prevent flick
     listItem: {
-        // marginBottom: '25px',
         fontFamily: 'Roboto',
         fontSize: '1rem',
         fontWeight: 400,
@@ -79,8 +77,6 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-
-        // marginBottom: '20px',
     },
     listItemSelected: {
         borderBottom: `1px solid ${theme.palette.common.gold}`,
@@ -98,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 700,
         textShadow: '#6e5e08 1px 0 10px',
     },
-    selectedserviceItemTitle: {
+    selectedServiceItemTitle: {
         color: theme.palette.common.gold,
         animation: `$slide 1000ms `,
     },
@@ -183,7 +179,7 @@ export default function ProjectDetailComponent(props) {
     const {
         open,
         onClose,
-        onNavigate,
+        // onNavigate,
         projectsData,
         onSelectItemFromList,
         project,
@@ -202,9 +198,9 @@ export default function ProjectDetailComponent(props) {
         onClose();
     };
 
-    const handleNavigate = (direction) => () => {
-        onNavigate(direction);
-    };
+    // const handleNavigate = (direction) => () => {
+    //     onNavigate(direction);
+    // };
 
     const renderRow = ({ index, style, key }) => {
         return (
@@ -230,7 +226,7 @@ export default function ProjectDetailComponent(props) {
                     className={clsx(
                         classes.listItem,
                         projectsData[index].id === project.id
-                            ? classes.selectedserviceItemTitle
+                            ? classes.selectedServiceItemTitle
                             : ''
                     )}
                 >
@@ -306,7 +302,7 @@ export default function ProjectDetailComponent(props) {
                                 height={600}
                                 rowCount={projectsData.length}
                                 rowRenderer={renderRow}
-                                width={500}
+                                width={300}
                                 rowHeight={getRowHeight}
                             ></List>
                         </div>
