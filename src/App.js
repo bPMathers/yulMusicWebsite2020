@@ -9,36 +9,36 @@ import MenuComponent from './Components/Menu/MenuComponent';
 import theme from './ui/Theme';
 
 export default function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <Router>
-        <div
-          style={{
-            // height: '100vh',
-            // width: '100vw',
-            // position: 'relative',
-            backgroundColor: theme.palette.primary.main,
-          }}
-        >
-          <MenuComponent />
-          {/* A <Switch> looks through its children <Route>s and
+    return (
+        <ThemeProvider theme={theme}>
+            <Router>
+                <div
+                    style={{
+                        // height: '100vh',
+                        // width: '100vw',
+                        // position: 'relative',
+                        backgroundColor: theme.palette.primary.main,
+                    }}
+                >
+                    <MenuComponent />
+                    {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path='/contact'>
-              <ContactPageComponent />
-            </Route>
-            <Route path='/services'>
-              <ServicesPageComponent />
-            </Route>
-            <Route path='/projects'>
-              <ProjectsPageComponent />
-            </Route>
-            <Route path='/'>
-              <HomePageComponent />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-    </ThemeProvider>
-  );
+                    <Switch>
+                        <Route path="/contact">
+                            <ContactPageComponent />
+                        </Route>
+                        <Route path="/services">
+                            <ServicesPageComponent />
+                        </Route>
+                        <Route path="/projects">
+                            <ProjectsPageComponent />
+                        </Route>
+                        <Route path="/">
+                            <HomePageComponent />
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
+        </ThemeProvider>
+    );
 }

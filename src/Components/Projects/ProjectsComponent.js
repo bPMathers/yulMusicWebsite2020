@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { projectsData } from './ProjectsData';
+// import { projectsData } from './ProjectsData';
 import ProjectDetailComponent from './ProjectDetailComponent';
 import ProjectComponent2 from './ProjectComponent2';
 
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const ProjectsComponent = () => {
+const ProjectsComponent = ({ projectsData }) => {
     const classes = useStyles();
 
     const [detailOpen, setDetailOpen] = useState(false);
@@ -61,6 +61,10 @@ const ProjectsComponent = () => {
         }
     };
 
+    const handleSelectItemFromList = (index) => {
+        setSelectedProject(projectsData[index]);
+    };
+
     return (
         <>
             <ProjectDetailComponent
@@ -68,6 +72,8 @@ const ProjectsComponent = () => {
                 open={detailOpen}
                 project={selectedProject}
                 onNavigate={handleNavigate}
+                onSelectItemFromList={handleSelectItemFromList}
+                projectsData={projectsData}
             />
             <div className={classes.container} open={detailOpen}>
                 <div className={classes.projectsListContainer}>

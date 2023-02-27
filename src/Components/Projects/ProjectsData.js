@@ -12,9 +12,10 @@ export const projectsData = [
     {
         id: 500,
         title: 'Time Entertainment',
+
         year: 2022,
         location: 'Saudi Arabia',
-        subtitle: '2022 Diriyah Season Opening Ceremony',
+        subtitle: 'Diriyah Season Opening Ceremony',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: ydlmProjImg,
@@ -26,7 +27,6 @@ export const projectsData = [
         title: 'C2 Agency',
         year: 2022,
         location: 'Montréal, Québec, Canada',
-        // subtitle: '2022 Diriyah Season Opening Ceremony',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: nbaProjImg,
@@ -38,7 +38,7 @@ export const projectsData = [
         title: 'Ernst & Young',
         year: 2022,
         location: 'Chicago, United States',
-        subtitle: 'Ernst & Young 2022 Chicago Special Event',
+        subtitle: 'Ernst & Young - Chicago Special Event',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
@@ -48,7 +48,8 @@ export const projectsData = [
     },
     {
         id: 497,
-        title: 'Mastercard-Cirque du Soleil Anthem ',
+        title: 'Mastercard - Cirque du Soleil Anthem',
+        altTitle: 'Mastercard - CDS Anthem',
         year: 2022,
         location: 'North America Campaign',
         subtitle:
@@ -63,6 +64,7 @@ export const projectsData = [
     {
         id: 496,
         title: 'Grand bal des vins-cœurs and Cirque du Soleil',
+        altTitle: 'Grand bal des vins-cœurs (2021)',
         year: 2021,
         location: 'Montreal, Canada',
         subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
@@ -87,7 +89,7 @@ export const projectsData = [
         title: 'Sunlife',
         year: 2021,
         location: 'United States',
-        subtitle: '2021 Sunlife Promotion Video',
+        subtitle: 'Sunlife Promotion Video',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: astanaProjImg,
@@ -95,9 +97,9 @@ export const projectsData = [
     {
         id: 493,
         title: 'T-Mobile',
-        year: 2021,
+        year: 2020,
         location: 'United States',
-        subtitle: '2020 T-Mobile Holiday Video',
+        subtitle: 'T-Mobile Holiday Video',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
@@ -141,7 +143,7 @@ export const projectsData = [
         title: 'Mastercard / Smart Summit',
         year: 2019,
         location: 'Seattle, United States',
-        subtitle: '2019 Seattle Mastercard Smart Summit',
+        subtitle: 'Seattle Mastercard Smart Summit',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
@@ -150,6 +152,7 @@ export const projectsData = [
     {
         id: 488,
         title: 'Grand bal des vins-cœurs and Cirque du Soleil',
+        altTitle: 'Grand bal des vins-cœurs (2019)',
         year: 2019,
         location: 'Montreal, Canada',
         subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
@@ -159,7 +162,8 @@ export const projectsData = [
     },
     {
         id: 487,
-        title: 'Monte-Carlo SBM / Société des Bains de Mer Monte-Carlo Sporting Summer Festival ',
+        title: 'Monte-Carlo SBM / Monte-Carlo Sporting Summer Festival',
+        altTitle: 'Monte-Carlo SBM (2019)',
         year: 2019,
         location: 'Monaco',
         subtitle:
@@ -183,6 +187,7 @@ export const projectsData = [
     {
         id: 485,
         title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2019)',
         year: 2019,
         location: 'Switzerland',
         subtitle: 'Artistic performance for the BMO vip clients',
@@ -204,6 +209,7 @@ export const projectsData = [
     {
         id: 483,
         title: 'Skoda Auto',
+        altTitle: 'Skoda Auto (2019)',
         year: 2019,
         location: 'Spain',
         subtitle: 'Cirque du Soleil’s Special Event',
@@ -226,7 +232,8 @@ export const projectsData = [
     },
     {
         id: 481,
-        title: 'Monte-Carlo SBM / Société des Bains de Mer Monte-Carlo Sporting Summer Festival',
+        title: 'Monte-Carlo SBM / Monte-Carlo Sporting Summer Festival',
+        altTitle: 'Monte-Carlo SBM (2018)',
         year: 2018,
         location: 'Monaco',
         subtitle:
@@ -239,6 +246,7 @@ export const projectsData = [
     {
         id: 480,
         title: 'G7 Summit and Cirque du Soleil Entertainment Group',
+        altTitle: 'G& & CDS Entertainment Group',
         year: 2018,
         location: 'Quebec, Canada',
         subtitle:
@@ -251,6 +259,7 @@ export const projectsData = [
     {
         id: 479,
         title: 'SAP Convention',
+        altTitle: 'SAP Convention (2018)',
         year: 2018,
         location: 'Orlando, United States',
         subtitle: 'The SAP convention in Orlando',
@@ -261,6 +270,7 @@ export const projectsData = [
     {
         id: 478,
         title: 'Cirque du Soleil Entertainment Group Partners Summit',
+        altTitle: 'CDS Entertainment Group',
         year: 2018,
         location: 'Quebec, Canada',
         subtitle: undefined,
@@ -295,6 +305,7 @@ export const projectsData = [
     {
         id: 475,
         title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2017)',
         year: 2017,
         location: 'Switzerland',
         subtitle: 'Artistic performance for the BMO vip clients',
@@ -339,6 +350,7 @@ export const projectsData = [
     {
         id: 471,
         title: 'Songcheng Theme Park and Moment Factory',
+        altTitle: 'Songcheng and Moment Factory',
         year: 2017,
         location: 'Hangzhou, China',
         subtitle:
@@ -351,6 +363,7 @@ export const projectsData = [
     {
         id: 470,
         title: 'Skoda Auto',
+        altTitle: 'Skoda Auto (2017)',
         year: 2017,
         location: 'Spain',
         subtitle:
@@ -374,6 +387,7 @@ export const projectsData = [
     {
         id: 468,
         title: 'Mario Cyr / Les yeux de la mer (Productions J)',
+        altTitle: 'Mario Cyr / Les yeux de la mer',
         year: 2017,
         location: 'Canada and France',
         subtitle:
@@ -440,6 +454,7 @@ export const projectsData = [
     {
         id: 462,
         title: 'Cirque du Soleil, James Cameron and Andrew Adamson',
+        altTitle: 'CDS, J. Cameron and A. Adamson',
         year: 2015,
         location: 'Worldwide',
         subtitle: 'Worlds Away 3d Movie Trailer',
@@ -449,7 +464,8 @@ export const projectsData = [
     },
     {
         id: 461,
-        title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
+        title: 'Grand bal des vins-cœurs and Cirque du Soleil',
+        altTitle: 'Grand bal des vins-cœurs (2015)',
         year: 2015,
         location: 'Montreal, Canada',
         subtitle: undefined,
@@ -483,6 +499,7 @@ export const projectsData = [
     {
         id: 458,
         title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
         year: 2016,
         location: 'Switzerland',
         subtitle:
@@ -494,7 +511,7 @@ export const projectsData = [
     },
     // {
     //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
+    //     title: 'Grand bal des vins-cœurs and Cirque du Soleil',
     //     year: 2015,
     //     location: 'Montreal, Canada',
     //     subtitle: undefined,
@@ -505,7 +522,7 @@ export const projectsData = [
     // },
     // {
     //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
+    //     title: 'Grand bal des vins-cœurs and Cirque du Soleil',
     //     year: 2015,
     //     location: 'Montreal, Canada',
     //     subtitle: undefined,
@@ -516,7 +533,7 @@ export const projectsData = [
     // },
     // {
     //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
+    //     title: 'Grand bal des vins-cœurs and Cirque du Soleil',
     //     year: 2015,
     //     location: 'Montreal, Canada',
     //     subtitle: undefined,

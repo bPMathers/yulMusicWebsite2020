@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
     },
     separator: {
-        backgroundColor: theme.palette.common.red,
+        backgroundColor: theme.palette.common.gold,
         height: '3px',
         width: '30px',
         marginTop: '3px',

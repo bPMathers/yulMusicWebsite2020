@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 100,
     },
     separator: {
-        backgroundColor: theme.palette.common.red,
+        backgroundColor: theme.palette.common.gold,
         height: '3px',
         width: '30px',
         margin: '30px 0',

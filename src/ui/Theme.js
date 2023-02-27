@@ -2,6 +2,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 // const yulRed = '#FF0000'; // TODO: rename to gold
 const yulRed = '#756300';
+const yulGold = '#756300';
 // const yulBlack = '#1c1c1c';
 const yulBlack = '#0d0d0d';
 const yulWhite = '#ededed';
@@ -13,6 +14,7 @@ export default createMuiTheme({
     palette: {
         common: {
             red: yulRed,
+            gold: yulGold,
         },
         primary: {
             main: yulBlack,

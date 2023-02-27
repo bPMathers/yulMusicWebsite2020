@@ -7,6 +7,7 @@ import NathanComponent from '../../Components/Nathan/NathanComponent';
 import CreativeCollaboratorsComponent from '../../Components/CC/CreativeCollaboratorsComponent';
 import NathanComponent2 from '../../Components/Contact/ContactComponent';
 import ContactComponent from '../../Components/Contact/ContactComponent';
+import { projectsData } from '../../Components/Projects/ProjectsData';
 
 const useStyles = makeStyles((theme) => ({
     titleContainer: {
@@ -25,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         marginLeft: '15px',
         // marginBottom: '15px',
-        color: theme.palette.common.red,
+        color: theme.palette.common.gold,
     },
     subtitleContainer: {
         width: '100%',
@@ -96,7 +97,7 @@ const HomePageComponent = () => {
                 <TeamComponent />
             </div>
             <div id="projectsSection" className={classes.projectsSection}>
-                <ProjectsComponent />
+                <ProjectsComponent projectsData={projectsData} />
             </div>
             <div
                 id="creativeCollaboratorsSection"
