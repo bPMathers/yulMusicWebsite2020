@@ -96,6 +96,7 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.common.gold,
         filter: 'brightness(150%)',
         fontWeight: 700,
+        textShadow: '#6e5e08 1px 0 10px',
     },
     selectedserviceItemTitle: {
         color: theme.palette.common.gold,
@@ -137,7 +138,7 @@ const useStyles = makeStyles((theme) => ({
         padding: '0px 2em',
         fontSize: '1.2em',
         textAlign: 'center',
-        width: '80%',
+        width: '70%',
         marginBottom: '10px',
         fontWeight: 400,
     },
@@ -170,6 +171,7 @@ const useStyles = makeStyles((theme) => ({
     detailMediaItem: {
         width: '100%',
         marginBottom: '10px',
+        borderRadius: '5px',
     },
 }));
 

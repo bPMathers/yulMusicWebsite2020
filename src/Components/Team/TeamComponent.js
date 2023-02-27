@@ -72,11 +72,11 @@ const TeamComponent = () => {
                                 teamMember={teamMemberData[3]}
                             />
                         </div>
-                        <div onClick={handleTeamMemberClick(3)}>
+                        {/* <div onClick={handleTeamMemberClick(3)}>
                             <TeamMemberComponent
                                 teamMember={teamMemberData[3]}
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

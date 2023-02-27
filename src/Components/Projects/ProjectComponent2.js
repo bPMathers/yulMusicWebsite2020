@@ -101,7 +101,7 @@ const ProjectComponent2 = (props) => {
                                 className={classes.title}
                                 variant={'h2'}
                             >
-                                {project.title}
+                                {project.altTitle ?? project.title}
                             </Typography>
                             <div className={classes.separator}></div>
                             <Typography
