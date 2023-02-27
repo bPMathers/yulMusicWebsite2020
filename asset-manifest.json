@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/yulMusicWebsite2020/static/css/main.a617e044.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.64c7ac0e.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.64c7ac0e.chunk.js.map",
-    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.d17200f3.js",
-    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.d17200f3.js.map",
-    "static/js/2.897c216f.chunk.js": "/yulMusicWebsite2020/static/js/2.897c216f.chunk.js",
-    "static/js/2.897c216f.chunk.js.map": "/yulMusicWebsite2020/static/js/2.897c216f.chunk.js.map",
-    "static/js/3.1a2215b2.chunk.js": "/yulMusicWebsite2020/static/js/3.1a2215b2.chunk.js",
-    "static/js/3.1a2215b2.chunk.js.map": "/yulMusicWebsite2020/static/js/3.1a2215b2.chunk.js.map",
+    "main.js": "/yulMusicWebsite2020/static/js/main.318b38ba.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.318b38ba.chunk.js.map",
+    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.a6bdff0a.js",
+    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.a6bdff0a.js.map",
+    "static/js/2.b8a7451d.chunk.js": "/yulMusicWebsite2020/static/js/2.b8a7451d.chunk.js",
+    "static/js/2.b8a7451d.chunk.js.map": "/yulMusicWebsite2020/static/js/2.b8a7451d.chunk.js.map",
+    "static/js/3.7552c86a.chunk.js": "/yulMusicWebsite2020/static/js/3.7552c86a.chunk.js",
+    "static/js/3.7552c86a.chunk.js.map": "/yulMusicWebsite2020/static/js/3.7552c86a.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
     "static/css/main.a617e044.chunk.css.map": "/yulMusicWebsite2020/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.897c216f.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.897c216f.chunk.js.LICENSE.txt",
+    "static/js/2.b8a7451d.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.b8a7451d.chunk.js.LICENSE.txt",
     "static/media/Alibaba - Logo2.4132cb5e.png": "/yulMusicWebsite2020/static/media/Alibaba - Logo2.4132cb5e.png",
     "static/media/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.2c6d2692.jpg": "/yulMusicWebsite2020/static/media/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.2c6d2692.jpg",
     "static/media/Beijing Parkview - Logo.825ba8fb.png": "/yulMusicWebsite2020/static/media/Beijing Parkview - Logo.825ba8fb.png",
@@ -75,9 +75,9 @@
     "static/media/viz_05.2141d424.mp4": "/yulMusicWebsite2020/static/media/viz_05.2141d424.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.d17200f3.js",
-    "static/js/2.897c216f.chunk.js",
+    "static/js/runtime-main.a6bdff0a.js",
+    "static/js/2.b8a7451d.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.64c7ac0e.chunk.js"
+    "static/js/main.318b38ba.chunk.js"
   ]
 }
