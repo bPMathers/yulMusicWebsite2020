@@ -509,433 +509,479 @@ export const projectsData = [
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: ydlmProjImg,
     },
-    // {
-    //     id: 461,
-    //     title: 'Grand bal des vins-cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand bal des vins-cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand bal des vins-cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
-    // {
-    //     id: 461,
-    //     title: 'Grand Bal des Vins-Cœurs and Cirque du Soleil',
-    //     year: 2015,
-    //     location: 'Montreal, Canada',
-    //     subtitle: undefined,
-    //     detailedSubtitle: undefined,
-    //     categoriesText:
-    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
-    //     bgImg: ydlmProjImg,
-    // },
+    {
+        id: 457,
+        title: 'Mary Poppins Musical / Just For Laughs Festival I Festival Juste pour rire',
+        altTitle: 'Mary Poppins Musical',
+        year: 2016,
+        location: 'Montreal, Canada',
+        subtitle: undefined,
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Additional Music Producing - Additional Music Arrangement - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 456,
+        title: 'Bulgari',
+        year: 2016,
+        location: 'Tokyo, Japan',
+        subtitle:
+            'Launch of a new collection for the 50 most prestigious Bulgari clients',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 455,
+        title: 'Productions Déferlantes',
+        year: 2016,
+        location: 'Montreal, Canada',
+        subtitle: 'Productions Déferlantes Audio Branding',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 454,
+        title: 'Fosun',
+        year: 2015,
+        location: 'China',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 453,
+        title: 'Sid Lee',
+        year: 2015,
+        location: 'Montreal, Canada',
+        subtitle: 'Sid Lee Entertainment REEL ',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 452,
+        title: 'Bombardier Aerospace - Global 7000',
+        year: 2015,
+        location: 'Geneva, Switzerland',
+        subtitle:
+            'Bombardier unveils the Global 7000 mock-up at EBACE - The largest in business aviation',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 451,
+        title: 'Biion Footwear',
+        year: 2015,
+        location: 'Toronto, Canada',
+        subtitle: 'Biion Footwear Web Campaign',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 450,
+        title: 'Canadian Olympic Committee',
+        year: 2015,
+        location: 'Montreal, Canada',
+        subtitle: 'Canadian Olympic Excellence Day 2015',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 449,
+        title: 'Sales Force',
+        year: 2015,
+        location: 'Toronto, Canada',
+        subtitle: 'The Toronto Sales Force promotion event',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 448,
+        title: 'MSC Cruises',
+        year: 2015,
+        location: 'Geneva, Switzerland',
+        subtitle: 'Geneva MSC Cruises Conference',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 447,
+        title: 'SAP Convention',
+        altTitle: 'SAP Convention (2015)',
+        year: 2015,
+        location: 'Las Vegas, United States',
+        subtitle: 'The SAP convention In Las Vegas',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 446,
+        title: 'Monte-Carlo SBM (Société des Bains de Mer) ',
+        altTitle: 'Monte-Carlo SBM (2015)',
+        year: 2015,
+        location: 'Monaco',
+        subtitle: 'Monaco World Entrepreneur of the Year',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 445,
+        title: 'Microsoft-One Drop Foundation',
+        year: 2014,
+        location: 'Montreal, Canada',
+        subtitle:
+            'Microsoft and One Drop are teaming up to promote food security',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    //
+    //
+    //
+    // Must finish below!
+    //
+    //
+    //
+    {
+        id: 444,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 443,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 442,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 441,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 440,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 439,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 438,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 437,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 436,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 435,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 434,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 433,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 432,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 431,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 430,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 429,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 428,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 427,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 426,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 425,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 424,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 423,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 422,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 421,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
+    {
+        id: 420,
+        title: 'World Economic Forum',
+        altTitle: 'World Economic Forum (2016)',
+        year: 2016,
+        location: 'Switzerland',
+        subtitle:
+            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Producing - Music Arrangement - Sound Design - Mixing',
+        bgImg: ydlmProjImg,
+    },
 ];

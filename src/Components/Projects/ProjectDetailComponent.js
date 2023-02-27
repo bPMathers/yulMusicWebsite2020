@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         padding: '20px',
         width: '100%',
+        animation: `$fade 1500ms ease-out`, // Need assigned key on component to work
     },
     appBar: {
         position: 'relative',
@@ -308,7 +309,10 @@ export default function ProjectDetailComponent(props) {
                         </div>
 
                         {projectDetail && (
-                            <div className={classes.projectDetailContent}>
+                            <div
+                                className={classes.projectDetailContent}
+                                key={Math.random().toString()}
+                            >
                                 <Typography
                                     className={classes.title}
                                     variant={'h2'}
