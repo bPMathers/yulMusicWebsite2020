@@ -78,16 +78,22 @@ const ProjectsComponent = ({ projectsData }) => {
             <div className={classes.container} open={detailOpen}>
                 <div className={classes.projectsListContainer}>
                     <div className={classes.projectsList}>
-                        {projectsData.slice(0, 9).map((project) => {
-                            return (
-                                <div
-                                    onClick={handleProjectClick(project.id)}
-                                    key={project.id}
-                                >
-                                    <ProjectComponent2 project={project} />
-                                </div>
-                            );
-                        })}
+                        {projectsData
+                            .filter((pr) => {
+                                return [
+                                    500, 498, 497, 495, 493, 471, 468, 459, 430,
+                                ].includes(pr.id);
+                            })
+                            .map((project) => {
+                                return (
+                                    <div
+                                        onClick={handleProjectClick(project.id)}
+                                        key={project.id}
+                                    >
+                                        <ProjectComponent2 project={project} />
+                                    </div>
+                                );
+                            })}
                     </div>
                 </div>
             </div>

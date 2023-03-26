@@ -40,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
 
         backgroundColor: theme.palette.primary.main,
         background: (props) => `url(${props?.project?.bgImg})`,
+
         backgroundSize: (props) => 'cover',
     },
     separator: {

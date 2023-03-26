@@ -341,11 +341,13 @@ export default function ProjectDetailComponent(props) {
                                     {projectDetail.categoriesText}
                                 </Typography>
                                 <div className={classes.detailMediaContainer}>
-                                    <img
-                                        src={projectDetail.bgImg}
-                                        className={classes.detailMediaItem}
-                                        alt="Project"
-                                    />
+                                    {projectDetail.bgImg && (
+                                        <img
+                                            src={projectDetail.bgImg}
+                                            className={classes.detailMediaItem}
+                                            alt="Project"
+                                        />
+                                    )}
                                     {projectDetail.extraMedia &&
                                         projectDetail.extraMedia.map(
                                             (media, index) => {
@@ -366,20 +368,26 @@ export default function ProjectDetailComponent(props) {
                                                     return (
                                                         <>
                                                             <iframe
-                                                                title={index}
-                                                                key={index}
-                                                                src="https://player.vimeo.com/video/157210250"
-                                                                width="723"
-                                                                height="407"
-                                                                frameBorder="0"
-                                                                webkitallowfullscreen={
-                                                                    'true'
+                                                                className={
+                                                                    classes.detailMediaItem
                                                                 }
-                                                                mozallowfullscreen={
-                                                                    'true'
+                                                                src={
+                                                                    media.data
+                                                                        .src
                                                                 }
-                                                                allowFullScreen={
-                                                                    true
+                                                                width={
+                                                                    media.data
+                                                                        .width
+                                                                }
+                                                                height={
+                                                                    media.data
+                                                                        .height
+                                                                }
+                                                                frameborder="0"
+                                                                allow="autoplay; fullscreen; picture-in-picture"
+                                                                allowfullscreen
+                                                                title={
+                                                                    projectDetail.title
                                                                 }
                                                             ></iframe>
                                                         </>

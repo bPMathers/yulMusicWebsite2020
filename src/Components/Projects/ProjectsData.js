@@ -1,12 +1,63 @@
+import deloitteProjImg from '../../assets/Logos/Test/Deloitte - Logo.png';
+import rexelProjImg from '../../assets/Logos/Test/Rexel - Logo.png';
+import tpgProjImg from '../../assets/Logos/Test/tpg-logo4.png';
+import ivanhoeProjImg from '../../assets/Projects/Ivanoe Cambridge - Log.jpeg';
+import skoda4ProjImg from '../../assets/Projects/Skoda4.png';
+import cdsProjImg from '../../assets/Logos/Test/CDS New Logo4.png';
+import clubMedProjImg from '../../assets/Logos/Test/Club Med - Logo.png';
+import hiltonProjImg from '../../assets/Logos/Test/Hilton Hotels and Resorts - Logo2.png';
+import sbm3ProjImg from '../../assets/Logos/Test/SBM3.png';
+import oneDropProjImg from '../../assets/Logos/Test/One Drop - New Logo.png';
+import wefProjImg from '../../assets/Logos/Test/World Economic Forum - Logo2.png';
+import sunLifeProjImg from '../../assets/Logos/Test/Sunlife Logo.png';
+import cnProjImg from '../../assets/Logos/Test/Canadian National Railway - Logo.png';
+import c2ProjImg from '../../assets/Logos/Test/C2 - Logo.png';
 import dubaiProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Dubai-Mall.jpg';
 import nbaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/NBA-Logo_Thumb.jpg';
 import ydlmProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Sardine-Run-02.jpg';
 import ydlm2ProjImg from '../../assets/Projects/Sardine-Run-01.jpg';
-import courchevelProjImg from '../../assets/Projects/_Processed to 1.53 ratio/courchevel-night-1-721x471.jpg';
+import boccaProjImg from '../../assets/Projects/Bôcca - Poster.jpg';
+import nicolasProjImg from '../../assets/Projects/Champagne Nicolas Feuillate - Campagne monde equilibriste.jpg';
 import fifaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/FIFA-trophy-thumb-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import astanaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.jpg';
 import laxProjImg from '../../assets/Projects/_Processed to 1.53 ratio/LAX-2.jpg';
 import mjProjImg from '../../assets/Projects/Michael-Jackson-The-Immortal-World-Tour-by-Cirque-du-Soleil_YUL-MUSIC-Christian-Lagueux-Benjamin-Proulx-Mathers-Sébastien-Laurendeau.jpg';
+import mtlChProjImg from '../../assets/Projects/logos/Montreal Canadiens - Logo.png';
+import csaProjImg from '../../assets/Projects/CSA-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import bakuProjImg from '../../assets/Projects/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import q50ProjImg from '../../assets/Projects/AutoShow2013_InfinitiQ50.jpg';
+import sapProjImg from '../../assets/Projects/SAP-721x471.jpg';
+import timProjImg from '../../assets/Projects/20131203-Tims-Exterior.jpg';
+import biionProjImg from '../../assets/Projects/Biion-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import bomb3ProjImg from '../../assets/Projects/bomb-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import bomb6ProjImg from '../../assets/Projects/bomb-6-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import bomb7ProjImg from '../../assets/Projects/bomb-7-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import bulgariProjImg from '../../assets/Projects/Bulgari_B.zero1-Roma-Ring3v3_YUL-MUSIC.jpg';
+import cocProjImg from '../../assets/Projects/COC-MTL-2.jpg';
+import coc3rojImg from '../../assets/Projects/Olympic-Rings-Montreal-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import courchevelProjImg from '../../assets/Projects/_Processed to 1.53 ratio/courchevel-night-1-721x471.jpg';
+import courch5ProjImg from '../../assets/Projects/Courchevel-5-1024x640.jpg';
+import glade2ProjImg from '../../assets/Projects/glade-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import glade3ProjImg from '../../assets/Projects/glade-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import glade4ProjImg from '../../assets/Projects/glade-4-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import mfProjImg from '../../assets/Projects/Logo-MF-noir-et-jaune.jpg';
+import magnum2ProjImg from '../../assets/Projects/Magnum-Logo-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import poppinsProjImg from '../../assets/Projects/Mary-poppins-High-Res2-1.jpg';
+import nucleusProjImg from '../../assets/Projects/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import sidLeeProjImg from '../../assets/Projects/SID-LEE3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import eyProjImg from '../../assets/Projects/EY-MainRoom.jpg';
+import diriyah1ProjImg from '../../assets/Projects/Diriyah1.jpg';
+import diriyah2ProjImg from '../../assets/Projects/Diriyah2.jpg';
+import masterCardProjImg from '../../assets/Projects/Mastercard_new_logo-1200x865.jpg';
+import iona1ProjImg from '../../assets/Projects/Iona1.jpg';
+import iona2ProjImg from '../../assets/Projects/Iona2.jpg';
+import iona3ProjImg from '../../assets/Projects/Iona3.jpg';
+import tMobileProjImg from '../../assets/Projects/TMobileArena.jpg';
+import googleProjImg from '../../assets/Projects/google-logo-feature-1030x686-768x512.jpg';
+
+// TODO: lighthouse
+// TODO: lazyload some stuff ? make sure site does not try to get all images before they are needed
+// TODO: embed vimeo
 
 export const projectsData = [
     {
@@ -18,9 +69,9 @@ export const projectsData = [
         subtitle: 'Diriyah Season Opening Ceremony',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: diriyah2ProjImg,
         // possible types: img, video, others?
-        // extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
+        extraMedia: [{ type: 'img', data: diriyah1ProjImg }],
     },
     {
         id: 499,
@@ -29,9 +80,7 @@ export const projectsData = [
         location: 'Montréal, Québec, Canada',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
-        bgImg: nbaProjImg,
-        // possible types: img, video, others?
-        // extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
+        bgImg: c2ProjImg,
     },
     {
         id: 498,
@@ -42,9 +91,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: dubaiProjImg,
-        // possible types: img, video, others?
-        // extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
+        bgImg: eyProjImg,
     },
     {
         id: 497,
@@ -57,9 +104,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlm2ProjImg,
-        // possible types: img, video, others?
-        // extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
+        bgImg: masterCardProjImg,
     },
     {
         id: 496,
@@ -71,7 +116,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: mjProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 495,
@@ -82,7 +127,11 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: laxProjImg,
+        bgImg: iona1ProjImg,
+        extraMedia: [
+            { type: 'img', data: iona2ProjImg },
+            { type: 'img', data: iona3ProjImg },
+        ],
     },
     {
         id: 494,
@@ -92,7 +141,7 @@ export const projectsData = [
         subtitle: 'Sunlife Promotion Video',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: astanaProjImg,
+        bgImg: sunLifeProjImg,
     },
     {
         id: 493,
@@ -103,17 +152,18 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: fifaProjImg,
+        bgImg: tMobileProjImg,
     },
     {
         id: 492,
         title: 'SAP Convention',
+        altTitle: 'SAP Convention (2020)',
         year: 2020,
         location: 'Mexico City, Mexico',
         subtitle: 'The SAP convention in Mexico',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: courchevelProjImg,
+        bgImg: sapProjImg,
     },
     {
         id: 491,
@@ -125,7 +175,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: nicolasProjImg,
     },
     {
         id: 490,
@@ -136,7 +186,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: wefProjImg,
     },
     {
         id: 489,
@@ -147,7 +197,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: masterCardProjImg,
     },
     {
         id: 488,
@@ -158,7 +208,7 @@ export const projectsData = [
         subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 487,
@@ -171,7 +221,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
-        bgImg: ydlmProjImg,
+        bgImg: boccaProjImg,
     },
     {
         id: 486,
@@ -182,7 +232,7 @@ export const projectsData = [
             'To commemorate this very special milestone, CN have a number of events planned to honour is rich railroading history and future.',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cnProjImg,
     },
     {
         id: 485,
@@ -193,7 +243,7 @@ export const projectsData = [
         subtitle: 'Artistic performance for the BMO vip clients',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: wefProjImg,
     },
     {
         id: 484,
@@ -204,7 +254,7 @@ export const projectsData = [
             'Speech by the president of Cirque du Soleil, Daniel Lamarre, and a Cirque du Soleil performance',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: ivanhoeProjImg,
     },
     {
         id: 483,
@@ -216,7 +266,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: skoda4ProjImg,
     },
     {
         id: 482,
@@ -228,7 +278,7 @@ export const projectsData = [
         detailedSubtitle:
             "The gala is just one way that Alibaba brings drama to online shopping. It's a crucial shot of hectic energy as historic shopping bonanzas like Black Friday lag behind. The Viewers were able to experience the gala live via Youku, as well as across China on two major Chinese TV stations. (500 Millions Viewers)",
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 481,
@@ -241,7 +291,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
-        bgImg: ydlmProjImg,
+        bgImg: sbm3ProjImg,
     },
     {
         id: 480,
@@ -254,7 +304,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 479,
@@ -265,7 +315,7 @@ export const projectsData = [
         subtitle: 'The SAP convention in Orlando',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: sapProjImg,
     },
     {
         id: 478,
@@ -277,7 +327,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 477,
@@ -289,7 +339,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 476,
@@ -300,7 +350,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: masterCardProjImg,
     },
     {
         id: 475,
@@ -312,7 +362,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: wefProjImg,
     },
     {
         id: 474,
@@ -322,18 +372,19 @@ export const projectsData = [
         subtitle: 'Merry Montreal Audio Branding',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing ',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 473,
         title: 'SAP',
+        altTitle: 'SAP Convention (2017)',
         year: 2017,
         location: 'Mexico City, Mexico',
         subtitle: 'The SAP convention in Los Cabos',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: sapProjImg,
     },
     {
         id: 472,
@@ -345,7 +396,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: googleProjImg,
     },
     {
         id: 471,
@@ -358,7 +409,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Sound Design - 360-Degree Spatial Audio - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: mfProjImg,
     },
     {
         id: 470,
@@ -371,7 +422,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: skoda4ProjImg,
     },
     {
         id: 469,
@@ -382,7 +433,7 @@ export const projectsData = [
             'TPG Phoenix Convention. Texas Pacific Group is one of the largest private equity firms in the world. The company invests in a wide range of sectors, including media and telecommunications',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: tpgProjImg,
     },
     {
         id: 468,
@@ -391,10 +442,12 @@ export const projectsData = [
         year: 2017,
         location: 'Canada and France',
         subtitle:
+            'Mario Cyr is an internationally renowned expedition leader for Arctic and Antarctic missions, a cold-water diving expert and a world-class cinematographer.',
+        detailedSubtitle:
             'Mario Cyr is an internationally renowned expedition leader for Arctic and Antarctic missions, a cold-water diving expert and a world-class cinematographer. He has participated in more than 150 films for broadcasters such as National Geographic, Discovery Channel, the BBC, IMAX 3D, Disney Productions, the CBC and David Suzuki, la Société Cousteau, France 2, Arte and NHK Japan',
-        detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: ydlmProjImg,
+        extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
     },
     {
         id: 467,
@@ -406,7 +459,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: dubaiProjImg,
     },
     {
         id: 466,
@@ -417,7 +470,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 465,
@@ -428,7 +481,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 464,
@@ -438,7 +491,7 @@ export const projectsData = [
         subtitle: 'Jewish National Foundation Gala',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 463,
@@ -449,7 +502,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 462,
@@ -460,7 +513,7 @@ export const projectsData = [
         subtitle: 'Worlds Away 3d Movie Trailer',
         detailedSubtitle: undefined,
         categoriesText: 'Post-production',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 461,
@@ -472,7 +525,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 460,
@@ -482,7 +535,7 @@ export const projectsData = [
         subtitle: 'Rexel Summit',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: rexelProjImg,
     },
     {
         id: 459,
@@ -494,7 +547,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: nbaProjImg,
     },
     {
         id: 458,
@@ -507,7 +560,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: wefProjImg,
     },
     {
         id: 457,
@@ -519,7 +572,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Additional Music Producing - Additional Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: poppinsProjImg,
     },
     {
         id: 456,
@@ -530,7 +583,7 @@ export const projectsData = [
             'Launch of a new collection for the 50 most prestigious Bulgari clients',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: bulgariProjImg,
     },
     {
         id: 455,
@@ -541,16 +594,17 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 454,
         title: 'Fosun',
         year: 2015,
         location: 'China',
+        subtitle: 'Fosun SUmmit',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 453,
@@ -561,11 +615,22 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: sidLeeProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/128518658?h=caa4ee603b&title=0&byline=0',
+                    width: 640,
+                    height: 360,
+                },
+            },
+        ],
     },
     {
         id: 452,
         title: 'Bombardier Aerospace - Global 7000',
+        altTitle: 'Bombardier - Global 7000',
         year: 2015,
         location: 'Geneva, Switzerland',
         subtitle:
@@ -573,7 +638,11 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: bomb3ProjImg,
+        extraMedia: [
+            { type: 'img', data: bomb6ProjImg },
+            { type: 'img', data: bomb7ProjImg },
+        ],
     },
     {
         id: 451,
@@ -584,7 +653,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: biionProjImg,
     },
     {
         id: 450,
@@ -595,7 +664,8 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cocProjImg,
+        extraMedia: [{ type: 'img', data: coc3rojImg }],
     },
     {
         id: 449,
@@ -605,7 +675,7 @@ export const projectsData = [
         subtitle: 'The Toronto Sales Force promotion event',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 448,
@@ -615,7 +685,7 @@ export const projectsData = [
         subtitle: 'Geneva MSC Cruises Conference',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: ydlmProjImg,
+        // bgImg: ,
     },
     {
         id: 447,
@@ -627,7 +697,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: sapProjImg,
     },
     {
         id: 446,
@@ -639,7 +709,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: sbm3ProjImg,
     },
     {
         id: 445,
@@ -650,338 +720,300 @@ export const projectsData = [
             'Microsoft and One Drop are teaming up to promote food security',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: oneDropProjImg,
     },
-    //
-    //
-    //
-    // Must finish below!
-    //
-    //
-    //
     {
         id: 444,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        title: 'Loto-Québec',
+        year: 2014,
+        location: 'Montreal, Canada',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'Nucleus - Multimedia-installation at Festival Montreal en Lumière',
         detailedSubtitle: undefined,
         categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: nucleusProjImg,
     },
     {
         id: 443,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'One Drop Foundation',
+        year: 2014,
+        location: 'Worldwide Campaign',
+        subtitle: 'Transforming Water Into Action Campaign',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        bgImg: oneDropProjImg,
     },
     {
         id: 442,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'SC Johnson',
+        year: 2014,
+        location: 'New York City, United States',
+        subtitle: 'Glade - NYC Stunt and North America Television Campaign',
         detailedSubtitle: undefined,
         categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: glade2ProjImg,
+        extraMedia: [
+            { type: 'img', data: glade3ProjImg },
+            { type: 'img', data: glade4ProjImg },
+        ],
     },
     {
         id: 441,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Microsoft One Drop / The One Drop of Life app ',
+        altTitle: 'Microsoft One Drop App',
+        year: 2014,
+        location: 'Worldwide',
+        subtitle: 'Microsoft One Drop / The One Drop of Life app',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        bgImg: oneDropProjImg,
     },
     {
         id: 440,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        title: 'LAX Airport / Moment Factory',
+        year: 2014,
+        location: 'Los Angeles, United States',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'LAX Tom Bradley International Terminal. The Largest Immersive Multimedia Installation',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        bgImg: laxProjImg,
     },
     {
         id: 439,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        title: 'Tim Hortons 50th birthday ',
+        year: 2014,
+        location: 'Toronto, Canada',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'Cirque du Soleil artistic performance for the 50th birthday of Tim Hortons',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: timProjImg,
     },
     {
         id: 438,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'One Night for One Drop',
+        year: 2014,
+        location: 'Las Vegas, United States',
+        subtitle: 'One Night for One Drop 2014',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        bgImg: oneDropProjImg,
     },
     {
         id: 437,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Hilton Hotels & Resorts',
+        year: 2014,
+        location: 'Orlando, United States',
+        subtitle: 'Hilton Orlando',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: hiltonProjImg,
     },
     {
         id: 436,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Club Med',
+        year: 2014,
+        location: 'Punta Cana, Dominican Republic',
+        subtitle: 'Club Med Promotion',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Mixing ',
+        bgImg: clubMedProjImg,
     },
     {
         id: 435,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Monte-Carlo SBM (Société des Bains de Mer)',
+        altTitle: 'Monte-Carlo SBM (2014)',
+        year: 2014,
+        location: 'Monaco',
+        subtitle: 'Monaco World Entrepreneur of the Year',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: sbm3ProjImg,
     },
     {
         id: 434,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Magnum Pleasure Store',
+        year: 2013,
+        location: 'Toronto, Canada',
+        subtitle: 'Launch of the Toronto Magnum Pleasure Store',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: magnum2ProjImg,
     },
     {
         id: 433,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'SAP',
+        altTitle: 'SAP (2013)',
+        year: 2013,
+        location: 'Hawaiian Islands, United States',
+        subtitle: 'The SAP Convention in Big Island',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: sapProjImg,
     },
     {
         id: 432,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Infinity',
+        year: 2013,
+        location: 'Detroit, United States',
+        subtitle: 'Infinity for the Q50 Global Reveal',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: q50ProjImg,
     },
     {
         id: 431,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        title: 'Cirque du Soleil Experiences',
+        year: 2013,
+        location: 'Montreal, Canada',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'Paul Desmarais’s granddaughter marries a Belgian prince in Montreal ',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
         id: 430,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        title: 'FIFA U-17 World Cup',
+        year: 2012,
+        location: 'Baku, Azerbaijan',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'FIFA U-17 World Cup Opening Ceremony also starring Jennifer Lopez',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: fifaProjImg,
+        extraMedia: [{ type: 'img', data: bakuProjImg }],
     },
     {
         id: 429,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Cirque du Soleil Events Experiences',
+        year: 2012,
+        location: 'Astana City, Kazakhstan',
+        subtitle: 'Astana City Celebration in Kazakhstan',
         detailedSubtitle: undefined,
         categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        bgImg: astanaProjImg,
     },
     {
         id: 428,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        title: 'Deloitte',
+        year: 2012,
+        location: 'Vancouver, Canada',
+        subtitle: 'Deloitte Convention',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: deloitteProjImg,
     },
     {
-        id: 427,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        id: 408,
+        title: 'Mater Natura by Cirque du Soleil',
+        altTitle: 'Mater Natura',
+        year: 2014,
+        location: 'Andorra',
         detailedSubtitle: undefined,
         categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+            'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
+        bgImg: cdsProjImg,
     },
     {
-        id: 426,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        id: 407,
+        title: 'Minera Santa-Maria 150th Anniversary',
+        altTitle: 'MMinera Santa-Maria 150th',
+        year: 2014,
+        location: 'Mexico City, Mexico',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'A Cirque du Soleil special event for the Minera Santa-Maria 150th Anniversary',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Music Producing - Mixing',
+        bgImg: cdsProjImg,
     },
     {
-        id: 425,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        id: 406,
+        title: 'Michael Jackson - The Immortal World Tour by Cirque du Soleil',
+        altTitle: 'Michael Jackson - The Immortal',
+        year: 2011,
+        location: 'Montréal, Canada',
+        subtitle: 'Flash Mob Stunts, directed by Travis Payne',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing',
+        bgImg: mjProjImg,
     },
     {
-        id: 424,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        id: 405,
+        title: 'Victor Pinchuk 50th anniversary',
+        altTitle: 'Victor Pinchuk 50th',
+        year: 2010,
+        location: 'France',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'A custom made Cirque du Soleil show, also starring Christina Aguilera and Monegasque super chef Alain Ducasse for Victor Pinchuk’s 50th Birthday party',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: courchevelProjImg,
+        extraMedia: [{ type: 'img', data: courch5ProjImg }],
     },
     {
-        id: 423,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
+        id: 404,
+        title: 'Cirque du Soleil (Iris) and Danny Elfman',
+        altTitle: 'Iris',
+        year: 2010,
+        location: 'Canada and United States',
         subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+            'Danny Elfman assistant with Thierry Angers in Iris, a Cirque du Soleil show in Los Angeles',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
-        id: 422,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        id: 403,
+        title: 'Prince Edward Island - 2010 Charlottetown Summerfest',
+        altTitle: 'PEI Summerfest',
+        year: 2010,
+        location: 'Prince Edward Island, Canada',
+        subtitle: 'Prince Edward Island - Charlottetown Summerfest',
         detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: cdsProjImg,
     },
     {
-        id: 421,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        id: 402,
+        title: 'Grand Bal des Vins-Cœurs / Cirque du Soleil',
+        altTitle: 'Grand Bal des Vins-Cœurs (2009)',
+        year: 2009,
+        location: 'Montreal, Canada',
+        subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+        bgImg: cdsProjImg,
     },
     {
-        id: 420,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
+        id: 401,
+        title: 'Montreal Canadiens',
+        year: 2006,
+        location: 'Montreal, Canada',
+        subtitle: '2006 Playoff Pregame Soundtrack and live performances',
         detailedSubtitle: undefined,
         categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: ydlmProjImg,
+            'Music Composing - Music Producing - Sound Design - Mixing - Musical Direction ',
+        bgImg: mtlChProjImg,
+    },
+    {
+        id: 400,
+        title: 'Canadian Space Agency',
+        year: 1999,
+        location: 'Montreal, Canada',
+        subtitle: 'Y2K promotional DVD of the agency',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Composing - Music Producing - Sound Design - Mixing ',
+        bgImg: csaProjImg,
     },
 ];

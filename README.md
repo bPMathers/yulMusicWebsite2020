@@ -2,7 +2,7 @@
 
 ## - Run web app locally on port 3000
 
-yarn start
+yarn start (Currently setup to work locally with node 16.19.1)
 
 ## - Update Github pages website based on this repo
 
