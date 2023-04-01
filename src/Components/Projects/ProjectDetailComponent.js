@@ -187,12 +187,18 @@ export default function ProjectDetailComponent(props) {
     } = props;
     const classes = useStyles();
 
-    console.log('projectsData -->', projectsData);
-
     const [projectDetail, setProjectDetail] = useState(undefined);
+    const [projectVideos, setProjectVideos] = useState([]);
 
     useEffect(() => {
         setProjectDetail(project);
+        if (project?.extraMedia) {
+            setProjectVideos(
+                project.extraMedia?.filter((em) => em.type === 'video')
+            );
+        } else {
+            setProjectVideos([]);
+        }
     }, [project]);
 
     const handleClose = () => {
@@ -341,6 +347,33 @@ export default function ProjectDetailComponent(props) {
                                     {projectDetail.categoriesText}
                                 </Typography>
                                 <div className={classes.detailMediaContainer}>
+                                    {projectVideos.length > 0 &&
+                                        projectVideos.map((video) => {
+                                            return (
+                                                <>
+                                                    <iframe
+                                                        className={
+                                                            classes.detailMediaItem
+                                                        }
+                                                        src={video.data.src}
+                                                        width={
+                                                            video.data.width ??
+                                                            721
+                                                        }
+                                                        height={
+                                                            video.data.height ??
+                                                            405
+                                                        }
+                                                        frameborder="0"
+                                                        allow="autoplay; fullscreen; picture-in-picture"
+                                                        allowfullscreen
+                                                        title={
+                                                            projectDetail.title
+                                                        }
+                                                    ></iframe>
+                                                </>
+                                            );
+                                        })}
                                     {projectDetail.bgImg && (
                                         <img
                                             src={projectDetail.bgImg}
@@ -361,36 +394,6 @@ export default function ProjectDetailComponent(props) {
                                                             alt="media item"
                                                             key={index}
                                                         />
-                                                    );
-                                                } else if (
-                                                    media.type === 'video'
-                                                ) {
-                                                    return (
-                                                        <>
-                                                            <iframe
-                                                                className={
-                                                                    classes.detailMediaItem
-                                                                }
-                                                                src={
-                                                                    media.data
-                                                                        .src
-                                                                }
-                                                                width={
-                                                                    media.data
-                                                                        .width
-                                                                }
-                                                                height={
-                                                                    media.data
-                                                                        .height
-                                                                }
-                                                                frameborder="0"
-                                                                allow="autoplay; fullscreen; picture-in-picture"
-                                                                allowfullscreen
-                                                                title={
-                                                                    projectDetail.title
-                                                                }
-                                                            ></iframe>
-                                                        </>
                                                     );
                                                 } else return <></>;
                                             }

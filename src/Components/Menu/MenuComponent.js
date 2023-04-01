@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import Button from '@material-ui/core/Button';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
@@ -7,7 +7,7 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@material-ui/core/styles';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
 
 // TODO: RANDOMIZE COLOR INSTEAD OF MAKING IT DEPENEDENT ON location.pathname since is onepager ?
 export default function MenuComponent(props) {
-    let location = useLocation();
+    // let location = useLocation();
 
     const classes = useStyles();
     const [open, setOpen] = useState(false);

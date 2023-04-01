@@ -1,5 +1,6 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+
 import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
@@ -16,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'stretch',
         paddingTop: '3px',
         marginBottom: '80px',
+        // width: '100px',
         // height: '100vh', // TODO: find out of to not see head tops when loading
         // width: 'max-content',
     },
@@ -67,6 +69,7 @@ const useStyles = makeStyles((theme) => ({
 
 const HomePageComponent = () => {
     const classes = useStyles();
+    // console.log('matches ---->', matches);
 
     return (
         <div id="top">

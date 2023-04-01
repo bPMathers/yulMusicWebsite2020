@@ -71,7 +71,14 @@ export const projectsData = [
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: diriyah2ProjImg,
         // possible types: img, video, others?
-        extraMedia: [{ type: 'img', data: diriyah1ProjImg }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/808649228?h=1ed63afd37',
+                },
+            },
+        ],
     },
     {
         id: 499,
@@ -222,6 +229,14 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
         bgImg: boccaProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/808655403?h=aa1ebea41d',
+                },
+            },
+        ],
     },
     {
         id: 486,
@@ -292,6 +307,14 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
         bgImg: sbm3ProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/808652228?h=35840d87b4',
+                },
+            },
+        ],
     },
     {
         id: 480,
@@ -372,7 +395,7 @@ export const projectsData = [
         subtitle: 'Merry Montreal Audio Branding',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing ',
-        // bgImg: ,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 473,
@@ -397,6 +420,7 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: googleProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 471,
@@ -410,6 +434,7 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Sound Design - 360-Degree Spatial Audio - Mixing',
         bgImg: mfProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 470,
@@ -423,6 +448,14 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: skoda4ProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/241883171?h=21ce290877',
+                },
+            },
+        ],
     },
     {
         id: 469,
@@ -447,7 +480,16 @@ export const projectsData = [
             'Mario Cyr is an internationally renowned expedition leader for Arctic and Antarctic missions, a cold-water diving expert and a world-class cinematographer. He has participated in more than 150 films for broadcasters such as National Geographic, Discovery Channel, the BBC, IMAX 3D, Disney Productions, the CBC and David Suzuki, la Société Cousteau, France 2, Arte and NHK Japan',
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: ydlmProjImg,
-        extraMedia: [{ type: 'img', data: ydlm2ProjImg }],
+        extraMedia: [
+            { type: 'img', data: ydlm2ProjImg },
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/240054639?h=20dea6340e',
+                },
+            },
+            // { type: 'video', data: { src: '' } }, // la descente, besoin de password ?
+        ],
     },
     {
         id: 467,
@@ -471,6 +513,7 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
         bgImg: cdsProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 465,
@@ -482,6 +525,7 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
         bgImg: cdsProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 464,
@@ -548,6 +592,14 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nbaProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/157210250?h=44f0d16c0e',
+                },
+            },
+        ],
     },
     {
         id: 458,
@@ -573,6 +625,7 @@ export const projectsData = [
         categoriesText:
             'Additional Music Producing - Additional Music Arrangement - Mixing',
         bgImg: poppinsProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 456,
@@ -621,8 +674,6 @@ export const projectsData = [
                 type: 'video',
                 data: {
                     src: 'https://player.vimeo.com/video/128518658?h=caa4ee603b&title=0&byline=0',
-                    width: 640,
-                    height: 360,
                 },
             },
         ],
@@ -642,6 +693,7 @@ export const projectsData = [
         extraMedia: [
             { type: 'img', data: bomb6ProjImg },
             { type: 'img', data: bomb7ProjImg },
+            { type: 'video', data: { src: '' } },
         ],
     },
     {
@@ -654,6 +706,7 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: biionProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 450,
@@ -675,7 +728,7 @@ export const projectsData = [
         subtitle: 'The Toronto Sales Force promotion event',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        // bgImg: ,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 448,
@@ -721,6 +774,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: oneDropProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 444,
@@ -733,6 +787,7 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nucleusProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 443,
@@ -743,6 +798,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: oneDropProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 442,
@@ -757,6 +813,7 @@ export const projectsData = [
         extraMedia: [
             { type: 'img', data: glade3ProjImg },
             { type: 'img', data: glade4ProjImg },
+            { type: 'video', data: { src: '' } },
         ],
     },
     {
@@ -780,6 +837,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: laxProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 439,
@@ -801,6 +859,20 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: oneDropProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/136266499?h=4333a17910',
+                },
+            },
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/89806963?h=7284023a10',
+                },
+            },
+        ],
     },
     {
         id: 437,
@@ -821,6 +893,8 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Mixing ',
         bgImg: clubMedProjImg,
+        // Still private ?
+        // extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 435,
@@ -865,6 +939,7 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: q50ProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 431,
@@ -901,6 +976,7 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: astanaProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 428,
@@ -922,11 +998,12 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
         bgImg: cdsProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 407,
         title: 'Minera Santa-Maria 150th Anniversary',
-        altTitle: 'MMinera Santa-Maria 150th',
+        altTitle: 'Minera Santa-Maria 150th',
         year: 2014,
         location: 'Mexico City, Mexico',
         subtitle:
@@ -958,7 +1035,10 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: courchevelProjImg,
-        extraMedia: [{ type: 'img', data: courch5ProjImg }],
+        extraMedia: [
+            { type: 'video', data: { src: '' } },
+            { type: 'img', data: courch5ProjImg },
+        ],
     },
     {
         id: 404,
@@ -970,6 +1050,7 @@ export const projectsData = [
             'Danny Elfman assistant with Thierry Angers in Iris, a Cirque du Soleil show in Los Angeles',
         detailedSubtitle: undefined,
         bgImg: cdsProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 403,
@@ -981,6 +1062,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: cdsProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
         id: 402,
@@ -1015,5 +1097,6 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing ',
         bgImg: csaProjImg,
+        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
 ];

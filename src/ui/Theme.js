@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 // const yulRed = '#FF0000'; // TODO: rename to gold
 const yulRed = '#756300';
@@ -10,7 +10,7 @@ const yulYellow = '#ededed';
 // const yulYellow = '#F5EE9E';
 // const yulGold = '#FFD700';
 
-export default createMuiTheme({
+export default createTheme({
     palette: {
         common: {
             red: yulRed,
@@ -98,15 +98,6 @@ export default createMuiTheme({
             fontSize: '1rem',
             fontWeight: 300,
             color: yulWhite,
-        },
-        learnButton: {
-            borderColor: yulWhite,
-            borderWidth: 2,
-            textTransform: 'none',
-            color: yulWhite,
-            borderRadius: 50,
-            fontFamily: 'Roboto',
-            fontWeight: 'bold',
         },
     },
     overrides: {
