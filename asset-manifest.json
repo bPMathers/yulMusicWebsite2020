@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/yulMusicWebsite2020/static/css/main.a617e044.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.8cb36589.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.8cb36589.chunk.js.map",
-    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.a6bdff0a.js",
-    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.a6bdff0a.js.map",
-    "static/js/2.b8a7451d.chunk.js": "/yulMusicWebsite2020/static/js/2.b8a7451d.chunk.js",
-    "static/js/2.b8a7451d.chunk.js.map": "/yulMusicWebsite2020/static/js/2.b8a7451d.chunk.js.map",
-    "static/js/3.7552c86a.chunk.js": "/yulMusicWebsite2020/static/js/3.7552c86a.chunk.js",
-    "static/js/3.7552c86a.chunk.js.map": "/yulMusicWebsite2020/static/js/3.7552c86a.chunk.js.map",
+    "main.js": "/yulMusicWebsite2020/static/js/main.1fbd82ad.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.1fbd82ad.chunk.js.map",
+    "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.53b426bb.js",
+    "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.53b426bb.js.map",
+    "static/js/2.f7ab8daa.chunk.js": "/yulMusicWebsite2020/static/js/2.f7ab8daa.chunk.js",
+    "static/js/2.f7ab8daa.chunk.js.map": "/yulMusicWebsite2020/static/js/2.f7ab8daa.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
     "static/css/main.a617e044.chunk.css.map": "/yulMusicWebsite2020/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.b8a7451d.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.b8a7451d.chunk.js.LICENSE.txt",
+    "static/js/2.f7ab8daa.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.f7ab8daa.chunk.js.LICENSE.txt",
     "static/media/20131203-Tims-Exterior.c40e0aaf.jpg": "/yulMusicWebsite2020/static/media/20131203-Tims-Exterior.c40e0aaf.jpg",
     "static/media/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.39fcb5d3.jpg": "/yulMusicWebsite2020/static/media/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.39fcb5d3.jpg",
     "static/media/Alibaba - Logo2.4132cb5e.png": "/yulMusicWebsite2020/static/media/Alibaba - Logo2.4132cb5e.png",
+    "static/media/Andorra2014.4e0100ee.jpg": "/yulMusicWebsite2020/static/media/Andorra2014.4e0100ee.jpg",
+    "static/media/Andorra2015.ab29c623.jpg": "/yulMusicWebsite2020/static/media/Andorra2015.ab29c623.jpg",
+    "static/media/Andorra2016.c6aa7c29.jpg": "/yulMusicWebsite2020/static/media/Andorra2016.c6aa7c29.jpg",
     "static/media/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.2c6d2692.jpg": "/yulMusicWebsite2020/static/media/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.2c6d2692.jpg",
     "static/media/AutoShow2013_InfinitiQ50.99dfaf4c.jpg": "/yulMusicWebsite2020/static/media/AutoShow2013_InfinitiQ50.99dfaf4c.jpg",
     "static/media/Beijing Parkview - Logo.825ba8fb.png": "/yulMusicWebsite2020/static/media/Beijing Parkview - Logo.825ba8fb.png",
@@ -28,7 +29,7 @@
     "static/media/CDS New Logo.690ed0f6.png": "/yulMusicWebsite2020/static/media/CDS New Logo.690ed0f6.png",
     "static/media/CDS New Logo4.97f71a88.png": "/yulMusicWebsite2020/static/media/CDS New Logo4.97f71a88.png",
     "static/media/COC-MTL-2.22b7f112.jpg": "/yulMusicWebsite2020/static/media/COC-MTL-2.22b7f112.jpg",
-    "static/media/CSA-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.84317b98.jpg": "/yulMusicWebsite2020/static/media/CSA-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.84317b98.jpg",
+    "static/media/CSA-2023 - Logo.79c81ef0.png": "/yulMusicWebsite2020/static/media/CSA-2023 - Logo.79c81ef0.png",
     "static/media/Canadian National Railway - Logo.f8027cc4.png": "/yulMusicWebsite2020/static/media/Canadian National Railway - Logo.f8027cc4.png",
     "static/media/Canadian Olympic Committee - Logo.c871c28e.png": "/yulMusicWebsite2020/static/media/Canadian Olympic Committee - Logo.c871c28e.png",
     "static/media/Canadian Space Agency - Logo.a4de800f.svg": "/yulMusicWebsite2020/static/media/Canadian Space Agency - Logo.a4de800f.svg",
@@ -111,13 +112,12 @@
     "static/media/glade-4-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.44fe3835.jpg": "/yulMusicWebsite2020/static/media/glade-4-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.44fe3835.jpg",
     "static/media/google-logo-feature-1030x686-768x512.3cb682c9.jpg": "/yulMusicWebsite2020/static/media/google-logo-feature-1030x686-768x512.3cb682c9.jpg",
     "static/media/tpg-logo4.69cc6c7e.png": "/yulMusicWebsite2020/static/media/tpg-logo4.69cc6c7e.png",
-    "static/media/viz_04.9ae7f04d.mp4": "/yulMusicWebsite2020/static/media/viz_04.9ae7f04d.mp4",
     "static/media/viz_05.2141d424.mp4": "/yulMusicWebsite2020/static/media/viz_05.2141d424.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6bdff0a.js",
-    "static/js/2.b8a7451d.chunk.js",
+    "static/js/runtime-main.53b426bb.js",
+    "static/js/2.f7ab8daa.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.8cb36589.chunk.js"
+    "static/js/main.1fbd82ad.chunk.js"
   ]
 }
