@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
@@ -50,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
     teamSection: {
         // marginTop: '80px',
         marginBottom: '50px',
+        // width: '100vw',
     },
     servicesSection: {
         marginBottom: '50px',
@@ -69,7 +71,6 @@ const useStyles = makeStyles((theme) => ({
 
 const HomePageComponent = () => {
     const classes = useStyles();
-    // console.log('matches ---->', matches);
 
     return (
         <div id="top">
@@ -96,6 +97,7 @@ const HomePageComponent = () => {
                 </div>
                 <NathanComponent />
             </div>
+
             <div id="teamSection" className={classes.teamSection}>
                 <TeamComponent />
             </div>

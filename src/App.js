@@ -7,8 +7,18 @@ import ServicesPageComponent from './Pages/Services/ServicesPageComponent';
 import ProjectsPageComponent from './Pages/Projects/ProjectsPageComponent';
 import MenuComponent from './Components/Menu/MenuComponent';
 import theme from './ui/Theme';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import HomePageComponentMobile from './Pages/Home/HomePageComponentMobile';
+const useStyles = makeStyles((theme) => ({}));
 
 export default function App() {
+    const classes = useStyles();
+    // const theme = useTheme();
+
+    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    console.log('isMobile2 ---->', isMobile);
+
     return (
         <ThemeProvider theme={theme}>
             <Router>
@@ -20,11 +30,12 @@ export default function App() {
                         backgroundColor: theme.palette.primary.main,
                     }}
                 >
+                    {/* {!isMobile && <MenuComponent />} */}
                     <MenuComponent />
                     {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
                     <Switch>
-                        <Route path="/contact">
+                        {/* <Route path="/contact">
                             <ContactPageComponent />
                         </Route>
                         <Route path="/services">
@@ -32,9 +43,10 @@ export default function App() {
                         </Route>
                         <Route path="/projects">
                             <ProjectsPageComponent />
-                        </Route>
+                        </Route> */}
                         <Route path="/">
-                            <HomePageComponent />
+                            {!isMobile && <HomePageComponent />}
+                            {isMobile && <HomePageComponentMobile />}
                         </Route>
                     </Switch>
                 </div>
