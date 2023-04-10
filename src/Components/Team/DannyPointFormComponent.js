@@ -8,7 +8,8 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         alignItems: 'flex-start',
         justifyContent: 'center',
-        width: '66.6%',
+        width: '90%',
+        maxWidth: '800px',
     },
     title: {
         color: theme.palette.common.gold,
