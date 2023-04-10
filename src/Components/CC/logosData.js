@@ -8,6 +8,7 @@ import img7 from '../../assets/Logos/Test/C2 - Logo.png';
 import img8 from '../../assets/Logos/Test/Canadian National Railway - Logo.png';
 import img9 from '../../assets/Logos/Test/Canadian Olympic Committee - Logo.png';
 import img10 from '../../assets/Logos/Test/Canadian Space Agency - Logo.svg';
+import img10b from '../../assets/Logos/Test/CSA-2023 - Logo.png';
 import img11 from '../../assets/Logos/Test/Carnival UK - P&O Cruises - Cunard-4.png';
 import img12 from '../../assets/Logos/Test/CDS New Logo.png';
 import img13 from '../../assets/Logos/Test/Champagne Nicolas Feuillatte - Logo2.png';
@@ -64,7 +65,7 @@ export const logosData = [
     { img: img7 },
     { img: img8 },
     { img: img9 },
-    { img: img10 },
+    { img: img10b, scale: '150%' },
     { img: img11, invert: true, scale: '150%' },
     { img: img12, scale: '130%' },
     { img: img13, invert: true },

@@ -81,7 +81,8 @@ const ProjectsComponent = ({ projectsData }) => {
                         {projectsData
                             .filter((pr) => {
                                 return [
-                                    500, 498, 497, 495, 493, 471, 468, 459, 430,
+                                    5000, 4980, 4970, 4950, 4930, 4710, 4680,
+                                    4590, 4300,
                                 ].includes(pr.id);
                             })
                             .map((project) => {

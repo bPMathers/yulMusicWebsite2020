@@ -1,3 +1,6 @@
+import Andorra2016ProjImg from '../../assets/Projects/Andorra2016.jpg';
+import Andorra2015ProjImg from '../../assets/Projects/Andorra2015.jpg';
+import materNaturaProjImg from '../../assets/Projects/Andorra2014.jpg';
 import deloitteProjImg from '../../assets/Logos/Test/Deloitte - Logo.png';
 import rexelProjImg from '../../assets/Logos/Test/Rexel - Logo.png';
 import tpgProjImg from '../../assets/Logos/Test/tpg-logo4.png';
@@ -23,7 +26,7 @@ import astanaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Astana
 import laxProjImg from '../../assets/Projects/_Processed to 1.53 ratio/LAX-2.jpg';
 import mjProjImg from '../../assets/Projects/Michael-Jackson-The-Immortal-World-Tour-by-Cirque-du-Soleil_YUL-MUSIC-Christian-Lagueux-Benjamin-Proulx-Mathers-Sébastien-Laurendeau.jpg';
 import mtlChProjImg from '../../assets/Projects/logos/Montreal Canadiens - Logo.png';
-import csaProjImg from '../../assets/Projects/CSA-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import csaProjImg from '../../assets/Logos/Test/CSA-2023 - Logo.png';
 import bakuProjImg from '../../assets/Projects/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import q50ProjImg from '../../assets/Projects/AutoShow2013_InfinitiQ50.jpg';
 import sapProjImg from '../../assets/Projects/SAP-721x471.jpg';
@@ -61,7 +64,7 @@ import googleProjImg from '../../assets/Projects/google-logo-feature-1030x686-76
 
 export const projectsData = [
     {
-        id: 500,
+        id: 5000,
         title: 'Time Entertainment',
 
         year: 2022,
@@ -71,17 +74,37 @@ export const projectsData = [
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: diriyah2ProjImg,
         // possible types: img, video, others?
+        // extraMedia: [
+        //     {
+        //         type: 'video',
+        //         data: {
+        //             src: 'https://player.vimeo.com/video/808649228?h=1ed63afd37',
+        //         },
+        //     },
+        // ],
+    },
+    {
+        id: 4995,
+        title: 'Heli Drone Images',
+
+        year: 2022,
+        location: 'Bahamas',
+        subtitle: "Filming for TV Show Jeter l'ancre",
+        detailedSubtitle:
+            "Heli Drone Images - In the Bahamas filming for TV Show Jeter l'ancre",
+        categoriesText: 'Music Composing - Mixing',
+        // bgImg: heliDroneProjImg,
         extraMedia: [
             {
                 type: 'video',
                 data: {
-                    src: 'https://player.vimeo.com/video/808649228?h=1ed63afd37',
+                    src: 'https://player.vimeo.com/video/814345333?h=1ed63afd37',
                 },
             },
         ],
     },
     {
-        id: 499,
+        id: 4990,
         title: 'C2 Agency',
         year: 2022,
         location: 'Montréal, Québec, Canada',
@@ -90,7 +113,7 @@ export const projectsData = [
         bgImg: c2ProjImg,
     },
     {
-        id: 498,
+        id: 4980,
         title: 'Ernst & Young',
         year: 2022,
         location: 'Chicago, United States',
@@ -101,7 +124,7 @@ export const projectsData = [
         bgImg: eyProjImg,
     },
     {
-        id: 497,
+        id: 4970,
         title: 'Mastercard - Cirque du Soleil Anthem',
         altTitle: 'Mastercard - CDS Anthem',
         year: 2022,
@@ -114,10 +137,10 @@ export const projectsData = [
         bgImg: masterCardProjImg,
     },
     {
-        id: 496,
+        id: 4960,
         title: 'Grand bal des vins-cœurs and Cirque du Soleil',
-        altTitle: 'Grand bal des vins-cœurs (2021)',
-        year: 2021,
+        altTitle: 'Grand bal des vins-cœurs',
+        year: '2021 - 2019 - 2015 - 2009',
         location: 'Montreal, Canada',
         subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
         detailedSubtitle: undefined,
@@ -126,7 +149,7 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
-        id: 495,
+        id: 4950,
         title: 'P&O Cruises Onboard shows',
         year: 2021,
         location: 'London, United Kingdom',
@@ -141,7 +164,7 @@ export const projectsData = [
         ],
     },
     {
-        id: 494,
+        id: 4940,
         title: 'Sunlife',
         year: 2021,
         location: 'United States',
@@ -151,7 +174,7 @@ export const projectsData = [
         bgImg: sunLifeProjImg,
     },
     {
-        id: 493,
+        id: 4930,
         title: 'T-Mobile',
         year: 2020,
         location: 'United States',
@@ -162,18 +185,18 @@ export const projectsData = [
         bgImg: tMobileProjImg,
     },
     {
-        id: 492,
+        id: 4920,
         title: 'SAP Convention',
-        altTitle: 'SAP Convention (2020)',
-        year: 2020,
-        location: 'Mexico City, Mexico',
-        subtitle: 'The SAP convention in Mexico',
+        // altTitle: 'SAP Convention',
+        year: '2020, 2018, 2017, 2015, 2013',
+        location: 'Various locations, Worldwide',
+        subtitle: 'The SAP convention',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: sapProjImg,
     },
     {
-        id: 491,
+        id: 4910,
         title: 'Champagne Nicolas Feuillatte',
         year: 2020,
         location: 'France',
@@ -185,9 +208,9 @@ export const projectsData = [
         bgImg: nicolasProjImg,
     },
     {
-        id: 490,
+        id: 4900,
         title: 'World Economic Forum',
-        year: 2020,
+        year: '2020, 2019, 2017, 2016',
         location: 'Switzerland',
         subtitle: 'Artistic performance for the BMO vip clients',
         detailedSubtitle: undefined,
@@ -196,7 +219,7 @@ export const projectsData = [
         bgImg: wefProjImg,
     },
     {
-        id: 489,
+        id: 4890,
         title: 'Mastercard / Smart Summit',
         year: 2019,
         location: 'Seattle, United States',
@@ -207,18 +230,25 @@ export const projectsData = [
         bgImg: masterCardProjImg,
     },
     {
-        id: 488,
-        title: 'Grand bal des vins-cœurs and Cirque du Soleil',
-        altTitle: 'Grand bal des vins-cœurs (2019)',
+        id: 4885,
+        title: 'Heli Drone Images',
         year: 2019,
         location: 'Montreal, Canada',
-        subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
+        subtitle: 'Heli Drone Images - Demo-Reel',
         detailedSubtitle: undefined,
-        categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: cdsProjImg,
+        categoriesText: 'Music Composing - Mixing',
+        // bgImg: masterCardProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/814345411',
+                },
+            },
+        ],
     },
     {
-        id: 487,
+        id: 4870,
         title: 'Monte-Carlo SBM / Monte-Carlo Sporting Summer Festival',
         altTitle: 'Monte-Carlo SBM (2019)',
         year: 2019,
@@ -239,7 +269,7 @@ export const projectsData = [
         ],
     },
     {
-        id: 486,
+        id: 4860,
         title: '100th Anniversary of CN Rail',
         year: 2019,
         location: 'North America Tour',
@@ -250,18 +280,7 @@ export const projectsData = [
         bgImg: cnProjImg,
     },
     {
-        id: 485,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2019)',
-        year: 2019,
-        location: 'Switzerland',
-        subtitle: 'Artistic performance for the BMO vip clients',
-        detailedSubtitle: undefined,
-        categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: wefProjImg,
-    },
-    {
-        id: 484,
+        id: 4840,
         title: 'Ivanhoe Cambridge',
         year: 2019,
         location: 'Canada',
@@ -272,7 +291,7 @@ export const projectsData = [
         bgImg: ivanhoeProjImg,
     },
     {
-        id: 483,
+        id: 4830,
         title: 'Skoda Auto',
         altTitle: 'Skoda Auto (2019)',
         year: 2019,
@@ -284,7 +303,7 @@ export const projectsData = [
         bgImg: skoda4ProjImg,
     },
     {
-        id: 482,
+        id: 4820,
         title: 'Alibaba Single Gala',
         year: 2018,
         location: 'Shanghai, China',
@@ -296,7 +315,7 @@ export const projectsData = [
         // bgImg: ,
     },
     {
-        id: 481,
+        id: 4810,
         title: 'Monte-Carlo SBM / Monte-Carlo Sporting Summer Festival',
         altTitle: 'Monte-Carlo SBM (2018)',
         year: 2018,
@@ -317,9 +336,27 @@ export const projectsData = [
         ],
     },
     {
-        id: 480,
+        id: 4805,
+        title: 'Romy & Aksel',
+        year: 2018,
+        location: 'Monaco',
+        subtitle: 'Romy & Aksel Web Campaign',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Composing - Sound Design - Mixing',
+        // bgImg: sbm3ProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/814690219',
+                },
+            },
+        ],
+    },
+    {
+        id: 4800,
         title: 'G7 Summit and Cirque du Soleil Entertainment Group',
-        altTitle: 'G& & CDS Entertainment Group',
+        altTitle: 'G7 & CDS Entertainment Group',
         year: 2018,
         location: 'Quebec, Canada',
         subtitle:
@@ -330,18 +367,7 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
-        id: 479,
-        title: 'SAP Convention',
-        altTitle: 'SAP Convention (2018)',
-        year: 2018,
-        location: 'Orlando, United States',
-        subtitle: 'The SAP convention in Orlando',
-        detailedSubtitle: undefined,
-        categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: sapProjImg,
-    },
-    {
-        id: 478,
+        id: 4780,
         title: 'Cirque du Soleil Entertainment Group Partners Summit',
         altTitle: 'CDS Entertainment Group',
         year: 2018,
@@ -353,7 +379,7 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
-        id: 477,
+        id: 4770,
         title: 'Tourism Tianguis of Mexico',
         year: 2018,
         location: 'Mazatlén, Mexico',
@@ -365,7 +391,7 @@ export const projectsData = [
         // bgImg: ,
     },
     {
-        id: 476,
+        id: 4760,
         title: 'Mastercard',
         year: 2018,
         location: 'Toronto, Canada',
@@ -376,41 +402,24 @@ export const projectsData = [
         bgImg: masterCardProjImg,
     },
     {
-        id: 475,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2017)',
-        year: 2017,
-        location: 'Switzerland',
-        subtitle: 'Artistic performance for the BMO vip clients',
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: wefProjImg,
-    },
-    {
-        id: 474,
+        id: 4740,
         title: 'Bite Size Entertainment',
         year: 2017,
         location: 'Montreal, Canada',
         subtitle: 'Merry Montreal Audio Branding',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing ',
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/196015834',
+                },
+            },
+        ],
     },
     {
-        id: 473,
-        title: 'SAP',
-        altTitle: 'SAP Convention (2017)',
-        year: 2017,
-        location: 'Mexico City, Mexico',
-        subtitle: 'The SAP convention in Los Cabos',
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: sapProjImg,
-    },
-    {
-        id: 472,
+        id: 4720,
         title: 'Google and Cirque du Soleil',
         year: 2017,
         location: 'Brussels, Belgium',
@@ -420,10 +429,15 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: googleProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/204619615' },
+            },
+        ],
     },
     {
-        id: 471,
+        id: 4710,
         title: 'Songcheng Theme Park and Moment Factory',
         altTitle: 'Songcheng and Moment Factory',
         year: 2017,
@@ -434,10 +448,9 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Sound Design - 360-Degree Spatial Audio - Mixing',
         bgImg: mfProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 470,
+        id: 4700,
         title: 'Skoda Auto',
         altTitle: 'Skoda Auto (2017)',
         year: 2017,
@@ -458,7 +471,7 @@ export const projectsData = [
         ],
     },
     {
-        id: 469,
+        id: 4690,
         title: 'TPG Texas Pacific Group',
         year: 2017,
         location: 'Phoenix, United States',
@@ -469,7 +482,7 @@ export const projectsData = [
         bgImg: tpgProjImg,
     },
     {
-        id: 468,
+        id: 4680,
         title: 'Mario Cyr / Les yeux de la mer (Productions J)',
         altTitle: 'Mario Cyr / Les yeux de la mer',
         year: 2017,
@@ -492,7 +505,7 @@ export const projectsData = [
         ],
     },
     {
-        id: 467,
+        id: 4670,
         title: 'The Dubai Mall',
         year: 2016,
         location: 'Dubai, United Arab Emirates',
@@ -504,7 +517,7 @@ export const projectsData = [
         bgImg: dubaiProjImg,
     },
     {
-        id: 466,
+        id: 4660,
         title: 'Bravura by Cirque du Soleil',
         year: 2016,
         location: 'Mumbai, India',
@@ -513,10 +526,9 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
         bgImg: cdsProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 465,
+        id: 4650,
         title: 'Vision by Cirque du Soleil',
         year: 2016,
         location: 'Andorra',
@@ -524,11 +536,11 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: cdsProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        bgImg: Andorra2016ProjImg,
+        // extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 464,
+        id: 4640,
         title: 'Jewish National Foundation',
         year: 2016,
         location: 'Montreal, Canada',
@@ -538,7 +550,7 @@ export const projectsData = [
         // bgImg: ,
     },
     {
-        id: 463,
+        id: 4630,
         title: 'Scalada by Cirque du Soleil',
         year: 2015,
         location: 'Andorra',
@@ -546,10 +558,10 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: cdsProjImg,
+        bgImg: Andorra2015ProjImg,
     },
     {
-        id: 462,
+        id: 4620,
         title: 'Cirque du Soleil, James Cameron and Andrew Adamson',
         altTitle: 'CDS, J. Cameron and A. Adamson',
         year: 2015,
@@ -560,19 +572,7 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
-        id: 461,
-        title: 'Grand bal des vins-cœurs and Cirque du Soleil',
-        altTitle: 'Grand bal des vins-cœurs (2015)',
-        year: 2015,
-        location: 'Montreal, Canada',
-        subtitle: undefined,
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: cdsProjImg,
-    },
-    {
-        id: 460,
+        id: 4600,
         title: 'Rexel',
         year: 2016,
         location: 'United States',
@@ -582,7 +582,7 @@ export const projectsData = [
         bgImg: rexelProjImg,
     },
     {
-        id: 459,
+        id: 4590,
         title: 'NBA All-Star Weekend',
         year: 2016,
         location: 'Toronto, Canada',
@@ -592,30 +592,9 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nbaProjImg,
-        extraMedia: [
-            {
-                type: 'video',
-                data: {
-                    src: 'https://player.vimeo.com/video/157210250?h=44f0d16c0e',
-                },
-            },
-        ],
     },
     {
-        id: 458,
-        title: 'World Economic Forum',
-        altTitle: 'World Economic Forum (2016)',
-        year: 2016,
-        location: 'Switzerland',
-        subtitle:
-            'Cirque du Soleil - Artistic performance for the BMO vip clients',
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: wefProjImg,
-    },
-    {
-        id: 457,
+        id: 4570,
         title: 'Mary Poppins Musical / Just For Laughs Festival I Festival Juste pour rire',
         altTitle: 'Mary Poppins Musical',
         year: 2016,
@@ -625,10 +604,32 @@ export const projectsData = [
         categoriesText:
             'Additional Music Producing - Additional Music Arrangement - Mixing',
         bgImg: poppinsProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/171801726' },
+            },
+        ],
     },
     {
-        id: 456,
+        id: 4565,
+        title: 'Mobilia',
+        altTitle: undefined,
+        year: 2016,
+        location: 'Montreal, Canada',
+        subtitle: 'Mobilia - Mobilia 50th Birthday Campaign',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Composing - Sound Design - Mixing',
+        // bgImg: poppinsProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/157359901' },
+            },
+        ],
+    },
+    {
+        id: 4560,
         title: 'Bulgari',
         year: 2016,
         location: 'Tokyo, Japan',
@@ -639,7 +640,7 @@ export const projectsData = [
         bgImg: bulgariProjImg,
     },
     {
-        id: 455,
+        id: 4550,
         title: 'Productions Déferlantes',
         year: 2016,
         location: 'Montreal, Canada',
@@ -650,7 +651,7 @@ export const projectsData = [
         // bgImg: ,
     },
     {
-        id: 454,
+        id: 4540,
         title: 'Fosun',
         year: 2015,
         location: 'China',
@@ -660,7 +661,44 @@ export const projectsData = [
         // bgImg: ,
     },
     {
-        id: 453,
+        id: 4537,
+        title: 'Do Art Foundation',
+        year: 2015,
+        location: 'Montreal, Canada ',
+        subtitle: 'Herakut in Montreal for the Giant Story Book',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Composing - Sound Design - Mixing',
+        bgImg: undefined,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/89856619',
+                },
+            },
+        ],
+    },
+    {
+        id: 4535,
+        title: 'SITU Studio NYC',
+        year: 2015,
+        location: 'New York, USA',
+        subtitle: 'New York Hall of Science, Amplitude Video Project',
+        detailedSubtitle:
+            'The Great Hall, also known as the Cathedral of Science, is a 7,000 square foot exhibition space enclosed by a 100 foot tall scalloped dalle de verre façade, where 5400 inch-thick panels of cobalt blue glass are cast into concrete tiles and then set into cast-in-place concrete cells. In order to access each of the tiles, an elaborate scaffold has been constructed in the Great Hall, echoing the undulation of the concrete walls with a matrix of metal pipes and wooden planks',
+        categoriesText: 'Music Composing - Sound Design - Mixing',
+        bgImg: undefined,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/151970616',
+                },
+            },
+        ],
+    },
+    {
+        id: 4530,
         title: 'Sid Lee',
         year: 2015,
         location: 'Montreal, Canada',
@@ -679,7 +717,7 @@ export const projectsData = [
         ],
     },
     {
-        id: 452,
+        id: 4520,
         title: 'Bombardier Aerospace - Global 7000',
         altTitle: 'Bombardier - Global 7000',
         year: 2015,
@@ -693,11 +731,14 @@ export const projectsData = [
         extraMedia: [
             { type: 'img', data: bomb6ProjImg },
             { type: 'img', data: bomb7ProjImg },
-            { type: 'video', data: { src: '' } },
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/209994952' },
+            },
         ],
     },
     {
-        id: 451,
+        id: 4510,
         title: 'Biion Footwear',
         year: 2015,
         location: 'Toronto, Canada',
@@ -706,10 +747,15 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: biionProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/131800532' },
+            },
+        ],
     },
     {
-        id: 450,
+        id: 4500,
         title: 'Canadian Olympic Committee',
         year: 2015,
         location: 'Montreal, Canada',
@@ -721,17 +767,16 @@ export const projectsData = [
         extraMedia: [{ type: 'img', data: coc3rojImg }],
     },
     {
-        id: 449,
+        id: 4490,
         title: 'Sales Force',
         year: 2015,
         location: 'Toronto, Canada',
         subtitle: 'The Toronto Sales Force promotion event',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 448,
+        id: 4480,
         title: 'MSC Cruises',
         year: 2015,
         location: 'Geneva, Switzerland',
@@ -741,19 +786,7 @@ export const projectsData = [
         // bgImg: ,
     },
     {
-        id: 447,
-        title: 'SAP Convention',
-        altTitle: 'SAP Convention (2015)',
-        year: 2015,
-        location: 'Las Vegas, United States',
-        subtitle: 'The SAP convention In Las Vegas',
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: sapProjImg,
-    },
-    {
-        id: 446,
+        id: 4460,
         title: 'Monte-Carlo SBM (Société des Bains de Mer) ',
         altTitle: 'Monte-Carlo SBM (2015)',
         year: 2015,
@@ -765,7 +798,7 @@ export const projectsData = [
         bgImg: sbm3ProjImg,
     },
     {
-        id: 445,
+        id: 4450,
         title: 'Microsoft-One Drop Foundation',
         year: 2014,
         location: 'Montreal, Canada',
@@ -774,10 +807,15 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: oneDropProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/133273251' },
+            },
+        ],
     },
     {
-        id: 444,
+        id: 4440,
         title: 'Loto-Québec',
         year: 2014,
         location: 'Montreal, Canada',
@@ -787,10 +825,15 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nucleusProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/90028196' },
+            },
+        ],
     },
     {
-        id: 443,
+        id: 4430,
         title: 'One Drop Foundation',
         year: 2014,
         location: 'Worldwide Campaign',
@@ -798,10 +841,15 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: oneDropProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/122764253' },
+            },
+        ],
     },
     {
-        id: 442,
+        id: 4420,
         title: 'SC Johnson',
         year: 2014,
         location: 'New York City, United States',
@@ -813,11 +861,16 @@ export const projectsData = [
         extraMedia: [
             { type: 'img', data: glade3ProjImg },
             { type: 'img', data: glade4ProjImg },
-            { type: 'video', data: { src: '' } },
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/116108158',
+                },
+            },
         ],
     },
     {
-        id: 441,
+        id: 4410,
         title: 'Microsoft One Drop / The One Drop of Life app ',
         altTitle: 'Microsoft One Drop App',
         year: 2014,
@@ -828,7 +881,7 @@ export const projectsData = [
         bgImg: oneDropProjImg,
     },
     {
-        id: 440,
+        id: 4400,
         title: 'LAX Airport / Moment Factory',
         year: 2014,
         location: 'Los Angeles, United States',
@@ -837,10 +890,15 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: laxProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/214673610' },
+            },
+        ],
     },
     {
-        id: 439,
+        id: 4390,
         title: 'Tim Hortons 50th birthday ',
         year: 2014,
         location: 'Toronto, Canada',
@@ -851,7 +909,7 @@ export const projectsData = [
         bgImg: timProjImg,
     },
     {
-        id: 438,
+        id: 4380,
         title: 'One Night for One Drop',
         year: 2014,
         location: 'Las Vegas, United States',
@@ -875,7 +933,7 @@ export const projectsData = [
         ],
     },
     {
-        id: 437,
+        id: 4370,
         title: 'Hilton Hotels & Resorts',
         year: 2014,
         location: 'Orlando, United States',
@@ -885,7 +943,7 @@ export const projectsData = [
         bgImg: hiltonProjImg,
     },
     {
-        id: 436,
+        id: 4360,
         title: 'Club Med',
         year: 2014,
         location: 'Punta Cana, Dominican Republic',
@@ -893,11 +951,9 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Mixing ',
         bgImg: clubMedProjImg,
-        // Still private ?
-        // extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 435,
+        id: 4350,
         title: 'Monte-Carlo SBM (Société des Bains de Mer)',
         altTitle: 'Monte-Carlo SBM (2014)',
         year: 2014,
@@ -908,7 +964,7 @@ export const projectsData = [
         bgImg: sbm3ProjImg,
     },
     {
-        id: 434,
+        id: 4340,
         title: 'Magnum Pleasure Store',
         year: 2013,
         location: 'Toronto, Canada',
@@ -919,18 +975,7 @@ export const projectsData = [
         bgImg: magnum2ProjImg,
     },
     {
-        id: 433,
-        title: 'SAP',
-        altTitle: 'SAP (2013)',
-        year: 2013,
-        location: 'Hawaiian Islands, United States',
-        subtitle: 'The SAP Convention in Big Island',
-        detailedSubtitle: undefined,
-        categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: sapProjImg,
-    },
-    {
-        id: 432,
+        id: 4320,
         title: 'Infinity',
         year: 2013,
         location: 'Detroit, United States',
@@ -939,10 +984,17 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: q50ProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/134233531',
+                },
+            },
+        ],
     },
     {
-        id: 431,
+        id: 4310,
         title: 'Cirque du Soleil Experiences',
         year: 2013,
         location: 'Montreal, Canada',
@@ -954,7 +1006,7 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
-        id: 430,
+        id: 4300,
         title: 'FIFA U-17 World Cup',
         year: 2012,
         location: 'Baku, Azerbaijan',
@@ -967,7 +1019,7 @@ export const projectsData = [
         extraMedia: [{ type: 'img', data: bakuProjImg }],
     },
     {
-        id: 429,
+        id: 4290,
         title: 'Cirque du Soleil Events Experiences',
         year: 2012,
         location: 'Astana City, Kazakhstan',
@@ -976,10 +1028,9 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: astanaProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 428,
+        id: 4280,
         title: 'Deloitte',
         year: 2012,
         location: 'Vancouver, Canada',
@@ -989,7 +1040,7 @@ export const projectsData = [
         bgImg: deloitteProjImg,
     },
     {
-        id: 408,
+        id: 4080,
         title: 'Mater Natura by Cirque du Soleil',
         altTitle: 'Mater Natura',
         year: 2014,
@@ -997,11 +1048,10 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: cdsProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        bgImg: materNaturaProjImg,
     },
     {
-        id: 407,
+        id: 4070,
         title: 'Minera Santa-Maria 150th Anniversary',
         altTitle: 'Minera Santa-Maria 150th',
         year: 2014,
@@ -1013,7 +1063,7 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
-        id: 406,
+        id: 4060,
         title: 'Michael Jackson - The Immortal World Tour by Cirque du Soleil',
         altTitle: 'Michael Jackson - The Immortal',
         year: 2011,
@@ -1024,7 +1074,7 @@ export const projectsData = [
         bgImg: mjProjImg,
     },
     {
-        id: 405,
+        id: 4050,
         title: 'Victor Pinchuk 50th anniversary',
         altTitle: 'Victor Pinchuk 50th',
         year: 2010,
@@ -1036,12 +1086,15 @@ export const projectsData = [
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: courchevelProjImg,
         extraMedia: [
-            { type: 'video', data: { src: '' } },
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/136457217' },
+            },
             { type: 'img', data: courch5ProjImg },
         ],
     },
     {
-        id: 404,
+        id: 4040,
         title: 'Cirque du Soleil (Iris) and Danny Elfman',
         altTitle: 'Iris',
         year: 2010,
@@ -1049,11 +1102,18 @@ export const projectsData = [
         subtitle:
             'Danny Elfman assistant with Thierry Angers in Iris, a Cirque du Soleil show in Los Angeles',
         detailedSubtitle: undefined,
-        bgImg: cdsProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        // bgImg: cdsProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/234518821',
+                },
+            },
+        ],
     },
     {
-        id: 403,
+        id: 4030,
         title: 'Prince Edward Island - 2010 Charlottetown Summerfest',
         altTitle: 'PEI Summerfest',
         year: 2010,
@@ -1062,22 +1122,9 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: cdsProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
     },
     {
-        id: 402,
-        title: 'Grand Bal des Vins-Cœurs / Cirque du Soleil',
-        altTitle: 'Grand Bal des Vins-Cœurs (2009)',
-        year: 2009,
-        location: 'Montreal, Canada',
-        subtitle: 'Cirque du Soleil - Grand bal des vins-cœurs - Montreal',
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: cdsProjImg,
-    },
-    {
-        id: 401,
+        id: 4010,
         title: 'Montreal Canadiens',
         year: 2006,
         location: 'Montreal, Canada',
@@ -1088,7 +1135,7 @@ export const projectsData = [
         bgImg: mtlChProjImg,
     },
     {
-        id: 400,
+        id: 4000,
         title: 'Canadian Space Agency',
         year: 1999,
         location: 'Montreal, Canada',
@@ -1097,6 +1144,13 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing ',
         bgImg: csaProjImg,
-        extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/175960386',
+                },
+            },
+        ],
     },
 ];
