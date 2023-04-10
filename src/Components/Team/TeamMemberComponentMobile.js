@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Fade } from '@material-ui/core';
+const memberPhotoRatio = 1.5;
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -59,7 +60,7 @@ const TeamMemberComponentMobile = (props) => {
 
     const [memberPhotoDimensions, setMemberPhotoDimensions] = useState({
         width: (dimensions.width - 80) / 2,
-        height: ((dimensions.width - 80) / 2) * 1.5,
+        height: ((dimensions.width - 80) / 2) * memberPhotoRatio,
     });
 
     console.log(dimensions);
@@ -76,67 +77,34 @@ const TeamMemberComponentMobile = (props) => {
     }, []);
 
     useEffect(() => {
-        setMemberPhotoDimensions({
-            memberPhotoWidth: (dimensions.width - 80) / 2,
-            memberPhotoHeight: ((dimensions.width - 80) / 2) * 1.5,
-        });
+        if (dimensions.width < dimensions.height) {
+            setMemberPhotoDimensions({
+                memberPhotoWidth: (dimensions.width - 80) / 2,
+                memberPhotoHeight:
+                    ((dimensions.width - 80) / 2) * memberPhotoRatio,
+            });
+        } else {
+            const newHeight = dimensions.height - 80;
+            setMemberPhotoDimensions({
+                memberPhotoWidth: newHeight / memberPhotoRatio,
+                memberPhotoHeight: newHeight,
+            });
+        }
     }, [dimensions]);
 
     const { teamMember } = props;
     const classes = useStyles();
 
-    const photoWidth = (dimensions.width - 80) / 2;
-
-    const [isHovering, setIsHovering] = useState(false);
-
-    const handleMouseEnter = () => {
-        setIsHovering(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsHovering(false);
-    };
-
     return (
         <div className={classes.container}>
-            <div
-                // onMouseEnter={handleMouseEnter}
-                // onMouseLeave={handleMouseLeave}
-                // onTouchStart={handleMouseEnter}
-                // onTouchEnd={handleMouseLeave}
-                style={{ position: 'relative' }}
-            >
+            <div style={{ position: 'relative' }}>
                 <div>
                     <img
-                        className={isHovering ? classes.opacity : undefined}
                         src={teamMember.image}
                         alt="1"
                         height={memberPhotoDimensions.memberPhotoHeight}
                     />
                 </div>
-                {isHovering && (
-                    <Fade
-                        in={isHovering}
-                        style={{ transitionTimingFunction: 'ease-in' }}
-                    >
-                        {/* <div
-                            className={classes.hoverContainer}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <Typography className={classes.name} variant={'h2'}>
-                                {teamMember.name}
-                            </Typography>
-                            <div className={classes.separator}></div>
-                            <Typography
-                                className={classes.role}
-                                variant={'subtitle1'}
-                            >
-                                {teamMember.role}
-                            </Typography>
-                        </div> */}
-                    </Fade>
-                )}
             </div>
         </div>
     );
