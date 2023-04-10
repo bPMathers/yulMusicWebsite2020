@@ -592,6 +592,12 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nbaProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/157210250' },
+            },
+        ],
     },
     {
         id: 4570,

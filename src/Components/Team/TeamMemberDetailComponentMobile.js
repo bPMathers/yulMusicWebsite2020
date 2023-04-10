@@ -13,8 +13,7 @@ import JoshPointFormComponent from './JoshPointFormComponent';
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        backgroundColor: theme.palette.primary.main,
-        width: '100vw',
+        position: '100vw',
     },
     dialog: {
         display: 'flex',
@@ -25,24 +24,23 @@ const useStyles = makeStyles((theme) => ({
     },
     appBar: {
         backgroundColor: theme.palette.primary.main,
-        position: 'relative',
+        width: '100%',
     },
     imageContainer: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        width: '100vw',
+        width: '100%',
         backgroundColor: theme.palette.primary.main,
         paddingTop: '30px',
         paddingBottom: '10px',
     },
     pointFormContainer: {
         backgroundColor: theme.palette.primary.main,
-        padding: '20px',
+        width: '100%',
         display: 'flex',
         alignItems: 'flex-start',
         justifyContent: 'center',
-        minHeight: '100vh',
     },
     title: {
         marginLeft: theme.spacing(2),
@@ -93,7 +91,7 @@ export default function TeamMemberDetailComponentMobile(props) {
                     <div className={classes.imageContainer}>
                         <img
                             src={teamMemberDetail.image}
-                            width={'300px'}
+                            width={'350px'}
                             alt="Christian Lagueux"
                         />
                     </div>

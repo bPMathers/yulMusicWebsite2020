@@ -29,7 +29,7 @@ const NathanComponentMobile = () => {
                 <video
                     id="nathanVideo1"
                     src={nathan5}
-                    width={'360px'}
+                    width={'320px'}
                     autoPlay={true}
                     loop={true}
                     muted

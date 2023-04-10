@@ -63,8 +63,6 @@ const TeamMemberComponentMobile = (props) => {
         height: ((dimensions.width - 80) / 2) * memberPhotoRatio,
     });
 
-    console.log(dimensions);
-
     const handleResize = () => {
         setDimensions({
             width: window.innerWidth,
