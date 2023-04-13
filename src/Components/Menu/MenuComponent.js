@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Button from '@material-ui/core/Button';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
@@ -15,8 +15,8 @@ import { HashLink } from 'react-router-hash-link';
 
 const useStyles = makeStyles((theme) => ({
     menuList: {
-        width: '105vw',
-        height: '105vh',
+        width: '100vw',
+        height: '100vh',
         // backgroundColor: theme.palette.primary.main,
         display: 'flex',
         flexDirection: 'column',
@@ -57,6 +57,26 @@ export default function MenuComponent(props) {
     const handleToggle = () => {
         setOpen((prevOpen) => !prevOpen);
     };
+
+    useEffect(() => {
+        function preventScroll(e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            return false;
+        }
+        if (open) {
+            document
+                .querySelector('#scrollable')
+                ?.addEventListener('wheel', preventScroll, { passive: false });
+        } else {
+            document
+                .querySelector('#scrollable')
+                ?.removeEventListener('wheel', preventScroll, {
+                    passive: false,
+                });
+        }
+    }, [open]);
 
     const handleClose = (event) => {
         if (anchorRef.current && anchorRef.current.contains(event.target)) {
@@ -110,7 +130,7 @@ export default function MenuComponent(props) {
                             transformOrigin: placement === 'center',
                         }}
                     >
-                        <Paper>
+                        <Paper id={'scrollable'}>
                             <ClickAwayListener onClickAway={handleClose}>
                                 <MenuList
                                     autoFocusItem={open}
@@ -119,6 +139,8 @@ export default function MenuComponent(props) {
                                     className={classes.menuList}
                                     style={{
                                         backgroundColor: '#484A47',
+                                        overflowX: 'hidden',
+                                        overflowY: 'hidden',
                                     }}
                                 >
                                     <MenuItem

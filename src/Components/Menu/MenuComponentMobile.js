@@ -54,6 +54,26 @@ export default function MenuComponentMobile(props) {
     const [open, setOpen] = useState(false);
     const anchorRef = useRef(null);
 
+    React.useEffect(() => {
+        function preventScroll(e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            return false;
+        }
+        if (open) {
+            document
+                .querySelector('#scrollable')
+                ?.addEventListener('wheel', preventScroll, { passive: false });
+        } else {
+            document
+                .querySelector('#scrollable')
+                ?.removeEventListener('wheel', preventScroll, {
+                    passive: false,
+                });
+        }
+    }, [open]);
+
     const handleToggle = () => {
         setOpen((prevOpen) => !prevOpen);
     };
@@ -84,7 +104,15 @@ export default function MenuComponentMobile(props) {
     }, [open]);
 
     return (
-        <div style={{ position: 'relative', zIndex: 100 }}>
+        <div
+            style={{
+                position: 'relative',
+                zIndex: 100,
+                touchAction: 'none',
+                // overflowX: 'hidden',
+                // overflowY: 'hidden',
+            }}
+        >
             <Button
                 ref={anchorRef}
                 aria-controls={open ? 'menu-list-grow' : undefined}
@@ -110,7 +138,7 @@ export default function MenuComponentMobile(props) {
                             transformOrigin: placement === 'center',
                         }}
                     >
-                        <Paper>
+                        <Paper id={'scrollable'}>
                             <ClickAwayListener onClickAway={handleClose}>
                                 <MenuList
                                     autoFocusItem={open}
@@ -155,17 +183,6 @@ export default function MenuComponentMobile(props) {
                                             </Typography>
                                         </MenuItem>
                                     </HashLink>
-                                    {/* <HashLink
-                    to="/#servicesSection"
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <MenuItem
-                      onClick={handleClose}
-                      className={classes.menuItem}
-                    >
-                      <Typography variant={'h6'}>Services</Typography>
-                    </MenuItem>
-                  </HashLink> */}
                                     <HashLink
                                         to="/#projectsSection"
                                         style={{ textDecoration: 'none' }}
