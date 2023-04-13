@@ -13,7 +13,7 @@ import { DialogContent } from '@material-ui/core';
 import { List } from 'react-virtualized';
 import clsx from 'clsx';
 
-const projectWidth = window.innerWidth * 0.6;
+const projectWidth = window.innerWidth * 0.88;
 const projectHeight = projectWidth / 1.53;
 
 console.log('------------------_>', window.innerWidth);
@@ -23,14 +23,14 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.primary.main,
     },
     dialogContent: {
+        width: '100vw',
         backgroundColor: theme.palette.primary.main,
         padding: '0px 0px 50px 0px',
-        width: '100vw',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        border: '2px solid red',
+        // border: '2px solid red',
     },
     dialogContentRoot: {
         '&:first-child': {
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'row',
         // flex: 'space-between',
         justifyContent: 'flex-start',
-        width: '80%',
+        // width: '80%',
     },
 
     title: {
@@ -98,7 +98,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '10px',
     },
     detailMediaContainer: {
-        width: '721px',
+        width: projectWidth,
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-start',
@@ -148,134 +148,6 @@ export default function ProjectDetailComponentMobile(props) {
     //     onNavigate(direction);
     // };
 
-    // return (
-    //     <div className={classes.container}>
-    //         <Dialog
-    //             fullScreen
-    //             // fullWidth={true}
-    //             open={open}
-    //             TransitionComponent={Transition}
-    //             className={classes.dialog}
-    //         >
-    //             <DialogContent
-    //                 className={classes.dialogContent}
-    //                 classes={{ root: classes.dialogContentRoot }}
-    //             >
-    //                 <AppBar className={classes.appBar}>
-    //                     <Toolbar>
-    //                         <IconButton
-    //                             edge="start"
-    //                             color="inherit"
-    //                             onClick={handleClose}
-    //                             aria-label="close"
-    //                         >
-    //                             <CloseIcon />
-    //                         </IconButton>
-    //                         {/* <IconButton
-    //                             edge="start"
-    //                             color="inherit"
-    //                             onClick={handleNavigate('left')}
-    //                             aria-label="Navigate Left"
-    //                         >
-    //                             <ArrowLeft />
-    //                         </IconButton>
-    //                         <IconButton
-    //                             edge="start"
-    //                             color="inherit"
-    //                             onClick={handleNavigate('right')}
-    //                             aria-label="Navigate Right"
-    //                         >
-    //                             <ArrowRight />
-    //                         </IconButton> */}
-    //                     </Toolbar>
-    //                 </AppBar>
-    //                 <div className={classes.containerToBeRenamed}>
-    //                     {projectDetail && (
-    //                         <div
-    //                             className={classes.projectDetailContent}
-    //                             key={Math.random().toString()}
-    //                         >
-    //                             <Typography
-    //                                 className={classes.title}
-    //                                 variant={'h2'}
-    //                             >
-    //                                 {projectDetail.title}
-    //                             </Typography>
-    //                             <Typography
-    //                                 className={classes.year}
-    //                                 variant={'h6'}
-    //                             >
-    //                                 ({projectDetail.year})
-    //                             </Typography>
-    //                             <div className={classes.separator}></div>
-    //                             <Typography
-    //                                 className={classes.subtitle}
-    //                                 variant={'subtitle2'}
-    //                             >
-    //                                 {projectDetail.detailedSubtitle ??
-    //                                     projectDetail.subtitle}
-    //                             </Typography>
-    //                             <div className={classes.separator2}></div>
-    //                             <Typography
-    //                                 className={classes.categoriesText}
-    //                                 variant={'subtitle2'}
-    //                             >
-    //                                 {projectDetail.categoriesText}
-    //                             </Typography>
-    //                             <div className={classes.detailMediaContainer}>
-    //                                 {projectVideos.length > 0 &&
-    //                                     projectVideos.map((video) => {
-    //                                         return (
-    //                                             <>
-    //                                                 <iframe
-    //                                                     className={
-    //                                                         classes.detailMediaItem
-    //                                                     }
-    //                                                     src={video.data.src}
-    //                                                     width={projectWidth}
-    //                                                     height={projectHeight}
-    //                                                     frameborder="0"
-    //                                                     allow="autoplay; fullscreen; picture-in-picture"
-    //                                                     allowfullscreen
-    //                                                     title={
-    //                                                         projectDetail.title
-    //                                                     }
-    //                                                 ></iframe>
-    //                                             </>
-    //                                         );
-    //                                     })}
-    //                                 {projectDetail.bgImg && (
-    //                                     <img
-    //                                         src={projectDetail.bgImg}
-    //                                         className={classes.detailMediaItem}
-    //                                         alt="Project"
-    //                                     />
-    //                                 )}
-    //                                 {projectDetail.extraMedia &&
-    //                                     projectDetail.extraMedia.map(
-    //                                         (media, index) => {
-    //                                             if (media.type === 'img') {
-    //                                                 return (
-    //                                                     <img
-    //                                                         src={media.data}
-    //                                                         className={
-    //                                                             classes.detailMediaItem
-    //                                                         }
-    //                                                         alt="media item"
-    //                                                         key={index}
-    //                                                     />
-    //                                                 );
-    //                                             } else return <></>;
-    //                                         }
-    //                                     )}
-    //                             </div>
-    //                         </div>
-    //                     )}
-    //                 </div>
-    //             </DialogContent>
-    //         </Dialog>
-    //     </div>
-    // );
     return (
         <div className={classes.container}>
             <Dialog
