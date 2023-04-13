@@ -6,17 +6,15 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
-// import ArrowRight from '@material-ui/icons/ArrowRight';
-// import ArrowLeft from '@material-ui/icons/ArrowLeft';
+import ArrowRight from '@material-ui/icons/ArrowRight';
+import ArrowLeft from '@material-ui/icons/ArrowLeft';
 import Slide from '@material-ui/core/Slide';
 import { DialogContent } from '@material-ui/core';
 import { List } from 'react-virtualized';
 import clsx from 'clsx';
 
-const projectWidth = window.innerWidth * 0.88;
+const projectWidth = window.innerWidth * 0.9;
 const projectHeight = projectWidth / 1.53;
-
-console.log('------------------_>', window.innerWidth);
 
 const useStyles = makeStyles((theme) => ({
     dialog: {
@@ -30,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        // border: '2px solid red',
+        // scrollY: 'auto'
     },
     dialogContentRoot: {
         '&:first-child': {
@@ -48,11 +46,22 @@ const useStyles = makeStyles((theme) => ({
     },
     appBar: {
         position: 'relative',
+        // position: 'absolute',
+        // overflow: 'hidden',
+        // top: 0,
+        // backgroundColor: 'red',
+        // left: 0,
+
+        // top: 'auto',
+        // bottom: 0,
+        // float: 'left',
+        // display: 'block',
     },
-    containerToBeRenamed: {
+    projectDetailContainer: {
+        // border: '2px solid red',
         // marginLeft: '40px',
         // marginTop: '40px',
-        // width: '100%',
+        // width: '95%',
         display: 'flex',
         flexDirection: 'row',
         // flex: 'space-between',
@@ -61,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     title: {
-        fontSize: '2em',
+        fontSize: '1.5em',
         textAlign: 'center',
         marginBottom: '3px',
         fontWeight: 500,
@@ -72,9 +81,9 @@ const useStyles = makeStyles((theme) => ({
     },
     subtitle: {
         padding: '0px 2em',
-        fontSize: '1.2em',
+        fontSize: '1.0em',
         textAlign: 'center',
-        width: '70%',
+        width: '90%',
         marginBottom: '10px',
         fontWeight: 400,
     },
@@ -119,7 +128,7 @@ export default function ProjectDetailComponentMobile(props) {
     const {
         open,
         onClose,
-        // onNavigate,
+        onNavigate,
         projectsData,
         onSelectItemFromList,
         project,
@@ -144,9 +153,9 @@ export default function ProjectDetailComponentMobile(props) {
         onClose();
     };
 
-    // const handleNavigate = (direction) => () => {
-    //     onNavigate(direction);
-    // };
+    const handleNavigate = (direction) => () => {
+        onNavigate(direction);
+    };
 
     return (
         <div className={classes.container}>
@@ -161,7 +170,7 @@ export default function ProjectDetailComponentMobile(props) {
                     className={classes.dialogContent}
                     classes={{ root: classes.dialogContentRoot }}
                 >
-                    <AppBar className={classes.appBar}>
+                    <AppBar className={classes.appBar} position="fixed">
                         <Toolbar>
                             <IconButton
                                 edge="start"
@@ -171,7 +180,7 @@ export default function ProjectDetailComponentMobile(props) {
                             >
                                 <CloseIcon />
                             </IconButton>
-                            {/* <IconButton
+                            <IconButton
                                 edge="start"
                                 color="inherit"
                                 onClick={handleNavigate('left')}
@@ -186,10 +195,10 @@ export default function ProjectDetailComponentMobile(props) {
                                 aria-label="Navigate Right"
                             >
                                 <ArrowRight />
-                            </IconButton> */}
+                            </IconButton>
                         </Toolbar>
                     </AppBar>
-                    <div className={classes.containerToBeRenamed}>
+                    <div className={classes.projectDetailContainer}>
                         {projectDetail && (
                             <div
                                 className={classes.projectDetailContent}
@@ -236,7 +245,7 @@ export default function ProjectDetailComponentMobile(props) {
                                                         height={projectHeight}
                                                         frameborder="0"
                                                         allow="autoplay; fullscreen; picture-in-picture"
-                                                        allowfullscreen
+                                                        allowFullScreen
                                                         title={
                                                             projectDetail.title
                                                         }

@@ -366,7 +366,7 @@ export default function ProjectDetailComponent(props) {
                                                         }
                                                         frameborder="0"
                                                         allow="autoplay; fullscreen; picture-in-picture"
-                                                        allowfullscreen
+                                                        allowFullScreen
                                                         title={
                                                             projectDetail.title
                                                         }
