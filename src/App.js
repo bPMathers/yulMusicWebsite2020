@@ -10,6 +10,7 @@ import theme from './ui/Theme';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import HomePageComponentMobile from './Pages/Home/HomePageComponentMobile';
+import MenuComponentMobile from './Components/Menu/MenuComponentMobile';
 const useStyles = makeStyles((theme) => ({}));
 
 export default function App() {
@@ -30,8 +31,9 @@ export default function App() {
                         backgroundColor: theme.palette.primary.main,
                     }}
                 >
-                    {/* {!isMobile && <MenuComponent />} */}
-                    <MenuComponent />
+                    {!isMobile && <MenuComponent />}
+                    {isMobile && <MenuComponentMobile />}
+
                     {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
                     <Switch>

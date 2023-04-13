@@ -125,9 +125,9 @@ const ProjectsComponentMobile = ({ projectsData }) => {
                     </div>
                     <Button
                         className={classes.moreButton}
-                        onClick={handleProjectClick(projectsData[10].id)}
+                        onClick={handleProjectClick(projectsData[0].id)}
                     >
-                        SEE MORE PROJECTS
+                        SEE ALL PROJECTS
                     </Button>
                 </div>
             </div>
