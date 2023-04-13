@@ -1,42 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
+import { Typography, Fade } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
-    project: {
-        width: 'calc(100vw / 3 - 40px)',
-        padding: '15px',
-        minWidth: '300px',
-        height: 'calc((100vw / 3) / 1.75)',
-        // border: '1px solid white',
+    container: {
+        width: 'calc(100vw / 3 - 10px)',
+        height: 'calc((100vw / 3) / 1.53)',
+        minWidth: '360px',
+        minHeight: '235px',
+        backgroundColor: theme.palette.primary.main,
+        background: (props) => `url(${props?.project?.bgImg})`,
+        backgroundSize: (props) => 'cover',
+        margin: '2px',
         display: 'flex',
-        flexDirection: 'column',
-        // justifyContent: 'center',
-        // alignItems: 'center',
-        animation: `$fade 2000ms ease-out`,
-
-        '&::after': {
-            content: '""',
-            opacity: 0.1,
-            top: 0,
-            left: 0,
-            bottom: 0,
-            right: 0,
-            position: 'absolute',
-            borderRadius: '20px',
-            zIndex: -1,
-            background: (props) => `url(${props?.project?.bgImg})`,
-            backgroundSize: (props) => 'cover',
-
-            '&:hover': {
-                zIndex: 2,
-            },
-        },
-
         '&:hover': {
-            opacity: 0.9,
             cursor: 'pointer',
         },
+    },
+    hoverContainer: {
+        minWidth: '360px',
+        minHeight: '235px',
+        backgroundColor: 'rgba(13, 13, 13, 0.85)',
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 'calc((100vw / 3) / 1.53)',
+        width: 'calc(100vw / 3 - 10px)',
+        textDecoration: 'none',
+    },
+    background: {
+        minWidth: '360px',
+        minHeight: '235px',
+        width: 'calc(100vw / 3 - 10px)',
+        height: 'calc((100vw / 3) / 1.53)',
+
+        backgroundColor: theme.palette.primary.main,
+        background: (props) => `url(${props?.project?.bgImg})`,
+
+        backgroundSize: (props) => 'cover',
     },
     separator: {
         backgroundColor: theme.palette.common.gold,
@@ -44,21 +49,73 @@ const useStyles = makeStyles((theme) => ({
         width: '30px',
         margin: '10px 0',
     },
+    opacity: {
+        opacity: 0.2,
+    },
+    title: {
+        fontSize: '2em',
+        textAlign: 'center',
+        marginBottom: '5px',
+        fontWeight: 500,
+    },
+    subtitle: {
+        padding: '0px 2em',
+        fontSize: '1.2em',
+        textAlign: 'center',
+    },
 }));
 
 const ProjectComponent = (props) => {
     const { project } = props;
     const classes = useStyles(props);
 
+    const [isHovering, setIsHovering] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHovering(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHovering(false);
+    };
+
     return (
-        <div style={{ position: 'relative' }}>
-            <div key={project.id} className={classes.project}>
-                <Typography variant={'h4'}>{project.title}</Typography>
-                <Typography>{project.subtitle}</Typography>
-                <div className={classes.separator}></div>
-                <Typography variant={'h4'}>{project.year}</Typography>
+        <>
+            <div
+                className={classes.container}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                style={{ position: 'relative' }}
+            >
+                <div className={classes.background}></div>
+                {isHovering && (
+                    <Fade
+                        in={isHovering}
+                        style={{ transitionTimingFunction: 'ease-in' }}
+                    >
+                        <div
+                            className={classes.hoverContainer}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Typography
+                                className={classes.title}
+                                variant={'h2'}
+                            >
+                                {project.altTitle ?? project.title}
+                            </Typography>
+                            <div className={classes.separator}></div>
+                            <Typography
+                                className={classes.subtitle}
+                                variant={'subtitle2'}
+                            >
+                                {project.subtitle}
+                            </Typography>
+                        </div>
+                    </Fade>
+                )}
             </div>
-        </div>
+        </>
     );
 };
 

@@ -2,12 +2,16 @@ import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Fade } from '@material-ui/core';
 
+const projectWidth = window.innerWidth * 0.88;
+const projectHeight = projectWidth / 1.53;
+// const projectHeight = "58";
+
 const useStyles = makeStyles((theme) => ({
     container: {
-        width: 'calc(100vw / 3 - 10px)',
-        height: 'calc((100vw / 3) / 1.53)',
-        minWidth: '360px',
-        minHeight: '235px',
+        // width: 'calc(100vw / 3 - 10px)',
+        // height: 'calc((100vw / 3) / 1.53)',
+        minWidth: projectWidth,
+        minHeight: projectHeight,
         backgroundColor: theme.palette.primary.main,
         background: (props) => `url(${props?.project?.bgImg})`,
         backgroundSize: (props) => 'cover',
@@ -18,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     hoverContainer: {
-        minWidth: '360px',
-        minHeight: '235px',
+        minWidth: projectWidth,
+        minHeight: projectHeight,
         backgroundColor: 'rgba(13, 13, 13, 0.85)',
         position: 'absolute',
         top: 0,
@@ -33,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
         textDecoration: 'none',
     },
     background: {
-        minWidth: '360px',
-        minHeight: '235px',
+        minWidth: projectWidth,
+        minHeight: projectHeight,
         width: 'calc(100vw / 3 - 10px)',
         height: 'calc((100vw / 3) / 1.53)',
 
@@ -65,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const ProjectComponent2 = (props) => {
+const ProjectComponentMobile = (props) => {
     const { project } = props;
     const classes = useStyles(props);
 
@@ -119,4 +123,4 @@ const ProjectComponent2 = (props) => {
     );
 };
 
-export default ProjectComponent2;
+export default ProjectComponentMobile;

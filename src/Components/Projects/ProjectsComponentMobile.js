@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-// import { projectsData } from './ProjectsData';
 import ProjectDetailComponent from './ProjectDetailComponent';
-import ProjectComponent from './ProjectComponent';
+import ProjectComponentMobile from './ProjectComponentMobile';
+import { Button, Typography } from '@material-ui/core';
+import ProjectDetailComponentMobile from './ProjectDetailComponentMobile';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -21,9 +22,27 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         justifyContent: 'center',
     },
+    projectContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+    },
+    projectTitle: {
+        fontSize: 14,
+        fontWeight: 400,
+        marginTop: 5,
+        marginBottom: 30,
+    },
+    moreButton: {
+        color: 'white',
+        border: '1px solid white',
+        marginBottom: 40,
+    },
 }));
 
-const ProjectsComponent = ({ projectsData }) => {
+const ProjectsComponentMobile = ({ projectsData }) => {
+    // TODO: fix copying this array to have a separate instance
+    // const projectsData = {}...props?.projectsData];
+
     const classes = useStyles();
 
     const [detailOpen, setDetailOpen] = useState(false);
@@ -67,7 +86,7 @@ const ProjectsComponent = ({ projectsData }) => {
 
     return (
         <>
-            <ProjectDetailComponent
+            <ProjectDetailComponentMobile
                 onClose={handleOnDetailClose}
                 open={detailOpen}
                 project={selectedProject}
@@ -88,18 +107,32 @@ const ProjectsComponent = ({ projectsData }) => {
                             .map((project) => {
                                 return (
                                     <div
+                                        className={classes.projectContainer}
                                         onClick={handleProjectClick(project.id)}
                                         key={project.id}
                                     >
-                                        <ProjectComponent project={project} />
+                                        <ProjectComponentMobile
+                                            project={project}
+                                        />
+                                        <Typography
+                                            className={classes.projectTitle}
+                                        >
+                                            {project.title}
+                                        </Typography>
                                     </div>
                                 );
                             })}
                     </div>
+                    <Button
+                        className={classes.moreButton}
+                        onClick={handleProjectClick(projectsData[10].id)}
+                    >
+                        SEE MORE PROJECTS
+                    </Button>
                 </div>
             </div>
         </>
     );
 };
 
-export default ProjectsComponent;
+export default ProjectsComponentMobile;
