@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yulMusicWebsite2020/static/css/main.713cc0ce.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.0a15332e.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.0a15332e.chunk.js.map",
+    "main.js": "/yulMusicWebsite2020/static/js/main.ad2f3aaa.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.ad2f3aaa.chunk.js.map",
     "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.53b426bb.js",
     "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.53b426bb.js.map",
-    "static/js/2.5f5b9df9.chunk.js": "/yulMusicWebsite2020/static/js/2.5f5b9df9.chunk.js",
-    "static/js/2.5f5b9df9.chunk.js.map": "/yulMusicWebsite2020/static/js/2.5f5b9df9.chunk.js.map",
+    "static/js/2.bbc677e9.chunk.js": "/yulMusicWebsite2020/static/js/2.bbc677e9.chunk.js",
+    "static/js/2.bbc677e9.chunk.js.map": "/yulMusicWebsite2020/static/js/2.bbc677e9.chunk.js.map",
     "index.html": "/yulMusicWebsite2020/index.html",
     "static/css/main.713cc0ce.chunk.css.map": "/yulMusicWebsite2020/static/css/main.713cc0ce.chunk.css.map",
-    "static/js/2.5f5b9df9.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.5f5b9df9.chunk.js.LICENSE.txt",
+    "static/js/2.bbc677e9.chunk.js.LICENSE.txt": "/yulMusicWebsite2020/static/js/2.bbc677e9.chunk.js.LICENSE.txt",
     "static/media/20131203-Tims-Exterior.c40e0aaf.jpg": "/yulMusicWebsite2020/static/media/20131203-Tims-Exterior.c40e0aaf.jpg",
     "static/media/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.39fcb5d3.jpg": "/yulMusicWebsite2020/static/media/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.39fcb5d3.jpg",
     "static/media/Alibaba - Logo2.4132cb5e.png": "/yulMusicWebsite2020/static/media/Alibaba - Logo2.4132cb5e.png",
@@ -116,8 +116,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.53b426bb.js",
-    "static/js/2.5f5b9df9.chunk.js",
+    "static/js/2.bbc677e9.chunk.js",
     "static/css/main.713cc0ce.chunk.css",
-    "static/js/main.0a15332e.chunk.js"
+    "static/js/main.ad2f3aaa.chunk.js"
   ]
 }
