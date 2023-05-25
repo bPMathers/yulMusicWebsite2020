@@ -20,7 +20,8 @@ const NathanComponentMobile = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        document.querySelector('#nathanVideo1').playbackRate = 1;
+        // document.querySelector('#nathanVideo1').playbackRate = 1;
+        document.querySelector('#nathanVideo1').play();
     }, []);
 
     return (
