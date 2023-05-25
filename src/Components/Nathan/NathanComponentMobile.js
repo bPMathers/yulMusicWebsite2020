@@ -21,12 +21,12 @@ const NathanComponentMobile = () => {
 
     useEffect(() => {
         // document.querySelector('#nathanVideo1').playbackRate = 1;
-        document
-            .querySelector('#nathanVideo1mobile')
-            .addEventListener('touchstart', () => {
-                console.log('----------fdssf------------');
-                document.querySelector('#nathanVideo1mobile').play();
-            });
+        // document
+        //     .querySelector('#nathanVideo1mobile')
+        //     .addEventListener('touchstart', () => {
+        //         console.log('----------fdssf------------');
+        //         document.querySelector('#nathanVideo1mobile').play();
+        //     });
     }, []);
 
     // const playVid = () => document.querySelector('#nathanVideo1').play();
