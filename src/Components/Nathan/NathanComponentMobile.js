@@ -21,7 +21,12 @@ const NathanComponentMobile = () => {
 
     useEffect(() => {
         // document.querySelector('#nathanVideo1').playbackRate = 1;
-        document.querySelector('#nathanVideo1').play();
+        document
+            .querySelector('#nathanVideo1mobile')
+            .addEventListener('touchstart', () => {
+                console.log('----------fdssf------------');
+                document.querySelector('#nathanVideo1mobile').play();
+            });
     }, []);
 
     // const playVid = () => document.querySelector('#nathanVideo1').play();
@@ -33,13 +38,13 @@ const NathanComponentMobile = () => {
                 // onClick={() => playVid()}
             >
                 <video
-                    id="nathanVideo1"
+                    id="nathanVideo1mobile"
                     src={nathan5}
                     width={'320px'}
                     autoPlay={true}
                     loop={true}
-                    muted
-                    playsInline
+                    muted={true}
+                    playsInline={true}
                     style={{
                         filter: 'hue-rotate(42deg)',
                     }}
