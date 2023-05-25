@@ -24,9 +24,14 @@ const NathanComponentMobile = () => {
         document.querySelector('#nathanVideo1').play();
     }, []);
 
+    // const playVid = () => document.querySelector('#nathanVideo1').play();
+
     return (
         <div className={classes.container}>
-            <div className={classes.content}>
+            <div
+                className={classes.content}
+                // onClick={() => playVid()}
+            >
                 <video
                     id="nathanVideo1"
                     src={nathan5}
@@ -34,6 +39,7 @@ const NathanComponentMobile = () => {
                     autoPlay={true}
                     loop={true}
                     muted
+                    playsInline
                     style={{
                         filter: 'hue-rotate(42deg)',
                     }}
