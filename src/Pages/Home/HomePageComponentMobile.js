@@ -13,6 +13,7 @@ import { projectsData } from '../../Components/Projects/ProjectsData';
 import NathanComponentMobile from '../../Components/Nathan/NathanComponentMobile';
 import TeamComponentMobile from '../../Components/Team/TeamComponentMobile';
 import ProjectsComponentMobile from '../../Components/Projects/ProjectsComponentMobile';
+import CreativeCollaboratorsComponentMobile from '../../Components/CC/CreativeCollaboratorsComponentMobile';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -78,6 +79,12 @@ const HomePageComponentMobile = () => {
             </div>
             <div id="projectsSection" className={classes.projectsSection}>
                 <ProjectsComponentMobile projectsData={projectsData} />
+            </div>
+            <div
+                id="creativeCollaboratorsSection"
+                className={classes.creativeCollaboratorsSection}
+            >
+                <CreativeCollaboratorsComponentMobile />
             </div>
         </div>
     );
