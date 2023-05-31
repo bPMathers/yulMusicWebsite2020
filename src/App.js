@@ -11,6 +11,7 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import HomePageComponentMobile from './Pages/Home/HomePageComponentMobile';
 import MenuComponentMobile from './Components/Menu/MenuComponentMobile';
+import ContactPageComponentMobile from './Pages/Contact/ContactPageComponentMobile';
 const useStyles = makeStyles((theme) => ({}));
 
 export default function App() {
@@ -38,7 +39,8 @@ export default function App() {
             renders the first one that matches the current URL. */}
                     <Switch>
                         <Route path="/contact">
-                            <ContactPageComponent />
+                            {!isMobile && <ContactPageComponent />}
+                            {isMobile && <ContactPageComponentMobile />}
                         </Route>
                         {/* <Route path="/services">
                             <ServicesPageComponent />
