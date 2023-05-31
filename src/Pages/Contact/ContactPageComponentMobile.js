@@ -30,8 +30,13 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '14px',
         textTransform: 'uppercase',
         textAlign: 'center',
-        letterSpacing: '10px',
+        letterSpacing: '8px',
         fontWeight: 100,
+    },
+    contactItemBtn: {
+        display: 'flex',
+        margin: '0px',
+        paddingTop: '10px',
     },
     separator: {
         backgroundColor: theme.palette.common.gold,
@@ -66,15 +71,16 @@ const ContactPageComponentMobile = () => {
                     target="_top"
                     rel="noopener noreferrer"
                     href={`mailto:christian@yulmusic.com`}
+                    className={classes.contactItemBtn}
                 >
                     <Typography className={classes.contactItem} variant="h2">
                         christian@yulmusic.com
                     </Typography>
                 </Button>
                 <Button
-                    target="_top"
                     rel="noopener noreferrer"
-                    href={`tel:+5148082868`}
+                    href={`tel:+15148082868`}
+                    className={classes.contactItemBtn}
                 >
                     <Typography className={classes.contactItem} variant="h2">
                         514.808.2868
@@ -101,15 +107,21 @@ const ContactPageComponentMobile = () => {
                     target="_top"
                     rel="noopener noreferrer"
                     href={`mailto:daniel@yulmusic.com`}
-                    // style={{ margin: '0px', padding: '2px' }}
+                    className={classes.contactItemBtn}
                 >
                     <Typography className={classes.contactItem} variant="h2">
                         daniel@yulmusic.com
                     </Typography>
                 </Button>
-                <Typography className={classes.contactItem} variant="h2">
-                    818.795.6043
-                </Typography>
+                <Button
+                    rel="noopener noreferrer"
+                    href={`tel:+18187956043`}
+                    className={classes.contactItemBtn}
+                >
+                    <Typography className={classes.contactItem} variant="h2">
+                        818.795.6043
+                    </Typography>
+                </Button>
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -33,6 +33,11 @@ const useStyles = makeStyles((theme) => ({
         letterSpacing: '10px',
         fontWeight: 100,
     },
+    contactItemBtn: {
+        display: 'flex',
+        margin: '0px',
+        paddingTop: '10px',
+    },
     separator: {
         backgroundColor: theme.palette.common.gold,
         height: '3px',
@@ -62,12 +67,25 @@ const ContactPageComponent = () => {
                 >
                     CHRISTIAN LAGUEUX
                 </Typography>
-                <Typography className={classes.contactItem} variant="h2">
-                    christian@yulmusic.com
-                </Typography>
-                <Typography className={classes.contactItem} variant="h2">
-                    514.808.2868
-                </Typography>
+                <Button
+                    target="_top"
+                    rel="noopener noreferrer"
+                    href={`mailto:christian@yulmusic.com`}
+                    className={classes.contactItemBtn}
+                >
+                    <Typography className={classes.contactItem} variant="h2">
+                        christian@yulmusic.com
+                    </Typography>
+                </Button>
+                <Button
+                    rel="noopener noreferrer"
+                    href={`tel:+15148082868`}
+                    className={classes.contactItemBtn}
+                >
+                    <Typography className={classes.contactItem} variant="h2">
+                        514.808.2868
+                    </Typography>
+                </Button>
             </div>
             <div className={classes.separator}></div>
             <div className={classes.contactItemGroup}>
@@ -85,12 +103,25 @@ const ContactPageComponent = () => {
                 >
                     DANIEL DE LOS REYES
                 </Typography>
-                <Typography className={classes.contactItem} variant="h2">
-                    daniel@yulmusic.com
-                </Typography>
-                <Typography className={classes.contactItem} variant="h2">
-                    818.795.6043
-                </Typography>
+                <Button
+                    target="_top"
+                    rel="noopener noreferrer"
+                    href={`mailto:daniel@yulmusic.com`}
+                    className={classes.contactItemBtn}
+                >
+                    <Typography className={classes.contactItem} variant="h2">
+                        daniel@yulmusic.com
+                    </Typography>
+                </Button>
+                <Button
+                    rel="noopener noreferrer"
+                    href={`tel:+18187956043`}
+                    className={classes.contactItemBtn}
+                >
+                    <Typography className={classes.contactItem} variant="h2">
+                        818.795.6043
+                    </Typography>
+                </Button>
             </div>
         </div>
     );
