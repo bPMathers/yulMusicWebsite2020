@@ -1,14 +1,7 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { makeStyles } from '@material-ui/core/styles';
 
-import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
-import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
-import NathanComponent from '../../Components/Nathan/NathanComponent';
-import CreativeCollaboratorsComponent from '../../Components/CC/CreativeCollaboratorsComponent';
-import NathanComponent2 from '../../Components/Contact/ContactComponent';
-import ContactComponent from '../../Components/Contact/ContactComponent';
 import { projectsData } from '../../Components/Projects/ProjectsData';
 import NathanComponentMobile from '../../Components/Nathan/NathanComponentMobile';
 import TeamComponentMobile from '../../Components/Team/TeamComponentMobile';
@@ -55,10 +48,10 @@ const useStyles = makeStyles((theme) => ({
 
 const HomePageComponentMobile = () => {
     const classes = useStyles();
-    const theme = useTheme();
+    // const theme = useTheme();
 
-    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-    console.log('isMobile ---->', isMobile);
+    // const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    // console.log('isMobile ---->', isMobile);
 
     return (
         <div className={classes.container}>

@@ -110,9 +110,6 @@ const HomePageComponent = () => {
             >
                 <CreativeCollaboratorsComponent />
             </div>
-            {/* <div id="contactSection" className={classes.contactSection}>
-        <ContactComponent />
-      </div> */}
             <div style={{ height: '100px' }}></div>
         </div>
     );

@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
         // backgroundColor: theme.palette.primary.main,
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center',
+        justifyContent: 'space-evenly',
         alignItems: 'center',
         position: 'absolute',
         right: '-45px',

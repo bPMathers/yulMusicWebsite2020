@@ -31,6 +31,9 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         width: '100vw',
     },
+    menuItemLabel: {
+        fontSize: '2rem',
+    },
     menuButton: {
         color: theme.palette.secondary.main,
         position: 'fixed',
@@ -165,7 +168,12 @@ export default function MenuComponentMobile(props) {
                                             onClick={handleClose}
                                             className={classes.menuItem}
                                         >
-                                            <Typography variant={'h6'}>
+                                            <Typography
+                                                variant={'h6'}
+                                                className={
+                                                    classes.menuItemLabel
+                                                }
+                                            >
                                                 Home
                                             </Typography>
                                         </MenuItem>
@@ -178,7 +186,12 @@ export default function MenuComponentMobile(props) {
                                             onClick={handleClose}
                                             className={classes.menuItem}
                                         >
-                                            <Typography variant={'h6'}>
+                                            <Typography
+                                                variant={'h6'}
+                                                className={
+                                                    classes.menuItemLabel
+                                                }
+                                            >
                                                 Team
                                             </Typography>
                                         </MenuItem>
@@ -191,7 +204,12 @@ export default function MenuComponentMobile(props) {
                                             onClick={handleClose}
                                             className={classes.menuItem}
                                         >
-                                            <Typography variant={'h6'}>
+                                            <Typography
+                                                variant={'h6'}
+                                                className={
+                                                    classes.menuItemLabel
+                                                }
+                                            >
                                                 Projects
                                             </Typography>
                                         </MenuItem>
@@ -204,7 +222,12 @@ export default function MenuComponentMobile(props) {
                                             onClick={handleClose}
                                             className={classes.menuItem}
                                         >
-                                            <Typography variant={'h6'}>
+                                            <Typography
+                                                variant={'h6'}
+                                                className={
+                                                    classes.menuItemLabel
+                                                }
+                                            >
                                                 Creative Collaborators
                                             </Typography>
                                         </MenuItem>
@@ -217,7 +240,12 @@ export default function MenuComponentMobile(props) {
                                             onClick={handleClose}
                                             className={classes.menuItem}
                                         >
-                                            <Typography variant={'h6'}>
+                                            <Typography
+                                                variant={'h6'}
+                                                className={
+                                                    classes.menuItemLabel
+                                                }
+                                            >
                                                 Contact
                                             </Typography>
                                         </MenuItem>

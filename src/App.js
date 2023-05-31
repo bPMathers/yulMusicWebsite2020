@@ -37,10 +37,10 @@ export default function App() {
                     {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
                     <Switch>
-                        {/* <Route path="/contact">
+                        <Route path="/contact">
                             <ContactPageComponent />
                         </Route>
-                        <Route path="/services">
+                        {/* <Route path="/services">
                             <ServicesPageComponent />
                         </Route>
                         <Route path="/projects">
