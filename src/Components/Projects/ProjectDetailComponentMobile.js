@@ -137,6 +137,28 @@ export default function ProjectDetailComponentMobile(props) {
 
     const [projectDetail, setProjectDetail] = useState(undefined);
     const [projectVideos, setProjectVideos] = useState([]);
+    const [touchStart, setTouchStart] = useState(null);
+    const [touchEnd, setTouchEnd] = useState(null);
+
+    // the required distance between touchStart and touchEnd to be detected as a swipe
+    const minSwipeDistance = 50;
+
+    const onTouchStart = (e) => {
+        setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
+        setTouchStart(e.targetTouches[0].clientX);
+    };
+
+    const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX);
+
+    const onTouchEnd = () => {
+        if (!touchStart || !touchEnd) return;
+        const distance = touchStart - touchEnd;
+        const isLeftSwipe = distance > minSwipeDistance;
+        const isRightSwipe = distance < -minSwipeDistance;
+        if (isLeftSwipe || isRightSwipe) {
+            isLeftSwipe ? handleNavigate('left') : handleNavigate('right');
+        }
+    };
 
     useEffect(() => {
         setProjectDetail(project);
@@ -198,88 +220,100 @@ export default function ProjectDetailComponentMobile(props) {
                             </IconButton>
                         </Toolbar>
                     </AppBar>
-                    <div className={classes.projectDetailContainer}>
-                        {projectDetail && (
-                            <div
-                                className={classes.projectDetailContent}
-                                key={Math.random().toString()}
-                            >
-                                <Typography
-                                    className={classes.title}
-                                    variant={'h2'}
+                    <div
+                        onTouchStart={onTouchStart}
+                        onTouchMove={onTouchMove}
+                        onTouchEnd={onTouchEnd}
+                    >
+                        <div className={classes.projectDetailContainer}>
+                            {projectDetail && (
+                                <div
+                                    className={classes.projectDetailContent}
+                                    key={Math.random().toString()}
                                 >
-                                    {projectDetail.title}
-                                </Typography>
-                                <Typography
-                                    className={classes.year}
-                                    variant={'h6'}
-                                >
-                                    ({projectDetail.year})
-                                </Typography>
-                                <div className={classes.separator}></div>
-                                <Typography
-                                    className={classes.subtitle}
-                                    variant={'subtitle2'}
-                                >
-                                    {projectDetail.detailedSubtitle ??
-                                        projectDetail.subtitle}
-                                </Typography>
-                                <div className={classes.separator2}></div>
-                                <Typography
-                                    className={classes.categoriesText}
-                                    variant={'subtitle2'}
-                                >
-                                    {projectDetail.categoriesText}
-                                </Typography>
-                                <div className={classes.detailMediaContainer}>
-                                    {projectVideos.length > 0 &&
-                                        projectVideos.map((video) => {
-                                            return (
-                                                <>
-                                                    <iframe
-                                                        className={
-                                                            classes.detailMediaItem
-                                                        }
-                                                        src={video.data.src}
-                                                        width={projectWidth}
-                                                        height={projectHeight}
-                                                        frameborder="0"
-                                                        allow="autoplay; fullscreen; picture-in-picture"
-                                                        allowFullScreen
-                                                        title={
-                                                            projectDetail.title
-                                                        }
-                                                    ></iframe>
-                                                </>
-                                            );
-                                        })}
-                                    {projectDetail.bgImg && (
-                                        <img
-                                            src={projectDetail.bgImg}
-                                            className={classes.detailMediaItem}
-                                            alt="Project"
-                                        />
-                                    )}
-                                    {projectDetail.extraMedia &&
-                                        projectDetail.extraMedia.map(
-                                            (media, index) => {
-                                                if (media.type === 'img') {
-                                                    return (
-                                                        <img
-                                                            src={media.data}
+                                    <Typography
+                                        className={classes.title}
+                                        variant={'h2'}
+                                    >
+                                        {projectDetail.title}
+                                    </Typography>
+                                    <Typography
+                                        className={classes.year}
+                                        variant={'h6'}
+                                    >
+                                        ({projectDetail.year})
+                                    </Typography>
+                                    <div className={classes.separator}></div>
+                                    <Typography
+                                        className={classes.subtitle}
+                                        variant={'subtitle2'}
+                                    >
+                                        {projectDetail.detailedSubtitle ??
+                                            projectDetail.subtitle}
+                                    </Typography>
+                                    <div className={classes.separator2}></div>
+                                    <Typography
+                                        className={classes.categoriesText}
+                                        variant={'subtitle2'}
+                                    >
+                                        {projectDetail.categoriesText}
+                                    </Typography>
+                                    <div
+                                        className={classes.detailMediaContainer}
+                                    >
+                                        {projectVideos.length > 0 &&
+                                            projectVideos.map((video) => {
+                                                return (
+                                                    <>
+                                                        <iframe
                                                             className={
                                                                 classes.detailMediaItem
                                                             }
-                                                            alt="media item"
-                                                            key={index}
-                                                        />
-                                                    );
-                                                } else return <></>;
-                                            }
+                                                            src={video.data.src}
+                                                            width={projectWidth}
+                                                            height={
+                                                                projectHeight
+                                                            }
+                                                            frameborder="0"
+                                                            allow="autoplay; fullscreen; picture-in-picture"
+                                                            allowFullScreen
+                                                            title={
+                                                                projectDetail.title
+                                                            }
+                                                        ></iframe>
+                                                    </>
+                                                );
+                                            })}
+                                        {projectDetail.bgImg && (
+                                            <img
+                                                src={projectDetail.bgImg}
+                                                className={
+                                                    classes.detailMediaItem
+                                                }
+                                                alt="Project"
+                                            />
                                         )}
+                                        {projectDetail.extraMedia &&
+                                            projectDetail.extraMedia.map(
+                                                (media, index) => {
+                                                    if (media.type === 'img') {
+                                                        return (
+                                                            <img
+                                                                src={media.data}
+                                                                className={
+                                                                    classes.detailMediaItem
+                                                                }
+                                                                alt="media item"
+                                                                key={index}
+                                                            />
+                                                        );
+                                                    } else return <></>;
+                                                }
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        )}
+                            )}
+                        </div>
                     </div>
                 </DialogContent>
             </Dialog>
