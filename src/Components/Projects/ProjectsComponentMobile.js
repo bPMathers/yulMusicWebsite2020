@@ -98,12 +98,8 @@ const ProjectsComponentMobile = ({ projectsData }) => {
                 <div className={classes.projectsListContainer}>
                     <div className={classes.projectsList}>
                         {projectsData
-                            .filter((pr) => {
-                                return [
-                                    5000, 4980, 4970, 4950, 4930, 4710, 4680,
-                                    4590, 4300,
-                                ].includes(pr.id);
-                            })
+                            .sort((a, b) => a.id - b.id)
+                            .slice(0, 9)
                             .map((project) => {
                                 return (
                                     <div
