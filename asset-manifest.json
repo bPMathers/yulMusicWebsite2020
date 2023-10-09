@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yulMusicWebsite2020/static/css/main.713cc0ce.chunk.css",
-    "main.js": "/yulMusicWebsite2020/static/js/main.ee7c4043.chunk.js",
-    "main.js.map": "/yulMusicWebsite2020/static/js/main.ee7c4043.chunk.js.map",
+    "main.js": "/yulMusicWebsite2020/static/js/main.c382a2e4.chunk.js",
+    "main.js.map": "/yulMusicWebsite2020/static/js/main.c382a2e4.chunk.js.map",
     "runtime-main.js": "/yulMusicWebsite2020/static/js/runtime-main.53b426bb.js",
     "runtime-main.js.map": "/yulMusicWebsite2020/static/js/runtime-main.53b426bb.js.map",
     "static/js/2.ec5b527a.chunk.js": "/yulMusicWebsite2020/static/js/2.ec5b527a.chunk.js",
@@ -27,12 +27,11 @@
     "static/media/Bôcca - Poster.5ef81bad.jpg": "/yulMusicWebsite2020/static/media/Bôcca - Poster.5ef81bad.jpg",
     "static/media/C2 - Logo.bb12dbc2.png": "/yulMusicWebsite2020/static/media/C2 - Logo.bb12dbc2.png",
     "static/media/CDS New Logo.690ed0f6.png": "/yulMusicWebsite2020/static/media/CDS New Logo.690ed0f6.png",
-    "static/media/CDS New Logo4.97f71a88.png": "/yulMusicWebsite2020/static/media/CDS New Logo4.97f71a88.png",
+    "static/media/CDS-2023.8be399e5.jpg": "/yulMusicWebsite2020/static/media/CDS-2023.8be399e5.jpg",
     "static/media/COC-MTL-2.22b7f112.jpg": "/yulMusicWebsite2020/static/media/COC-MTL-2.22b7f112.jpg",
     "static/media/CSA-2023 - Logo.79c81ef0.png": "/yulMusicWebsite2020/static/media/CSA-2023 - Logo.79c81ef0.png",
     "static/media/Canadian National Railway - Logo.f8027cc4.png": "/yulMusicWebsite2020/static/media/Canadian National Railway - Logo.f8027cc4.png",
     "static/media/Canadian Olympic Committee - Logo.c871c28e.png": "/yulMusicWebsite2020/static/media/Canadian Olympic Committee - Logo.c871c28e.png",
-    "static/media/Canadian Space Agency - Logo.a4de800f.svg": "/yulMusicWebsite2020/static/media/Canadian Space Agency - Logo.a4de800f.svg",
     "static/media/Carnival UK - P&O Cruises - Cunard-4.556467cf.png": "/yulMusicWebsite2020/static/media/Carnival UK - P&O Cruises - Cunard-4.556467cf.png",
     "static/media/Champagne Nicolas Feuillate - Campagne monde equilibriste.bb33fec2.jpg": "/yulMusicWebsite2020/static/media/Champagne Nicolas Feuillate - Campagne monde equilibriste.bb33fec2.jpg",
     "static/media/Champagne Nicolas Feuillatte - Logo2.876a07f7.png": "/yulMusicWebsite2020/static/media/Champagne Nicolas Feuillatte - Logo2.876a07f7.png",
@@ -76,11 +75,13 @@
     "static/media/Monte Carlo - Societe des bains de mer - Logo2.3193dfae.png": "/yulMusicWebsite2020/static/media/Monte Carlo - Societe des bains de mer - Logo2.3193dfae.png",
     "static/media/Montreal Canadiens - Logo.a36ac928.png": "/yulMusicWebsite2020/static/media/Montreal Canadiens - Logo.a36ac928.png",
     "static/media/Montreal en lumiere - Logo2.9736119f.png": "/yulMusicWebsite2020/static/media/Montreal en lumiere - Logo2.9736119f.png",
+    "static/media/MontrealCanadiens-Logo.1f314c18.jpg": "/yulMusicWebsite2020/static/media/MontrealCanadiens-Logo.1f314c18.jpg",
     "static/media/NBA - Logo.dccfe25a.png": "/yulMusicWebsite2020/static/media/NBA - Logo.dccfe25a.png",
     "static/media/NBA-Logo_Thumb.7a74f3af.jpg": "/yulMusicWebsite2020/static/media/NBA-Logo_Thumb.7a74f3af.jpg",
     "static/media/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.04d878ca.jpg": "/yulMusicWebsite2020/static/media/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.04d878ca.jpg",
     "static/media/Olympic-Rings-Montreal-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.b2b8314b.jpg": "/yulMusicWebsite2020/static/media/Olympic-Rings-Montreal-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.b2b8314b.jpg",
     "static/media/One Drop - New Logo.f728fbe5.png": "/yulMusicWebsite2020/static/media/One Drop - New Logo.f728fbe5.png",
+    "static/media/OneDrop.e2f95eb3.jpg": "/yulMusicWebsite2020/static/media/OneDrop.e2f95eb3.jpg",
     "static/media/Prince Edward Island - Logo.c329ddd0.png": "/yulMusicWebsite2020/static/media/Prince Edward Island - Logo.c329ddd0.png",
     "static/media/Productions-J - Logo2.d865bd8f.png": "/yulMusicWebsite2020/static/media/Productions-J - Logo2.d865bd8f.png",
     "static/media/Rexel - Logo.97a603cb.png": "/yulMusicWebsite2020/static/media/Rexel - Logo.97a603cb.png",
@@ -102,7 +103,6 @@
     "static/media/Tim Hortons - Logo3.705eecba.png": "/yulMusicWebsite2020/static/media/Tim Hortons - Logo3.705eecba.png",
     "static/media/Trio Orange - New logo.19c95fdc.png": "/yulMusicWebsite2020/static/media/Trio Orange - New logo.19c95fdc.png",
     "static/media/World Economic Forum - Logo2.3d79e379.png": "/yulMusicWebsite2020/static/media/World Economic Forum - Logo2.3d79e379.png",
-    "static/media/Zac Brown Band - New Logo2.923b6999.png": "/yulMusicWebsite2020/static/media/Zac Brown Band - New Logo2.923b6999.png",
     "static/media/bomb-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.18496e8f.jpg": "/yulMusicWebsite2020/static/media/bomb-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.18496e8f.jpg",
     "static/media/bomb-6-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.c9f31902.jpg": "/yulMusicWebsite2020/static/media/bomb-6-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.c9f31902.jpg",
     "static/media/bomb-7-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9cdb0d10.jpg": "/yulMusicWebsite2020/static/media/bomb-7-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.9cdb0d10.jpg",
@@ -111,6 +111,7 @@
     "static/media/glade-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8ad4edf2.jpg": "/yulMusicWebsite2020/static/media/glade-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.8ad4edf2.jpg",
     "static/media/glade-4-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.44fe3835.jpg": "/yulMusicWebsite2020/static/media/glade-4-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.44fe3835.jpg",
     "static/media/google-logo-feature-1030x686-768x512.3cb682c9.jpg": "/yulMusicWebsite2020/static/media/google-logo-feature-1030x686-768x512.3cb682c9.jpg",
+    "static/media/microsoft2023.b63cf753.jpg": "/yulMusicWebsite2020/static/media/microsoft2023.b63cf753.jpg",
     "static/media/tpg-logo4.69cc6c7e.png": "/yulMusicWebsite2020/static/media/tpg-logo4.69cc6c7e.png",
     "static/media/viz_05.2141d424.mp4": "/yulMusicWebsite2020/static/media/viz_05.2141d424.mp4"
   },
@@ -118,6 +119,6 @@
     "static/js/runtime-main.53b426bb.js",
     "static/js/2.ec5b527a.chunk.js",
     "static/css/main.713cc0ce.chunk.css",
-    "static/js/main.ee7c4043.chunk.js"
+    "static/js/main.c382a2e4.chunk.js"
   ]
 }
