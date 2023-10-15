@@ -1,7 +1,25 @@
+import cameronImg from '../../assets/Projects/25 - Paramount 100th - Logo 02.jpeg';
+import beijingImg from '../../assets/Logos/Test/Beijing Parkview - Logo.png';
+import irisImg from '../../assets/Projects/26 - Cirque du Soleil - Iris - Logo.jpg';
+import alibabaImg from '../../assets/Projects/30 - Alibaba - Logo - Black.png';
+import fosunImg from '../../assets/Projects/40 - Fosun - Logo.png';
+import situImg from '../../assets/Projects/Situ.jpg';
+import tianguisImg from '../../assets/Projects/50 - Mexico Tourism - Logo.png';
+import jnfImg from '../../assets/Projects/73-JewishNationalFoundation-Logo.png';
+import doArtImg from '../../assets/Projects/streetartnews_herakut_canada_montreal-4.jpg';
+import mobiliaImg from '../../assets/Projects/65 - Mobilia 50th Birthday Campaign - Logo.png';
+import deferlImg from '../../assets/Projects/67 - Productions Déferlantes - Logo.jpeg';
+import biteImg from '../../assets/Projects/BiteSize-Logo.jpg';
+import heliDroneProjImg from '../../assets/Projects/Heli_Drone.jpg';
+import romyImg from '../../assets/Projects/72 - Romy & Aksel Web Campaign - Logo.jpeg';
+import mscImg from '../../assets/Projects/_Processed to 1.53 ratio/22-MSCCruises-Logo.jpg';
+import peiImg from '../../assets/Projects/_Processed to 1.53 ratio/74-PrinceEdwardIsland-Logo.jpg';
+import salesForceImg from '../../assets/Projects/_Processed to 1.53 ratio/10-SalesForce-Logo3.png';
 import Andorra2016ProjImg from '../../assets/Projects/Andorra2016.jpg';
+import MasterCard2 from '../../assets/Projects/07-Mastercard-2.jpg';
 import Andorra2015ProjImg from '../../assets/Projects/Andorra2015.jpg';
 import microsoftImg from '../../assets/Projects/_Processed to 1.53 ratio/microsoft2023.jpg';
-import materNaturaProjImg from '../../assets/Projects/Andorra2014.jpg';
+import Andorra2014ProjImg from '../../assets/Projects/Andorra2014.jpg';
 import deloitteProjImg from '../../assets/Logos/Test/Deloitte - Logo.png';
 import rexelProjImg from '../../assets/Logos/Test/Rexel - Logo.png';
 import tpgProjImg from '../../assets/Logos/Test/tpg-logo4.png';
@@ -9,7 +27,7 @@ import ivanhoeProjImg from '../../assets/Projects/Ivanoe Cambridge - Log.jpeg';
 import skoda4ProjImg from '../../assets/Projects/Skoda4.png';
 import cdsProjImg from '../../assets/Projects/_Processed to 1.53 ratio/CDS-2023.jpg';
 import clubMedProjImg from '../../assets/Logos/Test/Club Med - Logo.png';
-import hiltonProjImg from '../../assets/Logos/Test/Hilton Hotels and Resorts - Logo2.png';
+import hiltonProjImg from '../../assets/Projects/43 - Hilton Hotels and Resorts - Logo.png';
 import sbm3ProjImg from '../../assets/Logos/Test/SBM3.png';
 import oneDropProjImg from '../../assets/Projects/_Processed to 1.53 ratio/OneDrop.jpg';
 import wefProjImg from '../../assets/Logos/Test/World Economic Forum - Logo2.png';
@@ -17,12 +35,12 @@ import sunLifeProjImg from '../../assets/Logos/Test/Sunlife Logo.png';
 import cnProjImg from '../../assets/Logos/Test/Canadian National Railway - Logo.png';
 import c2ProjImg from '../../assets/Logos/Test/C2 - Logo.png';
 import dubaiProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Dubai-Mall.jpg';
-import nbaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/NBA-Logo_Thumb.jpg';
+import nbaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/01-NBA-Logo.jpg';
 import ydlmProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Sardine-Run-02.jpg';
 import ydlm2ProjImg from '../../assets/Projects/Sardine-Run-01.jpg';
 import boccaProjImg from '../../assets/Projects/Bôcca - Poster.jpg';
 import nicolasProjImg from '../../assets/Projects/Champagne Nicolas Feuillate - Campagne monde equilibriste.jpg';
-import fifaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/FIFA-trophy-thumb-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import fifaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/02-FIFA-Logo2.png';
 import astanaProjImg from '../../assets/Projects/_Processed to 1.53 ratio/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.jpg';
 import laxProjImg from '../../assets/Projects/_Processed to 1.53 ratio/LAX-2.jpg';
 import mjProjImg from '../../assets/Projects/Michael-Jackson-The-Immortal-World-Tour-by-Cirque-du-Soleil_YUL-MUSIC-Christian-Lagueux-Benjamin-Proulx-Mathers-Sébastien-Laurendeau.jpg';
@@ -36,7 +54,7 @@ import biionProjImg from '../../assets/Projects/Biion-2-Benjamin-Proulx-Mathers-
 import bomb3ProjImg from '../../assets/Projects/bomb-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import bomb6ProjImg from '../../assets/Projects/bomb-6-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import bomb7ProjImg from '../../assets/Projects/bomb-7-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import bulgariProjImg from '../../assets/Projects/Bulgari_B.zero1-Roma-Ring3v3_YUL-MUSIC.jpg';
+import bulgariProjImg from '../../assets/Projects/_Processed to 1.53 ratio/09-Bulgari-Logo.png';
 import cocProjImg from '../../assets/Projects/COC-MTL-2.jpg';
 import coc3rojImg from '../../assets/Projects/Olympic-Rings-Montreal-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import courchevelProjImg from '../../assets/Projects/_Processed to 1.53 ratio/courchevel-night-1-721x471.jpg';
@@ -52,12 +70,12 @@ import sidLeeProjImg from '../../assets/Projects/SID-LEE3-Benjamin-Proulx-Mather
 import eyProjImg from '../../assets/Projects/EY-MainRoom.jpg';
 import diriyah1ProjImg from '../../assets/Projects/Diriyah1.jpg';
 import diriyah2ProjImg from '../../assets/Projects/Diriyah2.jpg';
-import masterCardProjImg from '../../assets/Projects/Mastercard_new_logo-1200x865.jpg';
+import masterCardProjImg from '../../assets/Projects/07-Mastercard-BlackLogo.jpg';
 import iona1ProjImg from '../../assets/Projects/Iona1.jpg';
 import iona2ProjImg from '../../assets/Projects/Iona2.jpg';
 import iona3ProjImg from '../../assets/Projects/Iona3.jpg';
 import tMobileProjImg from '../../assets/Projects/TMobileArena.jpg';
-import googleProjImg from '../../assets/Projects/google-logo-feature-1030x686-768x512.jpg';
+import googleProjImg from '../../assets/Projects/_Processed to 1.53 ratio/08-Google-Logo.png';
 
 // TODO: lighthouse
 // TODO: lazyload some stuff ? make sure site does not try to get all images before they are needed
@@ -109,6 +127,11 @@ export const projectsData = [
         bgImg: cdsProjImg,
         // bgImg: Andorra2016ProjImg,
         // extraMedia: [{ type: 'video', data: { src: '' } }],
+        extraMedia: [
+            { type: 'img', data: Andorra2016ProjImg },
+            { type: 'img', data: Andorra2015ProjImg },
+            { type: 'img', data: Andorra2014ProjImg },
+        ],
     },
     {
         id: 4,
@@ -180,7 +203,7 @@ export const projectsData = [
         detailedSubtitle:
             "Heli Drone Images - In the Bahamas filming for TV Show Jeter l'ancre",
         categoriesText: 'Music Composing - Mixing',
-        // bgImg: heliDroneProjImg,
+        bgImg: heliDroneProjImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -222,6 +245,7 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: masterCardProjImg,
+        extraMedia: [{ type: 'img', data: MasterCard2 }],
     },
     {
         id: 4960,
@@ -316,24 +340,24 @@ export const projectsData = [
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: masterCardProjImg,
     },
-    {
-        id: 71.5,
-        title: 'Heli Drone Images',
-        year: 2019,
-        location: 'Montreal, Canada',
-        subtitle: 'Heli Drone Images - Demo-Reel',
-        detailedSubtitle: undefined,
-        categoriesText: 'Music Composing - Mixing',
-        // bgImg: masterCardProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/814345411',
-        //         },
-        //     },
-        // ],
-    },
+    // {
+    //     id: 71.5,
+    //     title: 'Heli Drone Images',
+    //     year: 2019,
+    //     location: 'Montreal, Canada',
+    //     subtitle: 'Heli Drone Images - Demo-Reel',
+    //     detailedSubtitle: undefined,
+    //     categoriesText: 'Music Composing - Mixing',
+    //     // bgImg: masterCardProjImg,
+    //     // extraMedia: [
+    //     //     {
+    //     //         type: 'video',
+    //     //         data: {
+    //     //             src: 'https://player.vimeo.com/video/814345411',
+    //     //         },
+    //     //     },
+    //     // ],
+    // },
     {
         id: 41,
         title: 'Monte-Carlo SBM / Monte-Carlo Sporting Summer Festival',
@@ -399,7 +423,18 @@ export const projectsData = [
         detailedSubtitle:
             "The gala is just one way that Alibaba brings drama to online shopping. It's a crucial shot of hectic energy as historic shopping bonanzas like Black Friday lag behind. The Viewers were able to experience the gala live via Youku, as well as across China on two major Chinese TV stations. (500 Millions Viewers)",
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        // bgImg: ,
+        bgImg: alibabaImg,
+    },
+    {
+        id: 31,
+        title: 'Beijing Parkview Green Inauguration',
+        year: 2013,
+        location: 'Beijing, China',
+        subtitle: 'Artistic performance for the Parkview Green inauguration.',
+        detailedSubtitle:
+            'Parkview Green is an intelligent building that sets new standards in both form and function. Located in the heart of Beijing‘s CBD (Central Business District), Parkview Green is a potent symbol of a new way of thinking',
+        categoriesText: 'Music Composer - Music Producer - Mixer',
+        bgImg: beijingImg,
     },
     {
         id: 41.5,
@@ -430,7 +465,7 @@ export const projectsData = [
         subtitle: 'Romy & Aksel Web Campaign',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        // bgImg: sbm3ProjImg,
+        bgImg: romyImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -475,7 +510,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        // bgImg: ,
+        bgImg: tianguisImg,
     },
     {
         id: 28.2,
@@ -496,6 +531,7 @@ export const projectsData = [
         subtitle: 'Merry Montreal Audio Branding',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing ',
+        bgImg: biteImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -609,7 +645,7 @@ export const projectsData = [
         subtitle: 'Jewish National Foundation Gala',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        // bgImg: ,
+        bgImg: jnfImg,
     },
     // {
     //     id: 4630,
@@ -631,7 +667,7 @@ export const projectsData = [
         subtitle: 'Worlds Away 3d Movie Trailer',
         detailedSubtitle: undefined,
         categoriesText: 'Post-production',
-        bgImg: cdsProjImg,
+        bgImg: cameronImg,
     },
     {
         id: 39,
@@ -671,7 +707,7 @@ export const projectsData = [
         subtitle: 'Mobilia - Mobilia 50th Birthday Campaign',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        // bgImg: poppinsProjImg,
+        bgImg: mobiliaImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -698,6 +734,7 @@ export const projectsData = [
         subtitle: 'The Toronto Sales Force promotion event',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        bgImg: salesForceImg,
     },
     {
         id: 67,
@@ -708,7 +745,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        // bgImg: ,
+        bgImg: deferlImg,
     },
     {
         id: 40,
@@ -718,7 +755,7 @@ export const projectsData = [
         subtitle: 'Fosun SUmmit',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        // bgImg: ,
+        bgImg: fosunImg,
     },
     {
         id: 59,
@@ -728,7 +765,7 @@ export const projectsData = [
         subtitle: 'Herakut in Montreal for the Giant Story Book',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        bgImg: undefined,
+        bgImg: doArtImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -747,7 +784,7 @@ export const projectsData = [
         detailedSubtitle:
             'The Great Hall, also known as the Cathedral of Science, is a 7,000 square foot exhibition space enclosed by a 100 foot tall scalloped dalle de verre façade, where 5400 inch-thick panels of cobalt blue glass are cast into concrete tiles and then set into cast-in-place concrete cells. In order to access each of the tiles, an elaborate scaffold has been constructed in the Great Hall, echoing the undulation of the concrete walls with a matrix of metal pipes and wooden planks',
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        bgImg: undefined,
+        bgImg: situImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -834,7 +871,7 @@ export const projectsData = [
         subtitle: 'Geneva MSC Cruises Conference',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        // bgImg: ,
+        bgImg: mscImg,
     },
     {
         id: 53.1,
@@ -1039,7 +1076,7 @@ export const projectsData = [
         // ],
     },
     {
-        id: 55,
+        id: 55.5,
         title: 'Cirque du Soleil Experiences',
         year: 2013,
         location: 'Montreal, Canada',
@@ -1134,7 +1171,7 @@ export const projectsData = [
         subtitle:
             'Danny Elfman assistant with Thierry Angers in Iris, a Cirque du Soleil show in Los Angeles',
         detailedSubtitle: undefined,
-        // bgImg: cdsProjImg,
+        bgImg: irisImg,
         // extraMedia: [
         //     {
         //         type: 'video',
@@ -1153,7 +1190,7 @@ export const projectsData = [
         subtitle: 'Prince Edward Island - Charlottetown Summerfest',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: cdsProjImg,
+        bgImg: peiImg,
     },
     {
         id: 19,

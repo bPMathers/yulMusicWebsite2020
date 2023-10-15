@@ -1,3 +1,6 @@
+import logo4 from '../../assets/Logos/Test/moment.png';
+import logo25 from '../../assets/Logos/Test/25 - Paramount 100th - Logo 05.png';
+import logo29 from '../../assets/Logos/Test/29 - Time Intertainment - Logo.png';
 import logo30 from '../../assets/Logos/Test/Alibaba - Logo2.png';
 import logo31 from '../../assets/Logos/Test/Beijing Parkview - Logo.png';
 import logo48 from '../../assets/Logos/Test/Biion Footwear - New Logo.png';
@@ -35,7 +38,7 @@ import logo5 from '../../assets/Logos/Test/Montreal Canadiens - Logo.png';
 import logo62b from '../../assets/Logos/Test/Montreal en lumiere - Logo2.png';
 import logo22 from '../../assets/Logos/Test/MSC Cruises - Logo2.png';
 import logo1 from '../../assets/Logos/Test/NBA - Logo.png';
-import logo3b from '../../assets/Logos/Test/One Drop - New Logo.png';
+import logo6b from '../../assets/Logos/Test/One Drop - New Logo.png';
 import logo74 from '../../assets/Logos/Test/Prince Edward Island - Logo.png';
 import logo63 from '../../assets/Logos/Test/Productions-J - Logo2.png';
 import logo39 from '../../assets/Logos/Test/Rexel - Logo.png';
@@ -58,9 +61,10 @@ export const logosData = [
     { img: logo1, invert: true },
     { img: logo2, invert: true },
     { img: logo3, scale: '130%' },
-    { img: logo3b },
+    { img: logo4, scale: '130%' },
     { img: logo5, invert: true },
     { img: logo6, invert: true },
+    { img: logo6b },
     { img: logo7, invert: true },
     { img: logo8, invert: true },
     { img: logo9 },
@@ -78,13 +82,15 @@ export const logosData = [
     { img: logo21, invert: true, scale: '150%' },
     { img: logo22, invert: true },
     { img: logo24, scale: '130%' },
+    { img: logo25, scale: '130%' },
+    { img: logo29 },
     { img: logo30, invert: true },
     { img: logo31 },
     { img: logo32, invert: true },
     { img: logo32b },
-    { img: logo33 },
+    { img: logo33, scale: '130%' },
     { img: logo34 },
-    { img: logo35, invert: true },
+    { img: logo35, invert: true, scale: '130%' },
     { img: logo36, invert: true },
     { img: logo37, invert: true },
     { img: logo38, invert: true },

@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
     },
     logo: {
-        margin: '10px 10px',
+        margin: '10px 15px',
         filter: 'contrast(0) grayscale(100%)',
     },
     invert: {
